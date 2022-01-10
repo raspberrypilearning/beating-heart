@@ -20,3 +20,11 @@ You can view the [completed project here](https://scratch.mit.edu/projects/48567
 --- /collapse ---
 
 --- save ---
+
+--- task ---
+
+Save a copy of your code to your computer.
+
+--- /task ---
+
+--- save ---
