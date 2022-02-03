@@ -8,7 +8,7 @@ last_tested: "2021-03-26"
 steps:
   - title: Introduction
   - title: Read values from a dial
-  - title: Blink an LED
+  - title: Calculate beats per minute (BPM)
     completion: engaged
   - title: Control the LED with a button
   - title: Make a Papercraft heart
