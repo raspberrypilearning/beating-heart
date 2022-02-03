@@ -9,17 +9,23 @@ The potentiometer values go from 0 to 1. To use the potentiometer to control the
 </div>
 </div>
 
---- task ---
-Update your code so that the value that is printed and plotted corresponds to a heart rate between 40 and 180 beats per minute.
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+BPM stands for **beats per minute**. We can use BPM to measure our heart rate (as well as the tempo of music). The higher the number, the faster the heartrate. BPM is used in health and fitness to measure how intense an exercise is. You can work out your maximum heartrate by taking away your age from 220. For example, a 12 year old's maximum heart rate is 208. When exercising, it is advised that your heartrate doesn't exceed 85% of your maximum heart rate. In the case of a 12 year old, this would be 176 bpm! (About the same tempo as a Drum n' Bass track.)
+</p>
 
-The `bpm` variable is calculated by starting with the minimum heart range that you need to be able to select and then multiplying the value of the potentiometer (between 0 and 1) by the difference between the min and max heart rates (140). 
+The `bpm` variable in the code below is calculated by first working out the difference between the fastest and slowest heart rates - this is called the *range*. As you turn the potentiometer, the increasing value of the dial (between 0 and 1) is multiplied by the *range* and this number is added to the minimum to give us the overall `bpm`.
 
 Calculation examples:
+
 | Potentiometer value      | Calculation | BPM |
 | ----------- | ----------- | ----------- |
 | 0     | 40 + (0 x 140)       | 40 |
 | 0.5   | 40 + (0.5 x 140)       | 110 |
 | 1.0 | 40 + (1 x 140) | 180 |
+
+--- task ---
+
+Update your code so that the value that is printed and plotted corresponds to a heart rate between 40 and 180 beats per minute.
 
 --- code ---
 ---

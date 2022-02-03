@@ -102,7 +102,17 @@ In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 
 **Test:** Turn the potentiometer and watch the value change in the Plotter. 
 
-![A screenshot of of values plotted on a scale from 0 to 1.](images/thonny-plotter.png) 
+--- print-only ---
+
+![A screenshot of values plotted on a scale from 0 to 1.](images/thonny-plotter.png) 
+
+--- /print-only ---
+
+--- no-print ---
+
+![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+
+--- /no-print ---
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
 
@@ -112,5 +122,6 @@ The values are the wrong way around.
 + Swap the jumper wires connected to GND and 3V3 and the values will go from 0 to 1. 
 
 --- /task ---
+
 
 --- save ---
