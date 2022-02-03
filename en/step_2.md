@@ -5,7 +5,7 @@
 A potentiometer (dial) allows you to provide a range of values. The Thonny plotter allows you to display those values so you can see the effect of turning the dial.
 </div>
 <div>
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif) {:width="300px"}
+![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
 </div>
 </div>
 
@@ -102,7 +102,7 @@ In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 
 **Test:** Turn the potentiometer and watch the value change in the Plotter. 
 
-![A screenshot of the plotter running in Thonny.](images/thonny-plotter.png) 
+![A screenshot of of values plotted on a scale from 0 to 1.](images/thonny-plotter.png) 
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
 
