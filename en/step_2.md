@@ -67,10 +67,10 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 
 ---
+from picozero import Pot # Pot is short for Potentiometer
 from time import sleep
-from picozero import Pot
 
-dial = Pot(0)
+dial = Pot(0) # Connected to pin A0 (GP_26)
 
 while True:
     print(dial.value)
