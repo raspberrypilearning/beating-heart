@@ -2,12 +2,20 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Summary or upgrade project task
+If you have time, you can upgrade your beating heart project. 
 </div>
 <div>
 ![](images/image.png){:width="300px"}
 </div>
 </div>
+
+--- task ---
+You could:
++ Create a better papercraft heart. 
++ Add a blue LED to represent de-oxygenated blood entering and leaving the heart. 
++ Add a heart-beat sound using a passive buzzer.
++ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
+--- /task ---
 
 --- collapse ---
 
@@ -15,7 +23,7 @@ Summary or upgrade project task
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
 
 --- /collapse ---
 
