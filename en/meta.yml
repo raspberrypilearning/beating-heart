@@ -10,7 +10,7 @@ steps:
   - title: Read values from a dial
   - title: Calculate beats per minute (BPM)
     completion: engaged
-  - title: Control the LED with a button
+  - title: 
   - title: Make a Papercraft heart
     completion: internal
   - title: Reflection

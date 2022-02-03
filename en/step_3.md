@@ -29,8 +29,8 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 7-11
 ---
-from time import sleep
 from picozero import Pot
+from time import sleep
 
 dial = Pot(0)
 
@@ -53,7 +53,7 @@ Notice that the `heart_range` variable is calculated once at the beginning of yo
 
 **Test:** Run your code and turn the potentiometer and see how the number in the Shell and the labels in the Thonny plotter change. You should now see numbers between 40 and 180.
 
-![A screenshot values plotted with a range from 0 to 180.](images/thonny-plotter.png) 
+![A screenshot values plotted with a range from 0 to 180.](images/plotter.png) 
 --- /task ---
 
 --- save ---
