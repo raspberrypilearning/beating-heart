@@ -51,7 +51,7 @@ while True:
 
 --- /code ---
 
-Notice that the `heart_range` variable is calculated once at the beginning of your script, but the `bpm` variable depends on the value of the potentiometer so it gets calculated inside the `while` loop.
+Notice that the `heart_range` variable is calculated **once** at the beginning of your script, but the `bpm` variable depends on the value of the potentiometer so it gets calculated inside the `while` loop.
 
 --- /task ---
 
