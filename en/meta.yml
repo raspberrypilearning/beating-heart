@@ -10,8 +10,8 @@ steps:
   - title: Read values from a dial
   - title: Calculate beats per minute (BPM)
     completion: engaged
-  - title: LED heart beat
   - title: Make a Papercraft heart
+  - title: LED heart beat
     completion: internal
   - title: Reflection
     knowledge_quiz:

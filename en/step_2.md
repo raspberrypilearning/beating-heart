@@ -35,7 +35,7 @@ Make sure your Raspberry Pi Pico is unplugged from your computer.
 **Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
 
 Connect the other end of each jumper to the Raspberry Pi Pico:
-+ Connect the labelled with a small 1 to the GND pin between GP 20 and GP 21.
++ Connect the labelled with a small 1 to the GND pin between GP 21 and GP 22.
 + Connect the middle pin the GP26_A0.
 + Connect pin labelled with a small 3 to the 3V3 pin.
 
