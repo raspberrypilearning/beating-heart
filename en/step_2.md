@@ -5,7 +5,7 @@
 A potentiometer (dial) allows you to provide a range of values. The Thonny plotter allows you to display those values so you can see the effect of turning the dial.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![An animation of the plotter running in Thonny.](images/thonny-plotter.gif) {:width="300px"}
 </div>
 </div>
 
@@ -67,7 +67,6 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 
 ---
-
 from time import sleep
 from picozero import Pot
 
@@ -79,11 +78,15 @@ while True:
 
 --- /code ---
 
+The `sleep(0.1)` line slows down the reading and printing of values from the potentiometer so that Thonny can keep up with the output. 
+
 --- /task ---
 
 --- task ---
 
 **Test:** Run your script and Thonny should start printing values to the Shell. Turn the potentiometer to see the value change. 
+
+![A screenshot of numbers between 0 and 1 in the Thonny Shell.](images/potentiometer-shell.png) 
 
 --- /task ---
 
@@ -91,15 +94,15 @@ It's quite hard to see what's happening when the values are quickly printing. Th
 
 --- task ---
 
-In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell:
-
-![A screenshot of the plotter running in Thonny.](images/plotter.png) <mark> to do </mark>
+In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 
 --- /task ---
 
 --- task ---
 
 **Test:** Turn the potentiometer and watch the value change in the Plotter. 
+
+![A screenshot of the plotter running in Thonny.](images/thonny-plotter.png) 
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
 
