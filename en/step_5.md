@@ -87,7 +87,7 @@ while True:
 
 **Test:** Run your code to see the LED blink on and off. Turn the potentiometer to it's lowest value to represent a very slow heart rate and see how the LED blinks. Gradually increase the heart rate by turning the potentiometer to see the LED blink faster. 
 
-![]](images/path)
+![animated gif showing blinking red LED controlled by a potentiometer](images/blink-test.gif)
 
 --- /task ---
 
@@ -126,7 +126,7 @@ while True:
 --- task ---
 **Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate. 
 
-![]](images/path)
+![Animated gif showing the LED pulsing on and off by changing the brightness](images/pulse-test.gif)
 
 --- /task ---
 
