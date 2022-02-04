@@ -20,7 +20,7 @@ You can make your own if you need to.
 
 [[[led-resistor-electrical-tape]]]
 
-[[[led-resistor-heatshrink]]]
+ [led-resistor-heatshrink]  
 
 --- /task ---
 
