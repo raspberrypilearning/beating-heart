@@ -24,7 +24,7 @@ Hold your potentiometer the same way around as in this image:
 
 When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
 
-![An illustration of a potentiometer.](images/potentiometer-illustration-pot.png){:width="400px"}
+![An illustration of a potentiometer.](images/potentiometer-illustration.png)
 
 --- /task ---
 
