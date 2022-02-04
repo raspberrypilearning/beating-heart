@@ -71,7 +71,7 @@ line_highlights: 14-18
 ---
 
 while True:
-    bpm = min_heart_rate + dial.value * heart_range
+    bpm = heart_min + dial.value * heart_range
     print(bpm)
     beat = 60 / bpm # length of a single beat
     led.on()
