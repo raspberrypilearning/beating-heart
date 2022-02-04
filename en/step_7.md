@@ -5,7 +5,7 @@
 If you have time, you can upgrade your beating heart project. 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat](images/two-beats.gif){:width="300px"}
 </div>
 </div>
 
