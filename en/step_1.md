@@ -33,6 +33,11 @@ In addition, to complete this Beating heart project, you will need:
 + 2 x pin-socket jumper wires
 + Optionally, a blue LED, resistor and more jumper wires
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
-</p>
+--- task ---
+
+**Look:** Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
+
+![]()
+
+--- /task ---
+

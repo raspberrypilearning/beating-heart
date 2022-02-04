@@ -20,7 +20,7 @@ You can make your own if you need to.
 
 [[[led-resistor-electrical-tape]]]
 
-[led-resistor-heatshrink]
+[[[led-resistor-heatshrink]]]
 
 --- /task ---
 
@@ -124,11 +124,21 @@ while True:
 --- /task ---
 
 --- task ---
+
 **Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate. 
 
 ![Animated gif showing the LED pulsing on and off by changing the brightness](images/pulse-test.gif)
 
 --- /task ---
+
+--- task ---
+
+Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+
+![Animated gif showing the LED pulsing through the papercraft heart.](images/image.gif)
+
+--- /task ---
+
 
 --- save ---
 
