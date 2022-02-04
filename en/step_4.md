@@ -19,11 +19,11 @@ Make a papercraft origami heart to put your pulsing LED inside.
 
 You could just cut out a heart shape from paper and use sticky tape to attach your LED behind it. 
 
-![desc](images/path)
+![Image showing a simple heart shape cut out of paper with an LED taped to it](images/heart-cutout.jpg)
 
-You could use one of these [origami hearts](https://scratch.mit.edu/projects/485673032/){:target="_blank"}
+You could use one of these [origami hearts](https://www.origamiway.com/origami-heart.shtml){:target="_blank"}
 
-![desc](images/path)
+![Image showing a red heart made of folded paper in the origami style](images/origami-heart.jpg)
 
 --- /task ---
 
