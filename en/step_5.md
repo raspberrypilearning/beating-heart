@@ -135,7 +135,7 @@ while True:
 
 Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
 
-![Animated gif showing the LED pulsing through the papercraft heart.](images/image.gif)
+![Animated gif showing the LED pulsing through the papercraft heart.](images/path)
 
 --- /task ---
 
