@@ -16,7 +16,7 @@ Choose the correct wiring diagram for connecting a potentiometer to a Raspberry 
 No, the middle leg is the output pin - it connects to the numbered GP Pin. The left leg is the Vcc leg - it connects to the 3V3 pin.
   --- /feedback ---
 
-- (x) ![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0 and 3V3 pin.](images/pot-diagram.png)
+- (x) ![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0 and 3V3 pin.](images/pot-diagram-quiz.png)
 
 
   --- feedback ---
