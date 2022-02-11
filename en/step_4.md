@@ -13,13 +13,79 @@ Create the papercraft heart to contain your pulsing LED and diffuse the light.
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code.</p>
 
 --- task ---
-Make a papercraft origami heart to put your pulsing LED inside. 
+Make a papercraft heart to put your pulsing LED inside. 
 
 **Choice:**
+--- collapse ---
+---
+title: Paper cut-out heart
+---
 
-You could use one of these [origami hearts](https://www.origamiway.com/origami-heart.shtml){:target="_blank"}
+You can make a simple heart, cut out of paper:
 
-![Image showing a red heart made of folded paper in the origami style](images/origami-heart.jpg)
+![Image showing heart shape cut out of a sheet of red paper](images/heart-cutout.jpeg)
+
+Or cut two, and tape them together:
+![Image showing two identical red paper hearts cut out of paper](images/heart-cutout2.jpeg)
+
+![Image showing two identical red paper hearts taped at the edges](images/heart-cutout3.jpeg)
+
+
+
+
+
+
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Folded origami heart
+---
+
+![Image showing a red heart made of folded paper in the origami style](images/heart.jpeg)
+
+Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) 
+![Image showing a red square of paper](images/heart1.jpeg)
+
+
+Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold.
+![Image showing the square of paper folded corner to corner in a triangle](images/heart2.jpeg)
+
+![Image showing the square of paper with a crease from corner to corner](images/heart3.jpeg)
+
+
+Step 3: Fold the left corner to the right corner, then unfold.
+![Image showing the square of paper folded corner to corner in a triangle](images/heart4.jpeg)
+
+![Image showing the square of paper with a crease from corner to corner](images/heart5.jpeg)
+
+
+Step 4: Fold the top corner to the center of the square, to make a 'shield' shape.
+![Image showing square of paper with top corner folded to the centre to create a pentagon](images/heart6.jpeg)
+
+
+Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold.
+![Image showing the square of paper with the bottom corner folded to it touches the top edge](images/heart7.jpeg)
+
+Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the center crease.
+![Image showing paper square folded into a chevron shape from the back](images/heart8.jpeg)
+
+![Image showing paper square folded into a chevron shape from the front](images/heart9.jpeg)
+
+
+Step 7: Fold the top and side corners back.
+![Image showing paper square folded into a heart shape from the back, with both top and side corners folded up](images/heart10.jpeg)
+
+Step 8: Tape the back side of the heart across the widest part, from edge to edge.
+![Image showing paper square folded into a heart shape from the back, with tape holding it together](images/heart11.jpeg)
+
+And you're ready to embed your LED!
+![Image showing finished origami heart](images/heart.jpeg)
+
+
+--- /collapse ---
+
 
 --- /task ---
 
