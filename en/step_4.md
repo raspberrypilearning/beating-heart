@@ -15,7 +15,8 @@ An <span style="color: #0faeb0">analogue input</span> gives a range of values, r
 --- task ---
 Make a papercraft heart to put your pulsing LED inside. 
 
-**Choice:**
+**Choice:** Choose between making a cut-out or a folded origami heart.
+
 --- collapse ---
 ---
 title: Paper cut-out heart
@@ -32,6 +33,7 @@ Or cut two, and tape them together:
 
 
 --- /collapse ---
+
 
 --- collapse ---
 ---
@@ -80,11 +82,6 @@ And you're ready to embed your LED!
 
 
 --- /collapse ---
-
-
---- /task ---
-
---- task ---
 
 --- /task ---
 
