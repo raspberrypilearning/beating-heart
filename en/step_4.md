@@ -15,7 +15,7 @@ An <span style="color: #0faeb0">analogue input</span> gives a range of values, r
 --- task ---
 Make a papercraft heart to put your pulsing LED inside. 
 
-**Choice:** Choose between making a cut-out or a folded origami heart.
+**Choose** between making a cut-out or a folded origami heart.
 
 --- collapse ---
 ---
@@ -77,7 +77,7 @@ Step 7: Fold the top and side corners back.
 Step 8: Tape the back side of the heart across the widest part, from edge to edge.
 ![Image showing paper square folded into a heart shape from the back, with tape holding it together](images/heart11.jpeg)
 
-And you're ready to embed your LED!
+Turn it over to look at the front, and you're ready to embed your LED!
 ![Image showing finished origami heart](images/heart.jpeg)
 
 
