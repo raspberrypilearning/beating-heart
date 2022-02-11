@@ -31,11 +31,6 @@ Or cut two, and tape them together:
 ![Image showing two identical red paper hearts taped at the edges](images/heart-cutout3.jpeg)
 
 
-
-
-
-
-
 --- /collapse ---
 
 --- collapse ---
