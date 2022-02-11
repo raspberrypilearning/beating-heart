@@ -5,7 +5,7 @@
 Create the papercraft heart to contain your pulsing LED and diffuse the light. 
 </div>
 <div>
-![Image showing folded papercraft heart](images/image.png){:width="300px"}
+![Image showing folded papercraft heart](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
