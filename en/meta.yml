@@ -1,6 +1,6 @@
 title: Beating heart
 hero_image: images/banner.png
-description: Make a papercraft beating heart with a button to control an LED that blinks like a heartbeat. 
+description: Make a papercraft beating heart with a potentiometer to control an LED that blinks like a heartbeat. 
 version: 4
 listed: false
 copyedit: false
