@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Mood Indicator](https://learning-admin.raspberrypi.org/en/projects/mood-indicator) project. In this project, you will create a mood check-in device with coloured lights to emote your current mood.
+If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Mood Indicator](https://projects.raspberrypi.org/en/projects/mood-indicator) project. In this project, you will create a mood check-in device with coloured lights to emote your current mood.
 
 --- print-only ---
 
