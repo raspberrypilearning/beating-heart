@@ -28,11 +28,3 @@ You can view the [completed project here](https://rpf.io/p/en/beating-heart-get)
 --- /collapse ---
 
 --- save ---
-
---- task ---
-
-Save a copy of your code to your computer.
-
---- /task ---
-
---- save ---

@@ -2,7 +2,19 @@
 
 Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate. 
 
-![Completed project](images/showcase_static.png)
+--- print-only ---
+
+![](images/heart-static.png)
+
+--- /print-only ---
+
+--- no-print ---
+
+![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif)
+
+---/no-print ---
+
+
 
 You will:
 + Create a pulsing effect with an LED
@@ -13,8 +25,7 @@ You will:
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
 </p>
 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**.
-**If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
+<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. **If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
 
 To complete any of the projects in the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro){:target="_blank"} path, you will need:
 
@@ -35,7 +46,9 @@ In addition, to complete this Beating heart project, you will need:
 
 --- task ---
 
-**Look:** Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
+Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
+
+<mark> video to be added showing LED changes when moving the potentiometer </mark>
 
 ![]()
 

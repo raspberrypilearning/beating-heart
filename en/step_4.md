@@ -10,12 +10,11 @@ Create the papercraft heart to contain your pulsing LED and diffuse the light.
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code.</p>
+<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
 
 --- task ---
-Make a papercraft heart to put your pulsing LED inside. 
 
-**Choose** between making a cut-out or a folded origami heart.
+**Choose** Make a cut-out or a folded origami heart to put your pulsing LED inside.
 
 --- collapse ---
 ---
