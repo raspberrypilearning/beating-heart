@@ -2,31 +2,30 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Bring your heart to life with an embedded LED heartbeat.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**.
-**If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
+<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. **If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
 
 --- task ---
 
-Find a **red** LED connected to a resistor and jumper wires. 
+Use a **red** LED connected to a resistor and jumper wires. 
 
 You can make your own if you need to.
 
 [[[led-resistor-electrical-tape]]]
 
- [led-resistor-heatshrink]  
+[[[led-resistor-solder-heat-shrink]]]
 
 --- /task ---
 
 --- task ---
 
-**Connect** the red LED to pin 13 and GND, just like you did when you made an LED firefly.
+Connect the red LED to pin 13 and GND, just like you did when you made an LED firefly.
 
 ![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
 
@@ -91,11 +90,9 @@ while True:
 
 --- /task ---
 
-When you set the colour of an RGB LED in the Party Popper project you were actually controlling the brightness of three different LEDs to mix them to make a colour. 
-
-You can also control the `brightness` of a single colour LED. Changing the brightness by a small amount in a loop creates a fade or pulsing effect. 
-
 --- task ---
+
+Add code to control the `brightness` of your LED. Changing the brightness by a small amount in a loop creates a fade or pulsing effect. 
 
 --- code ---
 ---
@@ -138,7 +135,6 @@ Now, take your papercraft heart and place it over your red LED to make a heartbe
 ![Animated gif showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
 
 --- /task ---
-
 
 --- save ---
 

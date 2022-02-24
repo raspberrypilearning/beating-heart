@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The potentiometer values go from 0 to 1. To use the potentiometer to control the heart rate you need to turn these values into number corresponding to a from 40 (very fit athlete) to 180 beats per minute. 
+The potentiometer values go from 0 to 1. To use the potentiometer to control the heart rate you need to turn these values into a corresponding number from 40 (very fit athlete) to 180 beats per minute. 
 </div>
 <div>
 ![An animation of the plotter showing BPM values from 40 to 180.](images/plotter-bpm.gif){:width="300px"}

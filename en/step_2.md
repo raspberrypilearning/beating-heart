@@ -14,7 +14,7 @@ The Raspberry Pi Pico has three <span style="color: #0faeb0">analog input pins</
 
 --- task ---
 
-**Look**: Look at your potentiometer. Notice the dial on the top that allows you to turn it clockwise and anti clockwise.
+Look at your potentiometer. Notice the dial on the top that allows you to turn it clockwise and anti clockwise.
 
 You will also notice that your potentiometer has **three** pins. 
 
@@ -28,16 +28,19 @@ When the potentiometer is turned all the way to the left the arrow points to the
 
 --- /task ---
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code.</p>
+
 --- task ---
 
 Make sure your Raspberry Pi Pico is unplugged from your computer. 
 
-**Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
+Use three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
 
 Connect the other end of each jumper to the Raspberry Pi Pico:
-+ Connect the labelled with a small 1 to the GND pin between GP 21 and GP 22.
++ Connect the pin labelled with a small '1' to the GND pin between GP 21 and GP 22.
 + Connect the middle pin the GP26_A0.
-+ Connect pin labelled with a small 3 to the 3V3 pin.
++ Connect the pin labelled with a small '3' to the 3V3 pin.
 
 ![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0 and 3V3 pin.](images/pot-diagram.png)
 
@@ -100,7 +103,7 @@ In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 
 --- task ---
 
-**Test:** Turn the potentiometer and watch the value change in the Plotter. 
+**Test:** Run your script and turn the potentiometer. Watch the value change in the Plotter. 
 
 --- print-only ---
 
@@ -119,7 +122,7 @@ The value should be 0 (or close to 0) when the potentiometer is turned all the w
 **Debug:**
 
 The values are the wrong way around.
-+ Swap the jumper wires connected to GND and 3V3 and the values will go from 0 to 1. 
++ Swap the jumper wires connected to GND and 3V3. 
 
 --- /task ---
 
