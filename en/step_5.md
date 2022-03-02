@@ -27,7 +27,7 @@ You can make your own if you need to.
 
 Connect the red LED to pin 13 and GND, just like you did when you made an LED firefly.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.svg)
+![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
 
 --- /task ---
 
