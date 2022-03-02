@@ -16,7 +16,7 @@ legend: Question 1 of 3
 
 If the potentiometer is turned all the way clockwise (to the right), what value will it read?
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.jpg)
+![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.svg)
 
 --- choices ---
 

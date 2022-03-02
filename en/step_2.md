@@ -20,11 +20,11 @@ You will also notice that your potentiometer has **three** pins.
 
 Hold your potentiometer the same way around as in this image: 
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.jpg)
+![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
 
 When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
 
-![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
+![An illustration of a potentiometer.](images/potentiometer-illustration.svg){:width="400px"}
 
 --- /task ---
 
@@ -42,7 +42,7 @@ Connect the other end of each jumper to the Raspberry Pi Pico:
 + Connect the middle pin the GP26_A0.
 + Connect the pin labelled with a small '3' to the 3V3 pin.
 
-![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0 and 3V3 pin.](images/pot-diagram.png)
+![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0 and 3V3 pin.](images/pot-diagram.svg)
 
 --- /task ---
 
