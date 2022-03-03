@@ -4,19 +4,12 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-<mark>Add in when the project is ready</mark>
-
-![](images/filename)
+![A piece of tracing paper is wrapped around a paper cup. A green light shines through the tracing paper.](images/mood-lamp.PNG)
 
 --- /print-only ---
 
 --- no-print ---
 
-<mark>Add in when the project is ready</mark>
-
-<video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
-</video>
+![A piece of tracing paper is wrapped around a paper cup. The button on the side of the cup is pressed to change the colour of the lamp.](images/mood-lamp.gif)
 
 --- /no-print ---
