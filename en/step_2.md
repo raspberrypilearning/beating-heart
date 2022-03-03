@@ -18,13 +18,11 @@ Look at your potentiometer. Notice the dial on the top that allows you to turn i
 
 You will also notice that your potentiometer has **three** pins. 
 
-Hold your potentiometer the same way around as in this image: 
-
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
-
-When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
+Hold your potentiometer the same way around as in this diagram: 
 
 ![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
+
+When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
 
 --- /task ---
 
