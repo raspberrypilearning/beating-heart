@@ -5,7 +5,7 @@
 Bring your heart to life with an embedded LED heartbeat.
 </div>
 <div>
-![](images/heart-static.png){:width="300px"}
+![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -86,7 +86,7 @@ while True:
 
 **Test:** Run your code to see the LED blink on and off. Turn the potentiometer to it's lowest value to represent a very slow heart rate and see how the LED blinks. Gradually increase the heart rate by turning the potentiometer to see the LED blink faster. 
 
-![animated gif showing blinking red LED controlled by a potentiometer](images/blink-test.gif)
+![Animated gif showing blinking red LED controlled by a potentiometer](images/blink-test.gif)
 
 --- /task ---
 
