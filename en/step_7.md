@@ -26,5 +26,3 @@ title: Completed project
 You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
 
 --- /collapse ---
-
---- save ---
