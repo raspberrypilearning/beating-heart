@@ -3,6 +3,8 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 If you have time, you can upgrade your beating heart project. 
+
+You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
 </div>
 <div>
 ![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}

@@ -10,7 +10,7 @@ Bring your heart to life with an embedded LED heartbeat. You can power your Rasp
 </div>
 
 
-### Automatically run a program using main.py
+### Automatically run your beating heart program using main.py
 
 --- task ---
 
@@ -42,7 +42,7 @@ If it is saved as `main.py` on the Raspberry Pi Pico, then the program will load
 
 --- /task ---
 
-### Power a Raspberry Pi Pico using a USB supply
+### Power your beating heart using a USB supply
 
 The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8 volts and a maximum of 5.5V.
 
@@ -73,6 +73,8 @@ Connect the Raspberry Pi Pico to your transformer or battery pack.
 **Test:** Turn on your USB power supply or battery. 
 
 You should be able to turn the potentiometer to adjust the speed of the heat beat. 
+
+<mark>Add animated gif of beating heart running disconnected from computer</mark>
 
 --- /task ---
 
