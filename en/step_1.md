@@ -2,19 +2,17 @@
 
 Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate. 
 
---- print-only ---
-
-![](images/heart-static.png)
-
---- /print-only ---
-
 --- no-print ---
 
-![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif)
+![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif){:width="400px"}
 
 ---/no-print ---
 
+--- print-only ---
 
+![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png)
+
+--- /print-only ---
 
 You will:
 + Create a pulsing effect with an LED
@@ -25,7 +23,7 @@ You will:
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
 </p>
 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. **If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
+[[[flashing-light-warning]]]
 
 To complete any of the projects in the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro){:target="_blank"} path, you will need:
 
