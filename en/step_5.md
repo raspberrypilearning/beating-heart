@@ -5,11 +5,11 @@
 Bring your heart to life with an embedded LED heartbeat.
 </div>
 <div>
-![](images/heart-static.png){:width="300px"}
+![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. **If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
+[[[flashing-light-warning]]]
 
 --- task ---
 
@@ -25,7 +25,7 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to pin 13 and GND, just like you did when you made an LED firefly.
+Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
 
 ![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
 
@@ -58,41 +58,7 @@ led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to your `while` loop so that the LED blinks on and off based on the heart rate:
-
---- code ---
----
-language: python
-filename: 
-line_numbers: true
-line_number_start: 10
-line_highlights: 14-18
----
-
-while True:
-    bpm = heart_min + dial.value * heart_range
-    print(bpm)
-    beat = 60 / bpm # length of a single beat
-    led.on()
-    sleep(beat / 2) # on for half a beat
-    led.off()
-    sleep(beat / 2) # off for half a beat
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code to see the LED blink on and off. Turn the potentiometer to it's lowest value to represent a very slow heart rate and see how the LED blinks. Gradually increase the heart rate by turning the potentiometer to see the LED blink faster. 
-
-![animated gif showing blinking red LED controlled by a potentiometer](images/blink-test.gif)
-
---- /task ---
-
---- task ---
-
-Add code to control the `brightness` of your LED. Changing the brightness by a small amount in a loop creates a fade or pulsing effect. 
+Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer. 
 
 --- code ---
 ---
@@ -100,23 +66,19 @@ language: python
 filename: 
 line_numbers: true
 line_number_start: 7
-line_highlights: 10-14
+line_highlights: 11-14
 ---
 while True: 
     bpm = heart_min + dial.value * heart_range
     print(bpm)
-    beat = 60 / bpm
-    delay = beat / 200 # time needed for each change
+    beat = 60/bpm
+    brighter_time = beat / 2 # Spend half a beat getting brighter
+    dimmer_time = beat / 2 # Spend half a beat getting dimmer
 
-    for brightness in range(0, 100): # getting brighter
-        led.brightness = brightness / 100
-        sleep(delay) # wait for 1/200ths of a beat
-
-    for brightness in range(100, 1, -1): # getting dimmer
-        led.brightness = brightness / 100
-        sleep(delay) # wait for 1/200ths of a beat
-
+    led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # pulse 1 time, waiting until finished
 --- /code ---
+
+If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
 
 --- /task ---
 

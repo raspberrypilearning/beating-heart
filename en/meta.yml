@@ -13,6 +13,7 @@ steps:
   - title: Make a Papercraft heart
   - title: LED heart beat
     completion: internal
+  - title: Make it portable
   - title: Reflection
     knowledge_quiz:
       path: quiz1

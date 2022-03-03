@@ -18,26 +18,24 @@ Look at your potentiometer. Notice the dial on the top that allows you to turn i
 
 You will also notice that your potentiometer has **three** pins. 
 
-Hold your potentiometer the same way around as in this image: 
-
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
-
-When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
+Hold your potentiometer the same way around as in this diagram: 
 
 ![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
+
+When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from. 
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code.</p>
 
+Make sure your Raspberry Pi Pico is **unplugged** from your computer.
+
 --- task ---
 
-Make sure your Raspberry Pi Pico is unplugged from your computer. 
+ Use three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
 
-Use three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
-
-Connect the other end of each jumper to the Raspberry Pi Pico:
+**Connect:** the other end of each jumper to the Raspberry Pi Pico:
 + Connect the pin labelled with a small '1' to the GND pin between GP 21 and GP 22.
 + Connect the middle pin the GP26_A0.
 + Connect the pin labelled with a small '3' to the 3V3 pin.
@@ -119,12 +117,15 @@ In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
 
+--- /task ---
+
+--- task ---
+
 **Debug:**
 
 The values are the wrong way around.
 + Swap the jumper wires connected to GND and 3V3. 
 
 --- /task ---
-
 
 --- save ---

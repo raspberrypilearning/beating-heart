@@ -1,22 +1,30 @@
-## What next?
+## Upgrade your project
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Mood Indicator](https://projects.raspberrypi.org/en/projects/mood-indicator) project. In this project, you will create a mood check-in device with coloured lights to emote your current mood.
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+If you have time, you can upgrade your beating heart project. 
 
---- print-only ---
+You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
+</div>
+<div>
+![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}
+</div>
+</div>
 
-<mark>Add in when the project is ready</mark>
+--- task ---
+You could:
++ Create a better papercraft heart. 
++ Add a blue LED to represent de-oxygenated blood entering and leaving the heart. 
++ Add a heart-beat sound using a passive buzzer.
++ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
+--- /task ---
 
-![](images/filename)
+--- collapse ---
 
---- /print-only ---
+---
+title: Completed project
+---
 
---- no-print ---
+You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
 
-<mark>Add in when the project is ready</mark>
-
-<video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
-</video>
-
---- /no-print ---
+--- /collapse ---
