@@ -33,11 +33,11 @@ An <span style="color: #0faeb0">analogue input</span> gives a range of values, r
 
 --- task ---
 
-Make sure your Raspberry Pi Pico is unplugged from your computer. 
+Make sure your Raspberry Pi Pico is **unplugged** from your computer. 
 
 Use three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
 
-Connect the other end of each jumper to the Raspberry Pi Pico:
+**Connect:** the other end of each jumper to the Raspberry Pi Pico:
 + Connect the pin labelled with a small '1' to the GND pin between GP 21 and GP 22.
 + Connect the middle pin the GP26_A0.
 + Connect the pin labelled with a small '3' to the 3V3 pin.
@@ -118,6 +118,10 @@ In Thonny, choose 'View->Plotter' and the plotter will appear next to the Shell.
 --- /no-print ---
 
 The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
+
+--- /task ---
+
+--- task ---
 
 **Debug:**
 
