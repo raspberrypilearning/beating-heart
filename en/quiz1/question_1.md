@@ -1,10 +1,10 @@
 ## Reflection
 
-Well done, you made your beating heart project! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Well done, you made your beating heart project and created a device that can pulse with a heart beat. 
 
 Answer the three questions below to look back on what you've learned.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -14,22 +14,23 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-If the potentiometer is turned all the way clockwise (to the right), what value will it read?
+In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
 
 ![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
 
 --- choices ---
 
-- (x) 1
+- (x) You can get a range of input values between 0 and 1
 
   --- feedback ---
-Yes! Turning the potentiometer all the way clockwise (to the right) will give it's maximum reading.
+Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0. 
+
   --- /feedback ---
 
-- ( ) 0
+- ( ) You can only get two input values, 1 or 0
 
   --- feedback ---
-No, try again!
+Try again, a potentiometer allows for more than 2 input values.
   --- /feedback ---
 
 --- /choices ---
