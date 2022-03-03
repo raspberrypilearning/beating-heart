@@ -9,7 +9,7 @@ Bring your heart to life with an embedded LED heartbeat.
 </div>
 </div>
 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. **If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
+[[[flashing-light-warning]]]
 
 --- task ---
 
@@ -25,7 +25,7 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to pin 13 and GND, just like you did when you made an LED firefly.
+Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
 
 ![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
 
