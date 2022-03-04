@@ -42,13 +42,31 @@ In addition, to complete this Beating heart project, you will need:
 + 2 x pin-socket jumper wires
 + Optionally, a blue LED, resistor and more jumper wires
 
+--- no print ---
+
 --- task ---
 
 Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
 
-<mark> video to be added showing LED changes when moving the potentiometer </mark>
+<mark>Add a video</mark>
+
+<video width="640" height="360" controls>
+<source src="images/file" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
+--- /task ---
+
+--- /no print ---
+
+--- print only ---
+
+--- task ---
+
+A potentiometer is used to increase and decrease the heart rate. What could you use this technology for?
 
 ![]()
 
 --- /task ---
 
+--- /print only ---
