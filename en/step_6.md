@@ -74,7 +74,10 @@ Connect the Raspberry Pi Pico to your transformer or battery pack.
 
 You should be able to turn the potentiometer to adjust the speed of the heat beat. 
 
-<mark>Add animated gif of beating heart running disconnected from computer</mark>
+<video width="640" height="360" controls>
+<source src="images/beating-heart.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 
 --- /task ---
 

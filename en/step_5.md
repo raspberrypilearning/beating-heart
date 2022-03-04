@@ -66,7 +66,7 @@ language: python
 filename: 
 line_numbers: true
 line_number_start: 7
-line_highlights: 11-14
+line_highlights: 10-14
 ---
 while True: 
     bpm = heart_min + dial.value * heart_range

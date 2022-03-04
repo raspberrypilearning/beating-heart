@@ -48,10 +48,8 @@ In addition, to complete this Beating heart project, you will need:
 
 Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
 
-<mark>Add a video</mark>
-
 <video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
+<source src="images/beating-heart.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
