@@ -42,7 +42,7 @@ In addition, to complete this Beating heart project, you will need:
 + 2 x pin-socket jumper wires
 + Optionally, a blue LED, resistor and more jumper wires
 
---- no print ---
+--- no-print ---
 
 --- task ---
 
@@ -57,9 +57,9 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 --- /task ---
 
---- /no print ---
+--- /no-print ---
 
---- print only ---
+--- print-only ---
 
 --- task ---
 
@@ -69,4 +69,4 @@ A potentiometer is used to increase and decrease the heart rate. What could you 
 
 --- /task ---
 
---- /print only ---
+--- /print-only ---
