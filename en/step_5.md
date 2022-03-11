@@ -92,6 +92,23 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 --- task ---
 
+**Debug:**
+
+You have a syntax error:
++ Check that you code matches the example above
+
+The potentiometer stopped working:
++ Check that your jumper wires are still securely attached
+
+The LED is not lighting:
++ Check that it is connected correctly
++ Check to see if the LED has blown by swapping it with a spare
+
+--- /task ---
+
+
+--- task ---
+
 Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
 
 ![Animated gif showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
