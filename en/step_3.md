@@ -55,4 +55,17 @@ Notice that the `heart_range` variable is calculated **once** at the beginning o
 
 --- /task ---
 
+--- task ---
+
+**Debug:** 
+
+You have a syntax error:
++ Check that you code matches the example above
+
+The potentiometer stopped working:
++ Check that your jumper wires are still securely attached
+
+--- /task ---
+
+
 --- save ---
