@@ -32,7 +32,7 @@ Connect the red LED to **pin 13** and **GND**, just like you did when you made a
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
 
 --- task ---
 
@@ -75,7 +75,7 @@ while True:
     brighter_time = beat / 2 # Spend half a beat getting brighter
     dimmer_time = beat / 2 # Spend half a beat getting dimmer
 
-    led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # pulse 1 time, waiting until finished
+    led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
 If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
@@ -86,7 +86,7 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 **Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate. 
 
-![Animated gif showing the LED pulsing on and off by changing the brightness](images/pulse-test.gif)
+![Animated gif showing the LED pulsing on and off by changing the brightness.](images/pulse-test.gif)
 
 --- /task ---
 
@@ -95,7 +95,7 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 **Debug:**
 
 You have a syntax error:
-+ Check that you code matches the example above
++ Check that your code matches the example above
 
 The potentiometer stopped working:
 + Check that your jumper wires are still securely attached
