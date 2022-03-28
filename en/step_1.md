@@ -29,7 +29,7 @@ To complete any of the projects in the [Introduction to the Raspberry Pi Pico](h
 
 Hardware:
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
++ A data USB A to micro-USB cable
 
 Software:
 + [Thonny](http://thonny.org){:target="_blank"} Python editor installed on a personal computer with USB port
@@ -39,8 +39,8 @@ In addition, to complete this Beating heart project, you will need:
 + One sheet of paper, red if you have it
 + Kitchen foil 
 + Sticky tape or duct tape
-+ 2 x pin-socket jumper wires
-+ Optionally, a blue LED, resistor and more jumper wires
++ 2× pin–socket jumper wires
++ Optionally, a blue LED, resistor, and more jumper wires
 
 --- no-print ---
 
