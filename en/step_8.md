@@ -15,7 +15,7 @@ You can use your portable beating heart as a room decoration. Set it to a slow s
 You could:
 + Create a better papercraft heart. 
 + Add a blue LED to represent de-oxygenated blood entering and leaving the heart. 
-+ Add a heart-beat sound using a passive buzzer.
++ Add a heartbeat sound using a passive buzzer.
 + Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
 --- /task ---
 

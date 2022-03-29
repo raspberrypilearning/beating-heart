@@ -16,7 +16,7 @@ Bring your heart to life with an embedded LED heartbeat. You can power your Rasp
 
 Use the **File** menu to save your code to your Raspberry Pi Pico device, using the **Save as...**.
 
-![file menu in Thonny shown, with the Save As option highlighted](images/file_menu.png)
+![The file menu in Thonny shown, with the Save As option highlighted.](images/file_menu.png)
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Use the **File** menu to save your code to your Raspberry Pi Pico device, using 
 
 Choose to save your code to your Raspberry Pi Pico.
 
-![option to choose to save on computer or on Pico.](images/save_to_pico.png)
+![Option to choose to save on the computer or on the Pico shown.](images/save_to_pico.png)
 
 --- /task ---
 
@@ -32,7 +32,7 @@ Choose to save your code to your Raspberry Pi Pico.
 
 Call your file `main.py` to have it automatically run when your Pico is powered from an external power supply, not connected to your computer.
 
-![save menu option, with main.py chosen as a filename](images/main.png)
+![The Save menu option, with main.py chosen as a filename.](images/main.png)
 
 --- /task ---
 
@@ -44,15 +44,15 @@ If it is saved as `main.py` on the Raspberry Pi Pico, then the program will load
 
 ### Power your beating heart using a USB supply
 
-The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8 volts and a maximum of 5.5V.
+The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8V and a maximum of 5.5V.
 
-Most micro-USB transformers can provide power to your Raspberry Pi Pico in this range. For instance the official Raspberry Pi micro-USB transformer provides up to 2.5A of current at 5.1V
+Most micro-USB transformers can provide power to your Raspberry Pi Pico in this range. For instance, the official Raspberry Pi micro-USB transformer provides up to 2.5A of current at 5.1V.
 
-![Official Raspberry Pi power supply shown from the pin side](images/transformer.png)
+![Official Raspberry Pi power supply shown from the pin side.](images/transformer.png)
 
 A battery pack with a USB to micro-USB cable can also power a Raspberry Pi Pico. This battery pack provides up to 2.1A of current at 5V.
 
-![A generic battery pack showing the side and the technical specifications](images/battery_pack.png)
+![A generic battery pack showing the side and the technical specifications.](images/battery_pack.png)
 
 --- task ---
 
@@ -64,7 +64,7 @@ Disconnect your Raspberry Pi Pico from your computer.
 
 Connect the Raspberry Pi Pico to your transformer or battery pack.
 
-![micro-USB being connected to the Raspberry Pi Pico](images/connect-micro-usb.gif)
+![A micro-USB being connected to the Raspberry Pi Pico.](images/connect-micro-usb.gif)
 
 --- /task ---
 
@@ -72,7 +72,7 @@ Connect the Raspberry Pi Pico to your transformer or battery pack.
 
 **Test:** Turn on your USB power supply or battery. 
 
-You should be able to turn the potentiometer to adjust the speed of the heat beat. 
+You should be able to turn the potentiometer to adjust the speed of the heatbeat. 
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
@@ -90,12 +90,12 @@ Your browser does not support WebM video, try FireFox or Chrome
 title: The LED does not light up
 ---
 
-+ Is your battery working? Is the battery turned on. You could test another USB-powered device to make sure. 
++ Is your battery working? Is the battery turned on? You could test another USB-powered device to make sure. 
 
-+ Did you save the file as `main.py`? Plug your Pico back into your computer and save the file again, checking the file name and the `.py` extension carefully.
++ Did you save the file as `main.py`? Plug your Pico back into your computer and save the file again. Check the file name and the `.py` extension carefully.
 
 --- /collapse ---
 
 --- /task ---
 
---- save ---
+
