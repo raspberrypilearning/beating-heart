@@ -36,9 +36,9 @@ Make sure your Raspberry Pi Pico is **unplugged** from your computer.
 Use three socket–socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose. 
 
 **Connect** the other end of each jumper wire to the Raspberry Pi Pico:
-+ Connect the pin labelled with a small '1' to the GND pin between GP21 and GP22
-+ Connect the middle pin the GP26_A0
-+ Connect the pin labelled with a small '3' to the 3V3 pin
++ Connect the pin labelled with a small '1' to the **GND** pin between **GP21** and **GP22**
++ Connect the middle pin to the **GP26_A0** pin
++ Connect the pin labelled with a small '3' to the **3V3** pin
 
 ![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0, and 3V3 pin.](images/pot-diagram.png)
 
@@ -85,17 +85,17 @@ The `sleep(0.1)` line slows down the reading and printing of values from the pot
 
 --- task ---
 
-**Test:** Run your script and Thonny should start printing values to the Shell. Turn the potentiometer to see the value change. 
+**Test:** Run your script and Thonny should start printing values to the shell. Turn the potentiometer to see the value change. 
 
 ![A screenshot of numbers between 0 and 1 in the Thonny Shell.](images/potentiometer-shell.png) 
 
 --- /task ---
 
-It's quite hard to see what's happening when the values are printing so quickly. Thonny has a plotter that you can use to visualise the values from the potentiometer. 
+It's quite hard to see what's happening when the values are printing so quickly. Thonny has a plotter that you can use to visualise the values from the potentiometer instead. 
 
 --- task ---
 
-In Thonny, choose **View**->**Plotter** and the plotter will appear next to the Shell.
+In Thonny, choose **View**->**Plotter** and the plotter will appear next to the shell.
 
 --- /task ---
 
@@ -124,7 +124,7 @@ The value should be 0 (or close to 0) when the potentiometer is turned all the w
 **Debug:**
 
 The values are the wrong way around.
-+ Swap the jumper wires connected to GND and 3V3. 
++ Swap the jumper wires connected to **GND** and **3V3**. 
 
 --- /task ---
 
