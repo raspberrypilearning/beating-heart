@@ -1,10 +1,10 @@
 ## Reflection
 
-Well done, you made your beating heart project and created a device that can pulse with a heart beat. 
+Well done, you made your beating heart project and created a device that can pulse with a heartbeat. 
 
-Answer the three questions below to look back on what you've learned.
+Answer the three questions below to look back on what you've learnt.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+You will be guided towards the correct answers. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -30,7 +30,7 @@ Yes! The value of a potentiometer depends on the position of the arrow on the di
 - ( ) You can only get two input values, 1 or 0
 
   --- feedback ---
-Try again, a potentiometer allows for more than 2 input values.
+Try again, a potentiometer allows for more than two input values.
   --- /feedback ---
 
 --- /choices ---
