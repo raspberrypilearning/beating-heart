@@ -26,9 +26,6 @@ When the potentiometer is turned all the way to the left, the arrow points to th
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code.</p>
-
 Make sure your Raspberry Pi Pico is **unplugged** from your computer.
 
 --- task ---
