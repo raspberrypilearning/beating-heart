@@ -36,6 +36,7 @@ Software:
 
 In addition, to complete this Beating heart project, you will need:
 + One red LED with a resistor attached to jumper wires with socket connectors
++ One potentiometer (dial)
 + One sheet of paper, red if you have it
 + Kitchen foil 
 + Sticky tape or duct tape
