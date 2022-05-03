@@ -41,8 +41,12 @@ You can purchase all the required hardware for this project and the other projec
 + 2 x pin-socket jumper wires
 + Optionally, a blue LED, resistor and more jumper wires
 
-Software:
-+ [Thonny](http://thonny.org){:target="_blank"} Python editor installed on a personal computer with USB port
+**Software:**
++ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
+
+[[[thonny-install]]]
+
+[[[change-theme-thonny]]]
 
 --- no-print ---
 
