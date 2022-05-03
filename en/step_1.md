@@ -25,23 +25,53 @@ You will:
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
 </p>
 
-To complete any of the projects in the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro){:target="_blank"} path, you will need:
+To complete this project you will need:
+
+**Hardware**
+
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
++ A Raspberry Pi Pico with pin headers soldered on
++ A **data** USB A to micro USB cable
++ 1× yellow LED (or any colour you prefer)
++ 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
++ 1× pin–socket jumper wire
++ 3× socket–socket jumper wire
+You can purchase all the compone 
++ Optional: Sticky tape, invisible tape works best
+
+[[[pin-socket-jumper-wires]]]
+
+You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project. 
+
+**Software**
+
++ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
+
+[[[thonny-install]]]
+
+[[[change-theme-thonny]]]
 
 Hardware:
+
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-
-Software:
-+ [Thonny](http://thonny.org){:target="_blank"} Python editor installed on a personal computer with USB port
-
-In addition, to complete this Beating heart project, you will need:
-+ One red LED with a resistor attached to jumper wires with socket connectors
++ + One red LED with a resistor attached to jumper wires with socket connectors
 + One potentiometer (dial)
 + One sheet of paper, red if you have it
 + Kitchen foil 
 + Sticky tape or duct tape
 + 2× pin–socket jumper wires
 + Optionally, a blue LED, resistor, and more jumper wires
+
+**Software:**
++ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
+
+[[[thonny-install]]]
+
+[[[change-theme-thonny]]]
 
 --- no-print ---
 
