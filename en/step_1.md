@@ -28,20 +28,21 @@ An <span style="color: #0faeb0">analogue input</span> gives a range of values, r
 To complete any of the projects in the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro){:target="_blank"} path, you will need:
 
 Hardware:
+
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-
-Software:
-+ [Thonny](http://thonny.org){:target="_blank"} Python editor installed on a personal computer with USB port
-
-In addition, to complete this Beating heart project, you will need:
-+ One red LED with a resistor attached to jumper wires with socket connectors
++ + One red LED with a resistor attached to jumper wires with socket connectors
 + One potentiometer (dial)
 + One sheet of paper, red if you have it
 + Kitchen foil 
 + Sticky tape or duct tape
 + 2 x pin-socket jumper wires
 + Optionally, a blue LED, resistor and more jumper wires
+
+Software:
++ [Thonny](http://thonny.org){:target="_blank"} Python editor installed on a personal computer with USB port
 
 --- no-print ---
 
