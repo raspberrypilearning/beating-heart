@@ -1,25 +1,30 @@
+---
 title: Beating heart
 hero_image: images/banner.png
-description: Make a papercraft beating heart with a potentiometer to control an LED that blinks like a heartbeat 
+description: Make a papercraft beating heart with a potentiometer to control an LED
+  that blinks like a heartbeat
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: Introduction
-  - title: Read values from a dial
-  - title: Calculate beats per minute (BPM)
-    completion: engaged
-  - title: Make a papercraft heart
-  - title: LED heartbeat
-    completion: internal
-  - title: Make it portable
-  - title: Reflection
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Upgrade your project
-  - title: What next?
+- title: Introduction
+- title: Read values from a dial
+- title: Calculate beats per minute (BPM)
+  completion:
+  - engaged
+- title: Make a papercraft heart
+- title: LED heartbeat
+- title: Make it portable
+  completion:
+  - internal
+- title: Reflection
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Upgrade your project
+- title: What next?
