@@ -22,13 +22,20 @@ In this project you used a potentiometer. What is the main benefit of using a po
 
 - (x) You can get a range of input values between 0 and 1
 
-  --- feedback --- Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+  --- feedback ---
+
+Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
 
   --- /feedback ---
 
 - ( ) You can only get two input values, 1 or 0
 
-  --- feedback --- Try again, a potentiometer allows for more than two input values. --- /feedback ---
+  --- feedback ---
+
+Try again, a potentiometer allows for more than two input values.
+
+  --- /feedback ---
+
 
 --- /choices ---
 
