@@ -12,12 +12,21 @@ Which Python program will run when you power your Raspberry Pi Pico from a USB p
 - ( ) The file you saved most recently
 
 
-  --- feedback --- Not always, your file must have a specific name. --- /feedback ---
+  --- feedback ---
+
+Not always, your file must have a specific name.
+
+  --- /feedback ---
+
 
 - (x) `main.py`
 
 
-  --- feedback --- Yes! When you power your Raspberry Pi Pico away from the computer, it will run `main.py`. --- /feedback ---
+  --- feedback ---
+
+Yes! When you power your Raspberry Pi Pico away from the computer, it will run `main.py`.
+
+  --- /feedback ---
 
 --- /choices ---
 
