@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate. 
 

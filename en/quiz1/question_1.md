@@ -1,10 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done, you made your beating heart project and created a device that can pulse with a heartbeat. 
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to look back on what you've learnt.
-
-You will be guided towards the correct answers. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**. 
 
 Have fun!
 
