@@ -22,7 +22,7 @@ You will:
 + Power your Raspberry Pi Pico away from your computer
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
+An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
 </p>
 
 To complete this project you will need:
@@ -56,7 +56,7 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 --- task ---
 
-Look at the video of the heart beat being controlled by a potentiometer. What happens as the dial is turned left and right?
+Look at the video of the heartbeat being controlled by a potentiometer. What happens as the dial is turned left and right?
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
