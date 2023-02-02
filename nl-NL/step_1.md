@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
 
@@ -29,44 +29,24 @@ To complete this project you will need:
 
 **Hardware**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
 + A Raspberry Pi Pico with pin headers soldered on
-+ A **data** USB A to micro USB cable
-+ 1× yellow LED (or any colour you prefer)
-+ 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
-+ 1× pin–socket jumper wire
-+ 3× socket–socket jumper wire You can purchase all the compone
-+ Optional: Sticky tape, invisible tape works best
++ A data USB A to micro USB cable
++ One red LED with a resistor attached to jumper wires with socket connectors
++ One potentiometer (dial)
++ 3 x socket-socket jumper wires
++ One sheet of paper, red if you have it
++ Sticky tape or duct tape
++ Optionally, a blue LED, resistor and more jumper wires
 
 [[[pin-socket-jumper-wires]]]
 
-You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 **Software**
 
 + Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
-
-[[[thonny-install]]]
-
-[[[change-theme-thonny]]]
-
-Hardware:
-
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ + One red LED with a resistor attached to jumper wires with socket connectors
-+ One potentiometer (dial)
-+ One sheet of paper, red if you have it
-+ Kitchen foil
-+ Sticky tape or duct tape
-+ 2× pin–socket jumper wires
-+ Optionally, a blue LED, resistor, and more jumper wires
-
-**Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
 
 [[[thonny-install]]]
 
@@ -86,15 +66,3 @@ Your browser does not support WebM video, try FireFox or Chrome
 --- /task ---
 
 --- /no-print ---
-
---- print-only ---
-
---- task ---
-
-A potentiometer is used to increase and decrease the heart rate. What could you use this technology for?
-
-![]()
-
---- /task ---
-
---- /print-only ---
