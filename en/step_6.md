@@ -72,7 +72,7 @@ Connect the Raspberry Pi Pico to your transformer or battery pack.
 
 **Test:** Turn on your USB power supply or battery. 
 
-You should be able to turn the potentiometer to adjust the speed of the heatbeat. 
+You should be able to turn the potentiometer to adjust the speed of the heartbeat. 
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
