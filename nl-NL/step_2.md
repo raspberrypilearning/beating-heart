@@ -44,7 +44,7 @@ Gebruik drie jumperdraden met stekkerbus en sluit er een aan op elke poot van de
 --- collapse ---
 
 ---
-Title: Hoe werkt een potentiometer?
+title: Hoe werkt een potentiometer?
 ---
 
 Een **potentiometer** is een analoog ingangsonderdeel dat zijn weerstand verandert afhankelijk van de positie van het instelwiel. Een potentiometer heeft drie pinnen die moeten worden aangesloten op 3V3, een analoge pin en GND. De pin 3V3 levert voeding aan de potentiometer en de spanningswaarde van de analoge pin zal veranderen afhankelijk van de weerstand van de potentiometer.

@@ -5,7 +5,7 @@
 Maak het papercraft hart om je pulserende LED te bevatten en het licht te verspreiden. 
 </div>
 <div>
-![Afbeelding met een gevouwen papercraft hart.](Images/heart.jpeg){:width="300px"}
+![Afbeelding met een gevouwen papercraft hart.](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
@@ -18,7 +18,7 @@ Maak het papercraft hart om je pulserende LED te bevatten en het licht te verspr
 
 --- collapse ---
 ---
-titel: Uit papier geknipt hart
+title: Uit papier geknipt hart
 ---
 
 Je kunt een eenvoudig hart maken, uit papier geknipt:

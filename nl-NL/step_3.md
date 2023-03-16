@@ -5,7 +5,7 @@
 De potentiometerwaarden gaan van 0 naar 1. Om de potentiometer te gebruiken om de hartslag te regelen, moet je deze waarden veranderen in een overeenkomstig getal van 40 (zeer fitte atleet) tot 180 slagen per minuut. 
 </div>
 <div>
-![een animatie van de plotter met BPM-waarden van 40 tot 180.](afbeeldingen/plotter-spm.gif){:width="300px"}
+![een animatie van de plotter met BPM-waarden van 40 tot 180.](images/plotter-bpm.gif){:width="300px"}
 </div>
 </div>
 
