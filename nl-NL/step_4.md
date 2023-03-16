@@ -1,33 +1,33 @@
-## Make a papercraft heart
+## Maak een papercraft hart
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the papercraft heart to contain your pulsing LED and diffuse the light. 
+Maak het papercraft hart om je pulserende LED te bevatten en het licht te verspreiden. 
 </div>
 <div>
-![Image showing a folded papercraft heart.](images/heart.jpeg){:width="300px"}
+![Afbeelding met een gevouwen papercraft hart.](Images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
+<span style="color: #0faeb0">Papercraft</span> is de kunst om 2D- of 3D-creaties van papier of karton te maken. Het kunstwerk kan de vorm aannemen van een sculptuur, origami, wearable, of papier-mâché model en kan een of meer in stukjes gesneden of gevouwen papier gebruiken.</p>
 
 --- task ---
 
-**Choose:** Make a cut-out or a folded origami heart to put your pulsing LED inside.
+**Kies:** Maak een uitgeknipt of een gevouwen origami hart om je pulserende LED erin te plaatsen.
 
 --- collapse ---
 ---
-title: Paper cut-out heart
+titel: Uit papier geknipt hart
 ---
 
-You can make a simple heart, cut out of paper:
+Je kunt een eenvoudig hart maken, uit papier geknipt:
 
-![Image showing heart shape cut out of a sheet of red paper.](images/heart-cutout.png)
+![Afbeelding met hartvorm die uit een vel rood papier is geknipt.](images/heart-cutout.png)
 
-Or cut two, and tape them together: ![Image showing two identical red paper hearts cut out of paper.](images/heart-cutout2.png)
+Of knip er twee en plak ze samen: ![Afbeelding met twee identieke rode papierharten die uit het papier zijn geknipt.](images/heart-cutout2.png)
 
-![Image showing two identical red paper hearts taped at the edges.](images/heart-cutout3.png)
+![Afbeelding met twee identieke rode papierharten die aan de randen zijn vastgeplakt.](images/heart-cutout3.png)
 
 
 --- /collapse ---
@@ -35,39 +35,39 @@ Or cut two, and tape them together: ![Image showing two identical red paper hear
 
 --- collapse ---
 ---
-title: Folded origami heart
+Title: Gevouwen origami hart
 ---
 
-![Image showing a red heart made of folded paper in the origami style.](images/heart.png)
+![Afbeelding met een rood hart gemaakt van gevouwen papier in de origami stijl.](images/heart.png)
 
-Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) ![Image showing a red square of paper.](images/heart1.png)
-
-
-Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart2.png)
-
-![Image showing the square of paper with a crease from corner to corner.](images/heart3.png)
+Stap 1: Begin met een vierkant stuk papier. (Elk papier doet het, maar dunner papier maakt je LED helderder.) ![Afbeelding met een rood vierkant papier.](images/heart1.png)
 
 
-Step 3: Fold the left corner to the right corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart4.png)
+Stap 2: Vouw het papier dubbel door de bovenste hoek naar de onderste hoek te vouwen en vouw het vervolgens uit. ![Afbeelding met het vierkant van papier gevouwen hoek tot hoek in een driehoek.](images/heart2.png)
 
-![Image showing the square of paper with a crease from corner to corner.](images/heart5.png)
-
-
-Step 4: Fold the top corner to the center of the square, to make a 'shield' shape. ![Image showing the square of paper with top corner folded to the centre to create a pentagon.](images/heart6.png)
+![Afbeelding die het vierkant van papier toont met een vouw van hoek tot hoek.](images/heart3.png)
 
 
-Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold. ![Image showing the square of paper with the bottom corner folded so it touches the top edge.](images/heart7.png)
+Stap 3: Vouw de linkerhoek naar de rechterhoek en vouw deze vervolgens uit. ![Afbeelding met het vierkant van papier gevouwen hoek tot hoek in een driehoek.](images/heart4.png)
 
-Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the centre crease. ![Image showing the paper square folded into a chevron shape from the back.](images/heart8.png)
-
-![Image showing the paper square folded into a chevron shape from the front.](images/heart9.png)
+![Afbeelding die het vierkant van papier toont met een vouw van hoek tot hoek.](images/heart5.png)
 
 
-Step 7: Fold the top and side corners back. ![Image showing the paper square folded into a heart shape from the back, with both top and side corners folded up.](images/heart10.png)
+Stap 4: Vouw de bovenste hoek naar het midden van het vierkant om een 'verborgen' vorm te maken. ![Afbeelding met het vierkant papier met de bovenste hoek naar het midden gevouwen om een pentagon te maken.](images/heart6.png)
 
-Step 8: Tape the back side of the heart across the widest part, from edge to edge. ![Image showing the paper square folded into a heart shape from the back, with tape holding it together.](images/heart11.png)
 
-Turn it over to look at the front, and you're ready to embed your LED! ![Image showing the finished origami heart.](images/heart.png)
+Stap 5: Vouw de onderhoek naar boven om de bovenrand te bereiken, waarbij de vorige vouw wordt overlapt. ![Afbeelding met het vierkant papier met de onderhoek gevouwen zodat het de bovenrand raakt.](images/heart7.png)
+
+Stap 6: Vouw de linker- en rechterbenedenhoek in een hoek van 90 graden, zodat de onderste randen langs de middelste vouw lopen. ![Afbeelding met het vierkant van het papier dat vanaf de achterkant in een chevron-vorm is gevouwen.](images/heart8.png)
+
+![Afbeelding met het vierkant van het papier dat vanaf de voorkant in een chevron-vorm is gevouwen.](images/heart9.png)
+
+
+Stap 7: Vouw de boven- en zijhoeken terug. ![Afbeelding met het papier dat vanaf de achterkant in een hartvorm is gevouwen, met zowel de boven- als de zijhoeken opgevouwen.](images/heart10.png)
+
+Stap 8: Plak de achterkant van het hart vast over het breedste deel, van rand tot rand. ![Afbeelding met het vierkant van het papier dat vanaf de achterkant in een hartvorm is gevouwen, met tape die het bij elkaar houdt.](images/heart11.png)
+
+Draai hem om om om naar de voorkant te kijken en je bent klaar om je LED in te sluiten! ![Afbeelding met het voltooide origami hart.](images/heart.png)
 
 
 --- /collapse ---
