@@ -1,17 +1,17 @@
-dial
+instelwiel
 
-heart_min
+hart_min
 
-heart_max
+hart_max
 
-heart_range
+hart_bereik
 
 bpm
 
 led
 
-beat
+slagen
 
-brighter_time
+helder_tijd
 
-dimmer_time
+dimmer_tijd
