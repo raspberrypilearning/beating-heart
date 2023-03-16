@@ -29,6 +29,8 @@ Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+
 + Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
 + Een data USB A naar micro USB-kabel
 + Een rode LED met een weerstand die is aangesloten op startkabels met aansluitingen
@@ -39,10 +41,6 @@ Om dit project te voltooien heb je het volgende nodig:
 + Optioneel een blauwe LED, weerstand en meer jumperdraden
 
 [[[pin-bus-jumper-wires]]]
-
-Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-Als je al een Raspberry Pi Pico hebt, kun je de elektronische componenten die je nodig hebt voor dit project en de andere projecten in het pad kopen bij [The Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 **Software**
 
