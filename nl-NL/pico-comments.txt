@@ -1,0 +1,19 @@
+Pot is een afkorting voor Potentiometer
+
+Aangesloten op pin A0 (GP26)
+
+Vertraag de uitvoer
+
+Bereken het verschil
+
+Zet de waarde van het instelwiel om in BPM
+
+Voeg LED toe
+
+Zorg ervoor dat dit de juiste pin is
+
+Geef een halve beat door die helderder wordt
+
+Geef een halve beat door om donkerder te worden
+
+Pulseer 1 keer, wacht tot je klaar bent
