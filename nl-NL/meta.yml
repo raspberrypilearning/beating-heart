@@ -1,32 +1,32 @@
 ---
-title: Beating heart
+title: Kloppend hart
 hero_image: images/banner.png
 description:
-  - Make a papercraft beating heart with a potentiometer to control an LED
-  - that blinks like a heartbeat
+  - Maak een papercraft hart dat klopt met een potentiometer om een LED te besturen
+  - dat knippert als een hartslag
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Wat ga je maken
   - 
-    title: Read values from a dial
+    title: Lees waarden van een instelwiel
   - 
-    title: Calculate beats per minute (BPM)
+    title: Bereken slagen per minuut (BPM)
     completion:
       - engaged
   - 
-    title: Make a papercraft heart
+    title: Maak een papercraft hart
   - 
-    title: LED heartbeat
+    title: LED-hartslag
   - 
-    title: Make it portable
+    title: Maak het draagbaar
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snelle quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
