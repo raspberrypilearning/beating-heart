@@ -1,36 +1,36 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions. Il y a des conseils pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend : Question 1 sur 3
 ---
 
-In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
+Dans ce projet, tu as utilisé un potentiomètre. Quel est le principal avantage d'utiliser un potentiomètre au lieu d'un interrupteur ?
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
+![Un potentiomètre bleu avec un petit cadran en haut et trois broches en bas.](images/potentiometer.png)
 
 --- choices ---
 
-- (x) You can get a range of input values between 0 and 1
+- (x) Tu pourras obtenir une plage de valeurs d'entrée entre 0 et 1
 
   --- feedback ---
 
-Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+Oui ! La valeur d'un potentiomètre dépend de la position de la flèche sur le cadran. Ceci est utile lorsque tu as besoin d'une plage de valeurs d'entrée au lieu de simplement 1 ou 0.
 
   --- /feedback ---
 
-- ( ) You can only get two input values, 1 or 0
+- ( ) Tu ne peux obtenir que deux valeurs d'entrée, 1 ou 0
 
   --- feedback ---
 
-Try again, a potentiometer allows for more than two input values.
+Essaie à nouveau, un potentiomètre permet plus de deux valeurs d'entrée.
 
   --- /feedback ---
 
