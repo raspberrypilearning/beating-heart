@@ -29,6 +29,8 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 **Matériel**
 
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de données USB A vers micro USB
 + Une LED rouge avec une résistance attachée aux fils de connexion avec des connecteurs prises
@@ -39,10 +41,6 @@ Pour mener à bien ce projet, tu auras besoin de :
 + En option, une LED bleue, une résistance et plus de fils de liaison
 
 [[[pin-socket-jumper-wires]]]
-
-Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniques dont tu as besoin pour ce projet et les autres projets dans le parcours à la [Boutique en ligne Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 **Logiciel**
 
