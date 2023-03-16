@@ -1,32 +1,32 @@
 ---
-title: Beating heart
+title: Cœur battant
 hero_image: images/banner.png
 description:
-  - Make a papercraft beating heart with a potentiometer to control an LED
-  - that blinks like a heartbeat
+  - Fabriquer un cœur battant en papier avec un potentiomètre pour contrôler une LED
+  - cela clignote comme un battement de coeur
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
-    title: Read values from a dial
+    title: Lire les valeurs d'un cadran
   - 
-    title: Calculate beats per minute (BPM)
+    title: Calculer les battements par minute (BPM)
     completion:
       - engaged
   - 
-    title: Make a papercraft heart
+    title: Fabriquer un coeur en papier
   - 
-    title: LED heartbeat
+    title: LED battement de cœur
   - 
-    title: Make it portable
+    title: Rends-le portable
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?
