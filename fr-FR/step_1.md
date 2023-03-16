@@ -1,52 +1,52 @@
-## You will make
+## Ce que tu vas faire
 
-Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+Fabriquer un cœur battant en papier avec une LED pulsante et un cadran pour régler la fréquence cardiaque.
 
 --- no-print ---
 
-![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif){:width="400px"}
+![Une image animée montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heartbeat.gif){:width="400px"}
 
 ---/no-print ---
 
 --- print-only ---
 
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png)
+![Une image montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heart-static.png)
 
 --- /print-only ---
 
 [[[flashing-light-warning]]]
 
-You will:
-+ Use a potentiometer (dial) to change the heart rate
-+ Create a pulsing effect with an LED
-+ Power your Raspberry Pi Pico away from your computer
+Tu vas devoir :
++ Utiliser un potentiomètre (cadran) pour modifier la fréquence cardiaque
++ Créer un effet de pulsation avec une LED
++ Alimenter ton Raspberry Pi Pico loin de ton ordinateur
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
+Une <span style="color: #0faeb0">entrée analogique</span> donne plage de valeurs, plutôt qu'un simple 0 ou 1 (on ou off). Un <span style="color: #0faeb0">potentiomètre </span> est un composant d'entrée analogique qui a un cadran que tu tournes pour augmenter ou diminuer les valeurs. Le Raspberry Pi Pico possède des broches d'entrée analogiques qui te permettent de lire des valeurs analogiques et de les utiliser dans ton code. 
 </p>
 
-To complete this project you will need:
+Pour mener à bien ce projet, tu auras besoin de :
 
-**Hardware**
+**Matériel**
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ One red LED with a resistor attached to jumper wires with socket connectors
-+ One potentiometer (dial)
-+ 3 x socket-socket jumper wires
-+ One sheet of paper, red if you have it
-+ Sticky tape or duct tape
-+ Optionally, a blue LED, resistor and more jumper wires
++ Un Raspberry Pi Pico avec des broches soudées dessus
++ Un câble de données USB A vers micro USB
++ Une LED rouge avec une résistance attachée aux fils de connexion avec des connecteurs prises
++ Un potentiomètre (cadran)
++ 3 x fils de liaison prise-prise
++ Une feuille de papier, rouge si tu en as une
++ Du ruban adhésif ou du ruban adhésif de toile (duct tape)
++ En option, une LED bleue, une résistance et plus de fils de liaison
 
 [[[pin-socket-jumper-wires]]]
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniques dont tu as besoin pour ce projet et les autres projets dans le parcours à la [Boutique en ligne Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
-**Software**
+**Logiciel**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac
 
 [[[thonny-install]]]
 
@@ -56,11 +56,11 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 --- task ---
 
-Look at the video of the heartbeat being controlled by a potentiometer. What happens as the dial is turned left and right?
+Regarde la vidéo du rythme cardiaque contrôlé par un potentiomètre. Que se passe-t-il lorsque le cadran est tourné à gauche et à droite ?
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- /task ---
