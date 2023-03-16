@@ -5,7 +5,7 @@
 Maak het papercraft hart om je pulserende LED te bevatten en het licht te verspreiden. 
 </div>
 <div>
-![Afbeelding met een gevouwen papercraft hart.](images/heart.jpeg){:width="300px"}
+![Afbeelding met een gevouwen papercraft hart.](images/heart.png){:width="300px"}
 </div>
 </div>
 
