@@ -1,11 +1,11 @@
-## LED heart beat
+## LED Battement de cœur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat.
+Donne vie à ton cœur avec une LED battement de cœur intégrée.
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![Une image montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -13,9 +13,9 @@ Bring your heart to life with an embedded LED heartbeat.
 
 --- task ---
 
-Use a **red** LED connected to a resistor and jumper wires.
+Utilise une LED **rouge** connectée à une résistance et des fils de liaison.
 
-You can make your own if you need to.
+Tu peux créer le tien si tu en as besoin.
 
 [[[led-resistor-electrical-tape]]]
 
@@ -25,18 +25,18 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
+Branche la LED rouge à la **broche 13** et **GND**, comme tu l'as fait lorsque tu as fabriqué une luciole LED.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
+![Un potentiomètre et une LED rouge attachés à un Raspberry Pi Pico.](images/pot-led-circuit.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0faeb0">Maggie Aderin-Pocock</span> est une scientifique spatiale qui a travaillé sur de nombreux gadgets électroniques, notamment des accessoires de télescope, un détecteur de mines antipersonnel portable et des instruments qui ont été envoyés dans l'espace pour recueillir des données permettant de comprendre les changements climatiques. Adolescente, Maggie n'avait pas les moyens d'acheter un bon télescope, alors elle est allée dans un cours où elle pouvait fabriquer son propre télescope en utilisant l'électronique, le code et le meulage du verre pour fabriquer des lentilles. Y a-t-il un gadget que tu aimerais fabriquer ?</p>
 
 --- task ---
 
-Add code so that you can program your LED:
+Ajoute du code pour pouvoir programmer ta LED :
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ dial = Pot(0) led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer.
+Ajoute du code pour contrôler la `luminosité` de ta LED. La méthode `pulse()` permet à la LED de clignoter en devenant plus lumineuse et plus sombre.
 
 --- code ---
 ---
@@ -65,40 +65,40 @@ while True: bpm = heart_min + dial.value * heart_range print(bpm) beat = 60/bpm 
     led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
-If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
+Si tu n'as pas ajouté `wait=True` à `pulse` , la boucle `while` se répéterait immédiatement et redémarrerait l'impulsion.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate.
+**Test :** Exécute ton projet pour voir l'impulsion LED plus lumineuse et plus faible. Tourne le potentiomètre pour contrôler la vitesse à laquelle les impulsions LED correspondent à la fréquence cardiaque.
 
-![Animated gif showing the LED pulsing on and off by changing the brightness.](images/pulse-test.gif)
+![Gif animé montrant la LED qui s'allume et s'éteint en changeant la luminosité.](images/pulse-test.gif)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer:**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Tu as une erreur de syntaxe :
++ Vérifie que ton code correspond à l'exemple ci-dessus
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+Le potentiomètre a cessé de fonctionner :
++ Vérifie que tes fils de liaison sont toujours solidement attachés
 
-The LED is not lighting:
-+ Check that it is connected correctly
-+ Check to see if the LED has blown by swapping it with a spare
+La LED ne s'allume pas :
++ Vérifie qu'elle est correctement connectée
++ Vérifie si la LED a grillé en la remplaçant par une pièce de rechange
 
 --- /task ---
 
 
 --- task ---
 
-Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+Maintenant, prend ton cœur en papier et place-le sur ta LED rouge pour créer un effet de battement de cœur.
 
-![Animated gif showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Gif animé montrant la LED clignotant à travers le cœur papier.](images/heartbeat.gif)
 
 --- /task ---
 
