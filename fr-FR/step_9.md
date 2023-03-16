@@ -1,15 +1,15 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Mood indicator](https://projects.raspberrypi.org/en/projects/mood-indicator) project. In this project, you will create a mood check-in device with coloured lights to emote your current mood.
+Si tu suis le parcours [Introduction au Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) , tu peux passer au projet [Indicateur d'humeur](https://projects.raspberrypi.org/en/projects/mood-indicator). Dans ce projet, tu vas créer un dispositif d'enregistrement d'humeur avec des lumières colorées pour exprimer ton humeur actuelle.
 
 --- print-only ---
 
-![A piece of tracing paper is wrapped around a paper cup. A green light shines through the tracing paper.](images/mood-lamp.PNG)
+![Un morceau de papier calque est enroulé autour d'un gobelet en carton. Une lumière verte brille à travers le papier calque.](images/mood-lamp.PNG)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A piece of tracing paper is wrapped around a paper cup. The button on the side of the cup is pressed to change the colour of the lamp.](images/mood-lamp.gif)
+![Un morceau de papier calque est enroulé autour d'un gobelet en carton. Le bouton sur le côté de la tasse est pressé pour changer la couleur de la lampe.](images/mood-lamp.gif)
 
 --- /no-print ---
