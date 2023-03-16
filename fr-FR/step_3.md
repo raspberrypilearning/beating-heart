@@ -1,23 +1,23 @@
-## Calculate beats per minute (BPM)
+## Calculer les battements par minute (BPM)
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The potentiometer values go from 0 to 1. To use the potentiometer to control the heart rate, you need to turn these values into a corresponding number from 40 (very fit athlete) to 180 beats per minute. 
+Les valeurs du potentiomètre vont de 0 à 1. Pour utiliser le potentiomètre pour contrôler la fréquence cardiaque, tu devras transformer ces valeurs en un nombre correspondant de 40 (athlète très en forme) à 180 battements par minute. 
 </div>
 <div>
-![An animation of the plotter showing BPM values from 40 to 180.](images/plotter-bpm.gif){:width="300px"}
+![Une animation du traceur montrant les valeurs BPM de 40 à 180.](images/plotter-bpm.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-BPM stands for **beats per minute**. You can use BPM to measure your heart rate (as well as the tempo of music). The higher the number, the faster the heart rate. BPM is used in health and fitness to measure how intense an exercise is. You can work out your maximum heart rate by taking away your age from 220. For example, a 12-year-old's maximum heart rate is 208. When exercising, it is advised that your heart rate doesn't exceed 85% of your maximum heart rate. In the case of a 12-year-old, this would be 176 BPM. That's about the same tempo as a Drum 'n' Bass track.
+BPM signifie **battements par minute**. Tu peux utiliser le BPM pour mesurer ta fréquence cardiaque (ainsi que le tempo de la musique). Plus le nombre est élevé, plus la fréquence cardiaque est rapide. Le BPM est utilisé dans le domaine de la santé et de la forme physique pour mesurer l'intensité d'un exercice. Vous pouvez déterminer votre fréquence cardiaque maximale en soustrayant votre âge à 220. Par exemple, la fréquence cardiaque maximale d'un enfant de 12 ans est de 208. Lors d'exercice, il est conseillé que ta fréquence cardiaque ne dépasse pas 85% de ta fréquence cardiaque maximale. Dans le cas d'un enfant de 12 ans, ce serait 176 BPM. C'est à peu près le même tempo qu'une piste Drum 'n' Bass.
 </p>
 
-You are now going to use the potentiometer to adjust the heartbeat of your project. You will turn the dial to increase or decrease the heartbeat.
+Tu vas maintenant utiliser le potentiomètre pour régler le rythme cardiaque de ton projet. Tu tourneras la molette pour augmenter ou diminuer le rythme cardiaque.
 
 --- task ---
 
-Update your code so that the value that is printed and plotted corresponds to a heart rate between 40 and 180 beats per minute.
+Met à jour ton code afin que la valeur imprimée et tracée corresponde à une fréquence cardiaque comprise entre 40 et 180 battements par minute.
 
 --- code ---
 ---
@@ -34,27 +34,27 @@ while True: bpm = heart_min + dial.value * heart_range # Convert dial value to B
 
 --- /code ---
 
-Notice that the `heart_range` variable is calculated **once** at the beginning of your script, but the `bpm` variable depends on the value of the potentiometer so it gets calculated inside the `while` loop.
+Note que la variable `coeur_gamme` est calculée **une fois** au début de ton script, mais la variable `bpm` dépend de la valeur du potentiomètre, elle est donc calculée à l'intérieur de la boucle `while`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and turn the potentiometer to see how the number in the shell and the labels in the Thonny plotter change. You should now see numbers between 40 and 180.
+**Test :** Exécute ton code et tourne le potentiomètre pour voir comment le nombre change dans la console et les étiquettes dans le traceur Thonny. Tu devrais maintenant voir des nombres entre 40 et 180.
 
-![A screenshot of values plotted with a range from 0 to 180.](images/plotter-bpm.png)
+![Une capture d'écran des valeurs tracées avec une plage de 0 à 180.](images/plotter-bpm.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer:**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Tu as une erreur de syntaxe :
++ Vérifie que ton code correspond à l'exemple ci-dessus
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+Le potentiomètre a cessé de fonctionner :
++ Vérifie que tes fils de liaison sont toujours solidement attachés
 
 --- /task ---
 
