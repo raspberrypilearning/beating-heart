@@ -1,97 +1,97 @@
-## Make it portable
+## Rends-le portable
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat. You can power your Raspberry Pi Pico away from the computer with a USB power supply or battery pack. When you turn on the Pico it will run a file called `main.py`. 
+Donne vie à ton cœur avec une LED battement de cœur intégré. Tu peux alimenter ton Raspberry Pi Pico loin de l'ordinateur avec une alimentation USB ou une batterie. Lorsque tu allumes le Pico, il exécute un fichier appelé "main.py". 
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![Une image montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
-### Automatically run your beating heart program using main.py
+### Exécute automatiquement ton programme de cœur battant à l'aide de main.py
 
 --- task ---
 
-Use the **File** menu to save your code to your Raspberry Pi Pico device, using the **Save as...** option.
+Utilise le menu **Fichier** pour enregistrer ton code sur ton appareil Raspberry Pi Pico, en utilisant l'option **Enregistrer sous...**.
 
-![The file menu in Thonny shown, with the Save As option highlighted.](images/file_menu.png)
+![Le menu Fichier dans Thonny affiché, avec l'option Enregistrer sous en surbrillance.](images/file_menu.png)
 
 --- /task ---
 
 --- task ---
 
-Choose to save your code to your Raspberry Pi Pico.
+Choisis d'enregistrer ton code sur ton Raspberry Pi Pico.
 
-![Option to choose to save on the computer or on the Pico shown.](images/save_to_pico.png)
-
---- /task ---
-
---- task ---
-
-Call your file `main.py` to have it automatically run when your Pico is powered from an external power supply, not connected to your computer.
-
-![The Save menu option, with main.py chosen as a filename.](images/main.png)
+![Possibilité de choisir d'enregistrer sur l'ordinateur ou sur le Pico affiché.](images/save_to_pico.png)
 
 --- /task ---
 
 --- task ---
 
-If it is saved as `main.py` on the Raspberry Pi Pico, then the program will load when the device is powered from an external power supply, such as a battery.
+Appel ton fichier `main.py` pour qu'il s'exécute automatiquement lorsque ton Pico est alimenté par une alimentation externe, non connectée à ton ordinateur.
 
---- /task ---
-
-### Power your beating heart using a USB supply
-
-The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8V and a maximum of 5.5V.
-
-Most micro USB transformers can provide power to your Raspberry Pi Pico in this range. For instance, the official Raspberry Pi micro USB transformer provides up to 2.5A of current at 5.1V.
-
-![Official Raspberry Pi power supply shown from the pin side.](images/transformer.png)
-
-A battery pack with a USB to micro USB cable can also power a Raspberry Pi Pico. This battery pack provides up to 2.1A of current at 5V.
-
-![A generic battery pack showing the side and the technical specifications.](images/battery_pack.png)
-
---- task ---
-
-Disconnect your Raspberry Pi Pico from your computer.
+![L'option de menu Enregistrer, avec main.py choisi comme nom de fichier.](images/main.png)
 
 --- /task ---
 
 --- task ---
 
-Connect the Raspberry Pi Pico to your transformer or battery pack.
+S'il est enregistré sous `main.py` sur le Raspberry Pi Pico, le programme se chargera lorsque l'appareil est alimenté par une alimentation externe, telle qu'une batterie.
 
-![A micro-USB being connected to the Raspberry Pi Pico.](images/connect-micro-usb.gif)
+--- /task ---
+
+### Alimente ton cœur battant à l'aide d'une alimentation USB
+
+Le Raspberry Pi Pico nécessite une alimentation capable de délivrer un minimum de 1,8V et un maximum de 5,5V.
+
+La plupart des transformateurs micro USB peuvent alimenter ton Raspberry Pi Pico dans cette gamme. Par exemple, le transformateur micro USB officiel Raspberry Pi fournit jusqu'à 2,5 A de courant à 5,1 V.
+
+![Alimentation électrique Raspberry Pi officielle illustrée du côté de la fiche.](images/transformer.png)
+
+Une batterie avec un câble USB vers micro USB peut également alimenter un Raspberry Pi Pico. Cette batterie fournit jusqu'à 2,1 A de courant à 5 V.
+
+![Une batterie générique montrant le côté et les spécifications techniques.](images/battery_pack.png)
+
+--- task ---
+
+Déconnecte ton Raspberry Pi Pico de ton ordinateur.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Turn on your USB power supply or battery.
+Connecte le Raspberry Pi Pico à ton transformateur ou à ta batterie.
 
-You should be able to turn the potentiometer to adjust the speed of the heartbeat.
+![Un micro-USB étant connecté au Raspberry Pi Pico.](images/connect-micro-usb.gif)
+
+--- /task ---
+
+--- task ---
+
+**Test :** Allume ton alimentation USB ou ta batterie.
+
+Tu devrais pouvoir tourner le potentiomètre pour régler la vitesse du rythme cardiaque.
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer:**
 
 --- collapse ---
 ---
-title: The LED does not light up
+title: La LED ne s'allume pas
 ---
 
-+ Is your battery working? Is the battery turned on? You could test another USB-powered device to make sure.
++ Ta batterie fonctionne-t-elle ? La batterie est-elle allumée ? Tu peux tester un autre appareil alimenté par USB pour t'en assurer.
 
-+ Did you save the file as `main.py`? Plug your Pico back into your computer and save the file again. Check the file name and the `.py` extension carefully.
++ As-tu enregistré le fichier sous `main.py`? Rebranche ton Pico sur ton ordinateur et enregistre à nouveau le fichier. Vérifie attentivement le nom du fichier et l'extension `.py`.
 
 --- /collapse ---
 
