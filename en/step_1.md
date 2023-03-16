@@ -29,6 +29,8 @@ To complete this project you will need:
 
 **Hardware**
 
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + One red LED with a resistor attached to jumper wires with socket connectors
@@ -39,8 +41,6 @@ To complete this project you will need:
 + Optionally, a blue LED, resistor and more jumper wires
 
 [[[pin-socket-jumper-wires]]]
-
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 **Software**
 
