@@ -1,0 +1,31 @@
+---
+title: Kloppend hart
+hero_image: images/banner.png
+description:
+  - Maak een papercraft hart dat klopt met een potentiometer om een LED te besturen
+  - dat knippert als een hartslag
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Wat ga je maken
+  - title: Lees waarden van een instelwiel
+  - title: Bereken slagen per minuut (BPM)
+    completion:
+      - engaged
+  - title: Maak een papercraft hart
+  - title: LED-hartslag
+  - title: Maak het draagbaar
+    completion:
+      - internal
+  - title: Snelle quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?

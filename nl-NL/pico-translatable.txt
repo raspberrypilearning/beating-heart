@@ -1,0 +1,17 @@
+instelwiel
+
+hart_min
+
+hart_max
+
+hart_bereik
+
+bpm
+
+led
+
+slagen
+
+helder_tijd
+
+dimmer_tijd
