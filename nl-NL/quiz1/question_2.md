@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-In this project, you used `pulse`. What does `pulse` do?
+In dit project heb je `pulse` gebruikt. Wat doet `pulse`?
 
 --- choices ---
 
-- ( ) It turns on for 1 second and turns off for 1 second
+- ( ) het wordt 1 seconde ingeschakeld en 1 seconde uitgeschakeld
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+Niet helemaal. Dit zou een knippereffect veroorzaken, niet een pulse-effect.
 
   --- /feedback ---
 
-- ( ) It displays the heart rate on the plotter
+- ( ) het geeft de hartslag weer op de plotter
 
   --- feedback ---
 
-Try again, the plotter displays numbers that have been printed to the Shell.
+Probeer het opnieuw. De plotter geeft nummers weer die naar de Shell zijn afgedrukt.
 
   --- /feedback ---
 
-- (x) It gradually increases and then decreases the brightness of an LED
+- (X) de helderheid van een LED neemt geleidelijk toe en vervolgens af
 
   --- feedback ---
 
-  Yes, `pulse` gradually increases and then decreases the brightness of an LED to create a pulsing effect.
+  Ja, de `pulse` neemt geleidelijk toe en verlaagt vervolgens de helderheid van een LED om een pulserend effect te creëren.
 
   --- /feedback ---
 
