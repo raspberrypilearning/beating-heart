@@ -1,52 +1,52 @@
-## You will make
+## Wat ga je maken
 
-Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+Maak een kloppend hart van papier met een pulserende LED en een instelwiel om de hartslag aan te passen.
 
 --- no-print ---
 
-![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif){:width="400px"}
+![Een geanimeerde afbeelding met een rood origami hart met een pulserende rode LED in de vouwen.](images/heartbeat.gif){:width="400px"}
 
 ---/no-print ---
 
 --- print-only ---
 
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png)
+![Een afbeelding met een rood origami hart met een pulserende rode LED in de vouwen.](images/heart-static.png)
 
 --- /print-only ---
 
 [[[flashing-light-warning]]]
 
-You will:
-+ Use a potentiometer (dial) to change the heart rate
-+ Create a pulsing effect with an LED
-+ Power your Raspberry Pi Pico away from your computer
+Je gaat:
++ Een potentiometer (instelwiel) gebruiken om de hartslag te wijzigen
++ Een pulserend effect maken met een LED
++ De Raspberry Pi Pico aanzetten buiten het bereik van je computer
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
+Een <span style="color: #0faeb0">analoge ingang</span> geeft een reeks waarden in plaats van alleen een 0 of 1 (aan of uit). Een <span style="color: #0faeb0">potentiometer</span> is een analoog ingangsonderdeel dat een instelwiel heeft om waarden te verhogen of te verlagen. De Raspberry Pi Pico heeft analoge invoerpinnen waarmee je analoge waarden kunt lezen en gebruiken in je code. 
 </p>
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ One red LED with a resistor attached to jumper wires with socket connectors
-+ One potentiometer (dial)
-+ 3 x socket-socket jumper wires
-+ One sheet of paper, red if you have it
-+ Sticky tape or duct tape
-+ Optionally, a blue LED, resistor and more jumper wires
++ Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
++ Een data USB A naar micro USB-kabel
++ Een rode LED met een weerstand die is aangesloten op startkabels met aansluitingen
++ Eén potentiometer (instelwiel)
++ 3 x bus-bus jumperdraden
++ Een vel papier, rood als je het hebt
++ Plakband of duct tape
++ Optioneel een blauwe LED, weerstand en meer jumperdraden
 
-[[[pin-socket-jumper-wires]]]
+[[[pin-bus-jumper-wires]]]
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Als je al een Raspberry Pi Pico hebt, kun je de elektronische componenten die je nodig hebt voor dit project en de andere projecten in het pad kopen bij [The Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 **Software**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer
 
 [[[thonny-install]]]
 
@@ -56,11 +56,11 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 --- task ---
 
-Look at the video of the heartbeat being controlled by a potentiometer. What happens as the dial is turned left and right?
+Bekijk de video van de hartslag die wordt bestuurd door een potentiometer. Wat gebeurt er als het instelwiel naar links en rechts wordt gedraaid?
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- /task ---
