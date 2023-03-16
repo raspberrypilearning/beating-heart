@@ -1,17 +1,17 @@
-dial
+cadran
 
-heart_min
+coeur_min
 
-heart_max
+coeur_max
 
-heart_range
+coeur_gamme
 
 bpm
 
 led
 
-beat
+rythme
 
-brighter_time
+temps_brillant
 
-dimmer_time
+temps_sombre
