@@ -1,19 +1,19 @@
-Pot is short for Potentiometer
+Pot est l'abréviation de potentiomètre
 
-Connected to pin A0 (GP26)
+Connecté à la broche A0 (GP26)
 
-Slow down the output
+Ralentir la sortie
 
-Calculate the difference
+Calculer la différence
 
-Convert dial value to BPM
+Convertir la valeur du cadran en BPM
 
-Add LED
+Ajouter une LED
 
-Make sure this is the correct pin
+Assure-toi qu'il s'agit de la bonne broche
 
-Spend half a beat getting brighter
+Passe un demi-temps à devenir plus brillant
 
-Spend half a beat getting dimmer
+Passe un demi-temps à devenir plus faible
 
-Pulse 1 time, waiting until finished
+Impulsion 1 fois, attendre jusqu'à la fin
