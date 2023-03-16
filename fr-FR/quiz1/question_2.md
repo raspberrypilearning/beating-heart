@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-In this project, you used `pulse`. What does `pulse` do?
+Dans ce projet, tu as utilisé `pulse`. Que fait `pulse`?
 
 --- choices ---
 
-- ( ) It turns on for 1 second and turns off for 1 second
+- ( ) Il s'allume pendant 1 seconde et s'éteint pendant 1 seconde
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+Pas tout à fait. Cela créerait un effet de clignotement, pas un effet d'impulsion.
 
   --- /feedback ---
 
-- ( ) It displays the heart rate on the plotter
+- ( ) Il affiche la fréquence cardiaque sur le traceur
 
   --- feedback ---
 
-Try again, the plotter displays numbers that have been printed to the Shell.
+Réessaie, le traceur affiche les nombres qui ont été imprimés sur la Console.
 
   --- /feedback ---
 
-- (x) It gradually increases and then decreases the brightness of an LED
+- (x) Il augmente puis diminue progressivement la luminosité d'une LED
 
   --- feedback ---
 
-  Yes, `pulse` gradually increases and then decreases the brightness of an LED to create a pulsing effect.
+  Oui, `pulse` augmente progressivement puis diminue la luminosité d'une LED pour créer un effet de pulsation.
 
   --- /feedback ---
 
