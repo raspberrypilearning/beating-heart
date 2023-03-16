@@ -1,31 +1,31 @@
-## Upgrade your project
+## Améliorer ton projet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your beating heart project. 
+Si tu as le temps, tu peux améliorer ton projet de cœur battant. 
 
-You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
+Tu peux utiliser ton cœur battant portable comme décoration de chambre. Règle-le à une vitesse lente pour t'aider à te détendre. Ou ajuste le rythme en fonction de la musique que tu écoutes. 
 </div>
 <div>
-![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}
+![Gif animé montrant un cœur en papier avec une LED rouge et bleue pulsant au rythme du rythme cardiaque.](images/two-beats.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-You could:
-+ Create a better papercraft heart.
-+ Add a blue LED to represent de-oxygenated blood entering and leaving the heart.
-+ Add a heartbeat sound using a passive buzzer.
-+ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
+Tu pourrais :
++ Créer un meilleur cœur en papier.
++ Ajouter une LED bleue pour représenter le sang désoxygéné entrant et sortant du cœur.
++ Ajouter un son de battement de cœur à l'aide d'un buzzer passif.
++ Ajouter plus de LED et de cœurs en papier et fais-les vibrer en même temps. Choisis n'importe quelle couleur de LED que tu aimes.
 + --- /task ---
 
 --- collapse ---
 
 ---
-title: Completed project
+title: Le projet achevé
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
 
 --- /collapse ---
