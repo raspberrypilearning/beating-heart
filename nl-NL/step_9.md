@@ -13,3 +13,11 @@ Als je het [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/nl
 ![Een stuk tekenpapier wordt om een papieren beker gewikkeld. De knop aan de zijkant van de beker wordt ingedrukt om de kleur van de lamp te veranderen.](images/mood-lamp.gif)
 
 --- /no-print ---
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+Iny van Beuningen
+Arnout Cator
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op rpf.io/translate.
