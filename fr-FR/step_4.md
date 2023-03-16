@@ -1,33 +1,33 @@
-## Make a papercraft heart
+## Fabriquer un coeur en papier
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the papercraft heart to contain your pulsing LED and diffuse the light. 
+Crée le cœur en papier pour contenir ta LED pulsée et diffuser la lumière. 
 </div>
 <div>
-![Image showing a folded papercraft heart.](images/heart.jpeg){:width="300px"}
+![Image montrant un cœur en papier plié.](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
+<span style="color: #0faeb0">Papercraft</span> est l'art de réaliser des créations 2D ou 3D en papier ou en carton. L'œuvre d'art peut prendre la forme d'une sculpture, d'un origami, d'un modèle portable ou de papier mâché et utiliser un ou plusieurs morceaux de papier découpé ou de dossier.</p>
 
 --- task ---
 
-**Choose:** Make a cut-out or a folded origami heart to put your pulsing LED inside.
+**Choisis :** Fais une découpe ou un cœur en origami plié pour mettre ta LED pulsée à l'intérieur.
 
 --- collapse ---
 ---
-title: Paper cut-out heart
+title : Coeur en papier découpé
 ---
 
-You can make a simple heart, cut out of paper:
+Tu peux faire un cœur simple, découpé dans du papier:
 
-![Image showing heart shape cut out of a sheet of red paper.](images/heart-cutout.png)
+![Image montrant la forme du cœur découpée dans une feuille de papier rouge.](images/heart-cutout.png)
 
-Or cut two, and tape them together: ![Image showing two identical red paper hearts cut out of paper.](images/heart-cutout2.png)
+Ou coupes-en deux et colle-les ensemble : ![Image montrant deux coeurs en papier rouge identiques découpés dans du papier.](images/heart-cutout2.png)
 
-![Image showing two identical red paper hearts taped at the edges.](images/heart-cutout3.png)
+![Image montrant deux cœurs en papier rouge identiques collés sur les bords.](images/heart-cutout3.png)
 
 
 --- /collapse ---
@@ -35,39 +35,39 @@ Or cut two, and tape them together: ![Image showing two identical red paper hear
 
 --- collapse ---
 ---
-title: Folded origami heart
+title : Coeur plié en origami
 ---
 
-![Image showing a red heart made of folded paper in the origami style.](images/heart.png)
+![Image montrant un coeur rouge en papier plié dans le style origami.](images/heart.png)
 
-Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) ![Image showing a red square of paper.](images/heart1.png)
-
-
-Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart2.png)
-
-![Image showing the square of paper with a crease from corner to corner.](images/heart3.png)
+Étape 1 : Commence avec une feuille de papier carrée. (N'importe quel papier fera l'affaire, mais un papier plus fin rendra ta LED plus lumineuse.) ![Image montrant un carré de papier rouge.](images/heart1.png)
 
 
-Step 3: Fold the left corner to the right corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart4.png)
+Étape 2 : Plie le papier en deux en repliant le coin supérieur vers le coin inférieur, puis déplie-le. ![Image montrant le carré de papier plié d'un coin à l'autre en triangle.](images/heart2.png)
 
-![Image showing the square of paper with a crease from corner to corner.](images/heart5.png)
-
-
-Step 4: Fold the top corner to the center of the square, to make a 'shield' shape. ![Image showing the square of paper with top corner folded to the centre to create a pentagon.](images/heart6.png)
+![Image montrant le carré de papier avec un pli d'un coin à l'autre.](images/heart3.png)
 
 
-Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold. ![Image showing the square of paper with the bottom corner folded so it touches the top edge.](images/heart7.png)
+Étape 3 : Plie le coin gauche vers le coin droit, puis déplie. ![Image montrant le carré de papier plié d'un coin à l'autre en triangle.](images/heart4.png)
 
-Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the centre crease. ![Image showing the paper square folded into a chevron shape from the back.](images/heart8.png)
-
-![Image showing the paper square folded into a chevron shape from the front.](images/heart9.png)
+![Image montrant le carré de papier avec un pli d'un coin à l'autre.](images/heart5.png)
 
 
-Step 7: Fold the top and side corners back. ![Image showing the paper square folded into a heart shape from the back, with both top and side corners folded up.](images/heart10.png)
+Étape 4 : Plie le coin supérieur vers le centre du carré pour créer une forme de « bouclier ». ![Image montrant le carré de papier avec le coin supérieur plié vers le centre pour créer un pentagone.](images/heart6.png)
 
-Step 8: Tape the back side of the heart across the widest part, from edge to edge. ![Image showing the paper square folded into a heart shape from the back, with tape holding it together.](images/heart11.png)
 
-Turn it over to look at the front, and you're ready to embed your LED! ![Image showing the finished origami heart.](images/heart.png)
+Étape 5 : Plie le coin inférieur vers le haut pour rejoindre le bord supérieur, en chevauchant le pli précédent. ![Image montrant le carré de papier avec le coin inférieur plié de sorte qu'il touche le bord supérieur.](images/heart7.png)
+
+Étape 6 : Plie les extrémités inférieures gauche et droite à un angle de 90 degrés, de sorte que leurs bords inférieurs longent le pli central. ![Image montrant le carré de papier plié en forme de chevron à l'arrière.](images/heart8.png)
+
+![Image montrant le carré de papier plié en forme de chevron de face.](images/heart9.png)
+
+
+Étape 7 : Replie les coins supérieurs et latéraux vers l'arrière. ![Image montrant le carré de papier plié en forme de cœur à l'arrière, avec les coins supérieurs et latéraux repliés.](images/heart10.png)
+
+Étape 8 : Colle le côté arrière du cœur sur la partie la plus large, d'un bord à l'autre. ![Image montrant le carré de papier plié en forme de cœur à l'arrière, avec du ruban adhésif le maintenant ensemble.](images/heart11.png)
+
+Retourne-le pour voir l'avant et tu es prêt à intégrer ta LED ! ![Image montrant le cœur en origami fini.](images/heart.png)
 
 
 --- /collapse ---
