@@ -38,7 +38,7 @@ Om dit project te voltooien heb je het volgende nodig:
 + Plakband of duct tape
 + Optioneel een blauwe LED, weerstand en meer jumperdraden
 
-[[[pin-bus-jumper-wires]]]
+[[[pin-socket-jumper-wires]]]
 
 Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
