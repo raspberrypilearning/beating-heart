@@ -1,15 +1,15 @@
-## What next?
+## Wat nu?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Mood indicator](https://projects.raspberrypi.org/en/projects/mood-indicator) project. In this project, you will create a mood check-in device with coloured lights to emote your current mood.
+Als je het [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) pad volgt, kun je naar het [Mood indicator](https://projects.raspberrypi.org/en/projects/mood-indicator) project gaan. In dit project maak je een apparaat voor het checken van je stemming met gekleurde lampjes om je huidige stemming te weerspiegelen.
 
 --- print-only ---
 
-![A piece of tracing paper is wrapped around a paper cup. A green light shines through the tracing paper.](images/mood-lamp.PNG)
+![Een stuk tekenpapier wordt om een papieren beker gewikkeld. Een groen licht schijnt door het tekenpapier.](images/mood-lamp.PNG)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A piece of tracing paper is wrapped around a paper cup. The button on the side of the cup is pressed to change the colour of the lamp.](images/mood-lamp.gif)
+![Een stuk tekenpapier wordt om een papieren beker gewikkeld. De knop aan de zijkant van de beker wordt ingedrukt om de kleur van de lamp te veranderen.](images/mood-lamp.gif)
 
 --- /no-print ---
