@@ -1,11 +1,11 @@
-## LED heart beat
+## LED-hartslag
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat.
+Breng je hart tot leven met een ingebouwde LED-hartslag.
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![een afbeelding met een rood origami hart met een pulserende rode LED in de vouwen.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -13,9 +13,9 @@ Bring your heart to life with an embedded LED heartbeat.
 
 --- task ---
 
-Use a **red** LED connected to a resistor and jumper wires.
+Gebruik een **rode** LED die is aangesloten op een weerstand en jumperdraden.
 
-You can make your own if you need to.
+Je kunt het zelf maken als dat nodig is.
 
 [[[led-resistor-electrical-tape]]]
 
@@ -25,18 +25,18 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
+Sluit de rode LED aan op **pin 13** en **GND**, net zoals je deed toen je een LED vuurvlieg maakte.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
+![Een potentiometer en een rode LED die zijn aangesloten op een Raspberry Pi Pico.](images/pot-led-circuit.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is een ruimtewetenschapper die heeft gewerkt aan veel elektronische gadgets, waaronder telescoopaccessoires, een draagbare landmijndetector en instrumenten die naar de ruimte zijn gestuurd om gegevens te verzamelen om de klimaatverandering te helpen begrijpen. Als tiener kon Maggie zich geen goede telescoop veroorloven, dus ging ze naar een workshop waar ze haar eigen telescoop kon maken met behulp van elektronica, code en glas slijpen om lenzen te maken. Is er een gadget die je wilt maken?</p>
 
 --- task ---
 
-Add code so that you can program your LED:
+Voeg code toe zodat je je LED kunt programmeren:
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ dial = Pot(0) led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer.
+Voeg code toe om de `helderheid` van je LED te regelen. De `pulse()` methode laat de LED een pulse geven door helderder en donkerder te worden.
 
 --- code ---
 ---
@@ -65,40 +65,40 @@ while True: bpm = heart_min + dial.value * heart_range print(bpm) beat = 60/bpm 
     led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
-If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
+Als je `wait=True` niet hebt toegevoegd aan `Pulse`, dan zou de `while` lus onmiddellijk herhalen en de pulse opnieuw starten.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate.
+**Test:** Voer je project uit om de LED-pulse helderder en donkerder te zien. Draai aan de potentiometer om te bepalen hoe snel de LED-pulsen overeenkomen met de hartslag.
 
-![Animated gif showing the LED pulsing on and off by changing the brightness.](images/pulse-test.gif)
+![Geanimeerde gif die laat zien dat de LED knippert door de helderheid te wijzigen.](images/pulse-test.gif)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Je hebt een syntaxisfout:
++ Controleer of de code overeenkomt met het bovenstaande voorbeeld
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+De potentiometer is gestopt met werken:
++ Controleer of de jumperdraden nog steeds goed vastzitten
 
-The LED is not lighting:
-+ Check that it is connected correctly
-+ Check to see if the LED has blown by swapping it with a spare
+De LED brandt niet:
++ Controleer of deze correct is aangesloten
++ Controleer of de LED is doorgebrand door deze te verwisselen met een reserve
 
 --- /task ---
 
 
 --- task ---
 
-Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+Neem nu je papercraft hart en plaats het over je rode LED om een hartslageffect te maken.
 
-![Animated gif showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Geanimeerde gif die laat zien dat de LED door het hart van het papier beweegt.](images/heartbeat.gif)
 
 --- /task ---
 
