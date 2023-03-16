@@ -1,36 +1,36 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
+In dit project heb je een potentiometer gebruikt. Wat is het belangrijkste voordeel van het gebruik van een potentiometer in plaats van een schakelaar?
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
+![Een blauwe potentiometer met een kleine meetklok aan de bovenkant en drie pinnen aan de onderkant.](images/potentiometer.png)
 
 --- choices ---
 
-- (x) You can get a range of input values between 0 and 1
+- (X) je kunt een reeks invoerwaarden tussen 0 en 1 krijgen
 
   --- feedback ---
 
-Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+Ja! De waarde van een potentiometer hangt af van de positie van de pijl op de wijzerplaat. Dit is handig als je een reeks invoerwaarden nodig hebt in plaats van slechts 1 of 0.
 
   --- /feedback ---
 
-- ( ) You can only get two input values, 1 or 0
+- ( ) je kunt slechts twee invoerwaarden krijgen, 1 of 0
 
   --- feedback ---
 
-Try again, a potentiometer allows for more than two input values.
+Probeer het opnieuw, een potentiometer laat meer dan twee invoerwaarden toe.
 
   --- /feedback ---
 
