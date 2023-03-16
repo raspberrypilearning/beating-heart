@@ -1,61 +1,61 @@
-## Read values from a dial
+## Lees waarden van een instelwiel
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A potentiometer (dial) allows you to provide a range of values. The Thonny plotter allows you to display those values so you can see the effect of turning the dial.
+Met een potentiometer (instelwiel) kun je een reeks waarden opgeven. Met de Thonny-plotter kun je deze waarden weergeven, zodat je het effect kunt zien van het draaien van het instelwiel.
 </div>
 <div>
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![een animatie van de plotter die draait in Thonny.](images/thonny-plotter.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The Raspberry Pi Pico has three <span style="color: #0faeb0">analogue input pins</span> that can be used to read values from analogue input components such as a potentiometer. These pins are labelled as A0, A1, and A2. The Raspberry Pi Pico can read voltages from 0 to 3.3V using these pins.</p>
+De Raspberry Pi Pico heeft drie <span style="color: #0faeb0">analoge invoerpinnen</span> die kunnen worden gebruikt om waarden uit analoge ingangscomponenten zoals een potentiometer te lezen. Deze pinnen zijn gelabeld als A0, A1 en A2. De Raspberry Pi Pico kan spanningen van 0 tot 3,3 V lezen met behulp van deze pinnen.</p>
 
 --- task ---
 
-Look at your potentiometer. Notice the dial on the top that allows you to turn it clockwise and anti-clockwise.
+Kijk naar je potentiometer. Let op de knop aan de bovenkant waarmee je hem rechtsom en linksom kunt draaien.
 
-You will also notice that your potentiometer has **three** pins.
+Je zult ook zien dat je potentiometer **drie** pinnen heeft.
 
-Hold your potentiometer the same way around as in this diagram:
+Houd de potentiometer op dezelfde manier vast als in dit diagram:
 
-![An illustration of a potentiometer showing the dial being turned clockwise and the three legs: GND, A, and 3V3.](images/potentiometer-illustration.png){:width="300px"}
+![Een afbeelding van een potentiometer die de wijzerplaat met de klok mee draait en de drie poten: GND, A en 3V3.](images/potentiometer-illustration.png){:width="300px"}
 
-When the potentiometer is turned all the way to the left, the arrow points to the GND pin; when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+Wanneer de potentiometer helemaal naar links wordt gedraaid, wijst de pijl naar de GND-pin; wanneer deze helemaal naar rechts wordt gedraaid, wijst de pijl naar de 3V3-pin. De middelste pin is de pin waaruit de Raspberry Pi Pico een waarde leest.
 
 --- /task ---
 
-Make sure your Raspberry Pi Pico is **unplugged** from your computer.
+Zorg ervoor dat de Raspberry Pi Pico **losgekoppeld** van de computer is.
 
 --- task ---
 
-Use three socket–socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
+Gebruik drie jumperdraden met stekkerbus en sluit er een aan op elke poot van de potentiometer. Je kunt de benen met wat isolatietape vastzetten als ze los voelen.
 
-**Connect** the other end of each jumper wire to the Raspberry Pi Pico:
-+ Connect the pin labelled with a small '1' to the **GND** pin between **GP21** and **GP22**
-+ Connect the middle pin to the **GP26_A0** pin
-+ Connect the pin labelled with a small '3' to the **3V3** pin
+**Sluit** het andere uiteinde van elke jumperdraad aan op de Raspberry Pi Pico:
++ Verbind de pin met een kleine '1' met de **GND** pin tussen **GP21** en **GP22**
++ Verbind de middelste pin met de **GP26_A0** pin
++ Verbind de pin met een kleine '3' met de **3V3** pin
 
-![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0, and 3V3 pin.](images/pot-diagram.png)
+![Een diagram van een potentiometer die is aangesloten op een Raspberry Pi Pico met behulp van de GND, GP26_A0 en 3V3 pen.](images/pot-diagram.png)
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: How does a potentiometer work?
+Title: Hoe werkt een potentiometer?
 ---
 
-A **potentiometer** is an analogue input component that changes its resistance depending on the position of the dial. A potentiometer has three pins that need to be connected to 3V3, an analogue pin, and GND. The 3V3 pin provides power to the potentiometer and the voltage reading from the analogue pin will change depending on the resistance of the potentiometer.
+Een **potentiometer** is een analoog ingangsonderdeel dat zijn weerstand verandert afhankelijk van de positie van het instelwiel. Een potentiometer heeft drie pinnen die moeten worden aangesloten op 3V3, een analoge pin en GND. De pin 3V3 levert voeding aan de potentiometer en de spanningswaarde van de analoge pin zal veranderen afhankelijk van de weerstand van de potentiometer.
 
 --- /collapse ---
 
 --- task ---
 
-Plug your Raspberry Pi Pico into your computer.
+Sluit je Raspberry Pi Pico aan op je computer.
 
-In Thonny, create a new file and add the following code to `print` the value from the potentiometer.
+Maak in Thonny een nieuw bestand en voeg de volgende code toe aan `print` de waarde van de potentiometer.
 
 --- code ---
 ---
@@ -70,52 +70,52 @@ while True: print(dial.value) sleep(0.1) # Slow down the output
 
 --- /code ---
 
-The `sleep(0.1)` line slows down the reading and printing of values from the potentiometer so that Thonny can keep up with the output.
+De regel `sleep(0.1)` vertraagt de aflezing en het afdrukken van waarden van de potentiometer zodat Thonny de uitvoer kan bijhouden.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your script and Thonny should start printing values to the shell. Turn the potentiometer to see the value change.
+**Test:** Voer je script uit en Thonny moet beginnen met het afdrukken van waarden naar de shell. Draai aan de potentiometer om de waardeverandering te zien.
 
-![A screenshot of numbers between 0 and 1 in the Thonny Shell.](images/potentiometer-shell.png)
-
---- /task ---
-
-It's quite hard to see what's happening when the values are printing so quickly. Thonny has a plotter that you can use to visualise the values from the potentiometer instead.
-
---- task ---
-
-In Thonny, choose **View**->**Plotter** and the plotter will appear next to the shell.
+![Een schermafdruk van getallen tussen 0 en 1 in de Thonny Shell.](images/potentiometer-shell.png)
 
 --- /task ---
 
+Het is vrij moeilijk om te zien wat er gebeurt als de waarden zo snel worden afgedrukt. Thonny heeft een plotter die je kunt gebruiken om de waarden van de potentiometer te visualiseren.
+
 --- task ---
 
-**Test:** Run your script and turn the potentiometer. Watch the value change in the plotter.
+Kies in Thonny **view**->**plotter** en de plotter verschijnt naast de shell.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Voer je script uit en draai de potentiometer. Let op de waardeverandering in de plotter.
 
 --- print-only ---
 
-![A screenshot of values plotted on a scale from 0 to 1.](images/thonny-plotter.png)
+![Een schermafdruk van waarden die zijn geplot op een schaal van 0 tot 1.](images/thonny-plotter.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![Een animatie van de plotter die in Thonny draait.](images/thonny-plotter.gif){:width="300px"}
 
 --- /no-print ---
 
-The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
+De waarde moet 0 (of dicht bij 0) zijn wanneer de potentiometer helemaal naar links wordt gedraaid en 1 (of dicht bij 1) wanneer deze helemaal naar rechts wordt gedraaid.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
-The values are the wrong way around.
-+ Swap the jumper wires connected to **GND** and **3V3**.
+De waarden zijn omgedraaid.
++ Verwissel de startdraden die zijn aangesloten op **GND** en **3V3**.
 
 --- /task ---
 
