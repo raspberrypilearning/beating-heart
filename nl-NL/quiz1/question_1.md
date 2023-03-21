@@ -18,7 +18,7 @@ In dit project heb je een potentiometer gebruikt. Wat is het belangrijkste voord
 
 --- choices ---
 
-- (X) je kunt een reeks invoerwaarden tussen 0 en 1 krijgen
+- (x) je kunt een reeks invoerwaarden tussen 0 en 1 krijgen
 
   --- feedback ---
 
