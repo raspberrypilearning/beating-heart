@@ -25,7 +25,7 @@ Probeer het opnieuw. De plotter geeft nummers weer die naar de Shell zijn afgedr
 
   --- /feedback ---
 
-- (X) de helderheid van een LED neemt geleidelijk toe en vervolgens af
+- (x) de helderheid van een LED neemt geleidelijk toe en vervolgens af
 
   --- feedback ---
 
