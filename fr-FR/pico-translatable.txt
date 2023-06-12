@@ -1,0 +1,17 @@
+cadran
+
+coeur_min
+
+coeur_max
+
+coeur_gamme
+
+bpm
+
+led
+
+rythme
+
+temps_brillant
+
+temps_sombre
