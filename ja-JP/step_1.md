@@ -6,7 +6,7 @@ Make a papercraft beating heart with a pulsing LED and a dial to adjust the hear
 
 ![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif){:width="400px"}
 
----/no-print ---
+--- /no-print ---
 
 --- print-only ---
 
