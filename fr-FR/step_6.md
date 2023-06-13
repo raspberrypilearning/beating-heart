@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Donne vie à ton cœur avec une LED battement de cœur intégré. Tu peux alimenter ton Raspberry Pi Pico loin de l'ordinateur avec une alimentation USB ou une batterie. Lorsque tu allumes le Pico, il exécute un fichier appelé "main.py". 
+Donne vie à ton cœur avec une LED battement de cœur intégré. Tu peux alimenter ton Raspberry Pi Pico loin de l'ordinateur avec une alimentation USB ou une batterie. Lorsque tu allumes le Pico, il exécute un fichier appelé `main.py`. 
 </div>
 <div>
 ![Une image montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heart-static.png){:width="300px"}

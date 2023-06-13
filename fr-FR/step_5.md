@@ -1,4 +1,4 @@
-## LED Battement de cœur
+## LED battement de cœur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -49,7 +49,8 @@ line_highlights: 1, 5
 from picozero import Pot, LED # Ajouter une LED 
 from time import sleep
 
-cadran = Pot(0) led = LED(13) # Assure-toi qu'il s'agit de la bonne broche
+cadran = Pot(0) 
+led = LED(13) # Assure-toi qu'il s'agit de la bonne broche
 
 --- /code ---
 
