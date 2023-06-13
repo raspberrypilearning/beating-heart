@@ -5,7 +5,7 @@
 Crée le cœur en papier pour contenir ta LED pulsée et diffuser la lumière. 
 </div>
 <div>
-![Image montrant un cœur en papier plié.](images/heart.jpeg){:width="300px"}
+![Image montrant un cœur en papier plié.](images/heart.png){:width="300px"}
 </div>
 </div>
 
