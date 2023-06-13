@@ -1,0 +1,19 @@
+Pot est l'abréviation de potentiomètre
+
+Connecté à la broche A0 (GP26)
+
+Ralentir la sortie
+
+Calculer la différence
+
+Convertir la valeur du cadran en BPM
+
+Ajouter une LED
+
+Assure-toi qu'il s'agit de la bonne broche
+
+Passe un demi-temps à devenir plus brillant
+
+Passe un demi-temps à devenir plus faible
+
+Impulsion 1 fois, attendre jusqu'à la fin

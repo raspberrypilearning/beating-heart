@@ -1,0 +1,31 @@
+---
+title: Cœur battant
+hero_image: images/banner.png
+description:
+  - Fabriquer un cœur battant en papier avec un potentiomètre pour contrôler une LED
+  - cela clignote comme un battement de coeur
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - title: Ce que tu vas faire
+  - title: Lire les valeurs d'un cadran
+  - title: Calculer les battements par minute (BPM)
+    completion:
+      - engaged
+  - title: Fabriquer un coeur en papier
+  - title: LED battement de cœur
+  - title: Rends-le portable
+    completion:
+      - internal
+  - title: Questionnaire rapide
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Et ensuite ?
