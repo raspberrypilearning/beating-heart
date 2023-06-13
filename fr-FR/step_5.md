@@ -40,7 +40,10 @@ Ajoute du code pour pouvoir programmer ta LED :
 
 --- code ---
 ---
-language: python filename: line_numbers: true line_number_start: 1
+language: python
+filename: 
+line_numbers: true 
+line_number_start: 1
 line_highlights: 1, 5
 ---
 from picozero import Pot, LED # Ajouter une LED 
