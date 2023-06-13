@@ -6,7 +6,7 @@ Fabriquer un cœur battant en papier avec une LED pulsante et un cadran pour ré
 
 ![Une image animée montrant un cœur en origami rouge avec une LED rouge clignotante à l'intérieur des plis.](images/heartbeat.gif){:width="400px"}
 
----/no-print ---
+--- /no-print ---
 
 --- print-only ---
 
