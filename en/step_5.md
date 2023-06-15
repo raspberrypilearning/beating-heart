@@ -27,7 +27,7 @@ You can make your own if you need to.
 
 Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico.](images/pot-led-circuit.png)
+![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
@@ -86,7 +86,7 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 **Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate. 
 
-![Animated gif showing the LED pulsing on and off by changing the brightness.](images/pulse-test.gif)
+![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
 
 --- /task ---
 
@@ -111,7 +111,7 @@ The LED is not lighting:
 
 Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
 
-![Animated gif showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
 
 --- /task ---
 
