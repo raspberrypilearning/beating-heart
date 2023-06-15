@@ -4,8 +4,8 @@ hero_image: images/banner.png
 description:
   - Maak een papieren hart dat klopt met een potentiometer om een LED te besturen
   - dat knippert als een hartslag
-meta_title: Raspberry Pi Pico projects | Beating heart
-meta_description: A Raspberry Pi Pico project to make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+meta_title: Raspberry Pi Pico-projecten | Kloppend hart
+meta_description: Een Raspberry Pi Pico-project om een papieren kloppend hart te maken met een pulserende LED en een draaiknop om de hartslag aan te passen.
 version: 4
 listed: true
 copyedit: true
