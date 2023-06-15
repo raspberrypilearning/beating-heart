@@ -27,7 +27,7 @@ Je kunt het zelf maken als dat nodig is.
 
 Sluit de rode LED aan op **pin 13** en **GND**, net zoals je deed toen je een LED vuurvlieg maakte.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
+![Een potentiometer en een rode LED die zijn aangesloten op een Raspberry Pi Pico. Een weerstand wordt in lijn geplaatst met de lange poot van de LED en GPIO pin 13. De middelste pin van de potentiometer is verbonden met GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
@@ -73,7 +73,7 @@ Als je `wait=True` niet hebt toegevoegd aan `Pulse`, dan zou de `while` lus onmi
 
 **Test:** Voer je project uit om de LED helderder en donkerder te zien pulseren. Draai aan de potentiometer om te bepalen hoe snel de LED-pulsen overeenkomen met de hartslag.
 
-![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
+![Animatie van iemand die aan de potentiometer draait om de LED aan en uit te laten pulseren door aan de potentiometer te draaien om de helderheid te veranderen](images/pulse-test.gif)
 
 --- /task ---
 
@@ -98,7 +98,7 @@ De LED brandt niet:
 
 Neem nu je papercraft hart en plaats het over je rode LED om een hartslageffect te maken.
 
-![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Animatie van de LED die door het papieren hart pulseert.](images/heartbeat.gif)
 
 --- /task ---
 
