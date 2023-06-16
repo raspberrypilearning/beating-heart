@@ -21,7 +21,7 @@ Niet helemaal. Dit zou een knippereffect veroorzaken, niet een pulse-effect.
 
   --- feedback ---
 
-Probeer het opnieuw. De plotter geeft nummers weer die naar de Shell zijn afgedrukt.
+Probeer het opnieuw. De plotter geeft getallen weer die naar de Shell zijn afgedrukt.
 
   --- /feedback ---
 

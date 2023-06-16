@@ -1,16 +1,16 @@
-## Maak een papercraft hart
+## Maak een papieren hart
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Maak het papercraft hart om je pulserende LED te bevatten en het licht te verspreiden. 
+Maak het papieren hart om je pulserende LED te bevatten en het licht te verspreiden. 
 </div>
 <div>
-![Afbeelding met een gevouwen papercraft hart.](images/heart.png){:width="300px"}
+![Afbeelding met een gevouwen papieren hart.](images/heart.png){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is de kunst om 2D- of 3D-creaties van papier of karton te maken. Het kunstwerk kan de vorm aannemen van een sculptuur, origami, wearable, of papier-mâché model en kan een of meer in stukjes gesneden of gevouwen papier gebruiken.</p>
+<span style="color: #0faeb0">Papierkunst</span> is de kunst om 2D- of 3D-creaties van papier of karton te maken. Het kunstwerk kan de vorm aannemen van een sculptuur, origami, wearable, of papier-mâché model en kan een of meer in stukjes gesneden of gevouwen papier gebruiken.</p>
 
 --- task ---
 
@@ -67,7 +67,7 @@ Stap 7: Vouw de boven- en zijhoeken terug. ![Afbeelding met het papier dat vanaf
 
 Stap 8: Plak de achterkant van het hart vast over het breedste deel, van rand tot rand. ![Afbeelding met het vierkant van het papier dat vanaf de achterkant in een hartvorm is gevouwen, met tape die het bij elkaar houdt.](images/heart11.png)
 
-Draai hem om om om naar de voorkant te kijken en je bent klaar om je LED in te sluiten! ![Afbeelding met het voltooide origami hart.](images/heart.png)
+Draai hem om om om naar de voorkant te kijken en je bent klaar om je LED in te bouwen! ![Afbeelding met het voltooide origami hart.](images/heart.png)
 
 
 --- /collapse ---

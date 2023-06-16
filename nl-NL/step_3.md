@@ -49,7 +49,7 @@ Merk op dat de `hart_bereik` variabele **eenmaal** aan het begin van je script w
 
 --- task ---
 
-**Test:** Voer je code uit en draai de potentiometer om te zien hoe het nummer in de shell en de labels in de Thonny-plotter veranderen. Je zou nu getallen tussen 40 en 180 moeten zien.
+**Test:** Voer je code uit en draai de potentiometer om te zien hoe het getal in de shell en de labels in de Thonny-plotter veranderen. Je zou nu getallen tussen 40 en 180 moeten zien.
 
 ![Een schermafdruk van waarden die zijn uitgezet met een bereik van 0 tot 180.](images/plotter-bpm.png)
 

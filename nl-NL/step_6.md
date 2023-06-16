@@ -45,7 +45,7 @@ Als het wordt opgeslagen als `main.py` op de Raspberry Pi Pico, wordt het progra
 
 De Raspberry Pi Pico heeft een voeding nodig die een minimum van 1,8V en een maximum van 5,5 V kan leveren.
 
-De meeste micro-USB-transformatoren kunnen voeding leveren aan je Raspberry Pi Pico in deze serie. De officiële Raspberry Pi micro USB-transformator levert bijvoorbeeld tot 2,5 A stroom bij 5,1 V.
+De meeste micro-USB-adapters kunnen voeding leveren aan je Raspberry Pi Pico in deze serie. De officiële Raspberry Pi micro USB-adapter levert bijvoorbeeld tot 2,5 A stroom bij 5,1 V.
 
 ![Officiële Raspberry Pi-voeding vanaf de pin-zijde.](images/transformer.png)
 
