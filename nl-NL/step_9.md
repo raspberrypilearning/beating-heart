@@ -1,4 +1,4 @@
-## Wat nu?
+## Wat kun je verder nog doen?
 
 Als je het [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/nl-NL/raspberrypi/pico-intro) pad volgt, kun je naar het [Humeurmeter](https://projects.raspberrypi.org/nl-NL/projects/mood-indicator) project gaan. In dit project maak je een apparaat voor het checken van je stemming met gekleurde lampjes om je huidige stemming te weerspiegelen.
 

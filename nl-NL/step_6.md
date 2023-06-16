@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Breng je hart tot leven met een ingebouwde LED-hartslag. Je kunt de Raspberry Pi Pico los van de computer voeden met een USB-voeding of batterij. Wanneer je de Pico inschakelt, wordt er een bestand met de naam 'main.py' uitgevoerd. 
+Breng je hart tot leven met een ingebouwde LED-hartslag. Je kunt de Raspberry Pi Pico los van de computer voeden met een USB-voeding of batterij. Wanneer je de Pico inschakelt, wordt er een bestand met de naam `main.py` uitgevoerd. 
 </div>
 <div>
 ![een afbeelding met een rood origami hart met een pulserende rode LED in de vouwen.](images/heart-static.png){:width="300px"}
