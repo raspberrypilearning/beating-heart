@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Breng je hart tot leven met een ingebouwde LED-hartslag. Je kunt de Raspberry Pi Pico los van de computer voeden met een USB-voeding of batterij. Wanneer je de Pico inschakelt, wordt er een bestand met de naam 'main.py' uitgevoerd. 
+Breng je hart tot leven met een ingebouwde LED-hartslag. Je kunt de Raspberry Pi Pico los van de computer voeden met een USB-voeding of batterij. Wanneer je de Pico inschakelt, wordt er een bestand met de naam `main.py` uitgevoerd. 
 </div>
 <div>
 ![een afbeelding met een rood origami hart met een pulserende rode LED in de vouwen.](images/heart-static.png){:width="300px"}
@@ -45,7 +45,7 @@ Als het wordt opgeslagen als `main.py` op de Raspberry Pi Pico, wordt het progra
 
 De Raspberry Pi Pico heeft een voeding nodig die een minimum van 1,8V en een maximum van 5,5 V kan leveren.
 
-De meeste micro-USB-transformatoren kunnen voeding leveren aan je Raspberry Pi Pico in deze serie. De officiële Raspberry Pi micro USB-transformator levert bijvoorbeeld tot 2,5 A stroom bij 5,1 V.
+De meeste micro-USB-adapters kunnen voeding leveren aan je Raspberry Pi Pico in deze serie. De officiële Raspberry Pi micro USB-adapter levert bijvoorbeeld tot 2,5 A stroom bij 5,1 V.
 
 ![Officiële Raspberry Pi-voeding vanaf de pin-zijde.](images/transformer.png)
 

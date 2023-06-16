@@ -24,7 +24,7 @@ Niet altijd, je bestand moet een specifieke naam hebben.
 
   --- feedback ---
 
-Ja! Wanneer je de Raspberry Pi Pico uit de buurt van de computer inschakelt, wordt `main.py` uitgevoerd.
+Ja! Wanneer je de Raspberry Pi Pico los van de computer inschakelt, wordt `main.py` uitgevoerd.
 
   --- /feedback ---
 

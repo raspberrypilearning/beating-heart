@@ -10,7 +10,7 @@ Met een potentiometer (instelwiel) kun je een reeks waarden opgeven. Met de Thon
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-De Raspberry Pi Pico heeft drie <span style="color: #0faeb0">analoge invoerpinnen</span> die kunnen worden gebruikt om waarden uit analoge ingangscomponenten zoals een potentiometer te lezen. Deze pinnen zijn gelabeld als A0, A1 en A2. De Raspberry Pi Pico kan spanningen van 0 tot 3,3 V lezen met behulp van deze pinnen.</p>
+De Raspberry Pi Pico heeft drie <span style="color: #0faeb0">analoge invoerpinnen</span> die kunnen worden gebruikt om waarden uit analoge invoercomponenten zoals een potentiometer te lezen. Deze pinnen zijn gelabeld als A0, A1 en A2. De Raspberry Pi Pico kan spanningen van 0 tot 3,3 V lezen met behulp van deze pinnen.</p>
 
 --- task ---
 
@@ -47,7 +47,7 @@ Gebruik drie jumperdraden met stekkerbus en sluit er een aan op elke poot van de
 title: Hoe werkt een potentiometer?
 ---
 
-Een **potentiometer** is een analoog ingangsonderdeel dat zijn weerstand verandert afhankelijk van de positie van het instelwiel. Een potentiometer heeft drie pinnen die moeten worden aangesloten op 3V3, een analoge pin en GND. De pin 3V3 levert voeding aan de potentiometer en de spanningswaarde van de analoge pin zal veranderen afhankelijk van de weerstand van de potentiometer.
+Een **potentiometer** is een analoog invoeronderdeel dat zijn weerstand verandert afhankelijk van de positie van het instelwiel. Een potentiometer heeft drie pinnen die moeten worden aangesloten op 3V3, een analoge pin en GND. De pin 3V3 levert voeding aan de potentiometer en de spanningswaarde van de analoge pin zal veranderen afhankelijk van de weerstand van de potentiometer.
 
 --- /collapse ---
 
@@ -55,7 +55,7 @@ Een **potentiometer** is een analoog ingangsonderdeel dat zijn weerstand verande
 
 Sluit je Raspberry Pi Pico aan op je computer.
 
-Maak in Thonny een nieuw bestand en voeg de volgende code toe aan `print` de waarde van de potentiometer.
+Maak in Thonny een nieuw bestand en voeg de volgende code toe voor het `print`en van de waarde van de potentiometer.
 
 --- code ---
 ---
