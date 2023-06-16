@@ -4,7 +4,7 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Als je tijd hebt, kun je je kloppende hart-project upgraden. 
 
-Je kunt je draagbare kloppende hart gebruiken als decoratie. Stel het in op een lage snelheid om je te helpen ontspannen. Of pas de beat aan de muziek die je beluistert. 
+Je kunt je draagbare kloppende hart gebruiken als decoratie. Stel het in op een lage snelheid om je te helpen ontspannen. Of pas de hartslag aan op de muziek die je beluistert. 
 </div>
 <div>
 ![geanimeerde gif met een papercraft hart met een rode en een blauwe LED die tegelijkertijd naar de hartslag pulseert.](images/two-beats.gif){:width="300px"}
@@ -14,10 +14,10 @@ Je kunt je draagbare kloppende hart gebruiken als decoratie. Stel het in op een 
 --- task ---
 
 Je zou:
-+ Maak een beter papercraft hart.
++ Maak een beter papieren hart.
 + Een blauwe LED toe kunnen toevoegen om het zuurstofarme bloed dat het hart binnenkomt en verlaat weer te geven.
 + Een hartslaggeluid kunnen toevoegen met behulp van een passieve zoemer.
-+ Meer LED's en papercraft hartjes kunnen toevoegen en ze tegelijkertijd laten pulseren. Elke kleur LED kunnen kiezen die je wilt.
++ Meer LED's en papieren hartjes kunnen toevoegen en ze tegelijkertijd laten pulseren. Elke kleur LED kunnen kiezen die je wilt.
 + --- /task ---
 
 --- collapse ---
