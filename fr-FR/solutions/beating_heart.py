@@ -2,17 +2,17 @@ from picozero import LED, Pot
 from time import sleep
 
 led = LED(13)
-dial = Pot(0)
+cadran = Pot(0)
 
-heart_min = 40
-heart_max = 180
-heart_range = heart_max - heart_min
+coeur_min = 40
+coeur_max = 180
+coeur_gamme = coeur_max - coeur_min
             
 while True: 
-    bpm = heart_min + dial.value * heart_range
+    bpm = coeur_min + cadran.value * coeur_gamme
     print(bpm)
-    beat = 60/bpm
-    brighter_time = beat / 2 # Spend half a beat getting brighter
-    dimmer_time = beat / 2 # Spend half a beat getting dimmer
+    rythme = 60/bpm
+    temps_brillant = rythme / 2 # Passe un demi-temps à devenir plus brillant
+    temps_sombre = rythme / 2 # Passe un demi-temps à devenir plus faible
 
-    led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # pulse 1 time, waiting until finished   
+    led.pulse(temps_brillant, temps_sombre, n=1, wait=True)  # Impulsion 1 fois, attendre jusqu'à la fin  
