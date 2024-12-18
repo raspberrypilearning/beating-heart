@@ -1,0 +1,42 @@
+---
+title: Beating heart
+hero_image: images/banner.png
+description:
+  - Make a papercraft beating heart with a potentiometer to control an LED
+  - that blinks like a heartbeat
+meta_title: Raspberry Pi Pico projects | Beating heart
+meta_description: A Raspberry Pi Pico project to make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-03-26"
+steps:
+  - 
+    title: You will make
+  - 
+    title: Read values from a dial
+  - 
+    title: Calculate beats per minute (BPM)
+    completion:
+      - engaged
+  - 
+    title: Make a papercraft heart
+  - 
+    title: LED heartbeat
+  - 
+    title: Make it portable
+    completion:
+      - internal
+  - 
+    title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Upgrade your project
+  - 
+    title: What next?
