@@ -1,11 +1,11 @@
-## LED heart beat
+## LED हार्ट की धड़कन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat.
+अपने दिल को एक एम्बेडेड LED दिल की धड़कन के साथ जीवन में लाएं।
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![एक चित्र जो मोड़ो के अंदर लाल रंग के LED के साथ लाल उद्भव वाला दिल दिखाता है।](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -13,9 +13,9 @@ Bring your heart to life with an embedded LED heartbeat.
 
 --- task ---
 
-Use a **red** LED connected to a resistor and jumper wires.
+एक **red** का उपयोग करें जो एक रेज़िस्टर और जम्पर तारों से जुड़ा है।
 
-You can make your own if you need to.
+यदि आपको आवश्यकता है तो आप अपना स्वयं का बना सकते हैं।
 
 [[[led-resistor-electrical-tape]]]
 
@@ -25,18 +25,18 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
+लाल LED को **pin 13** और **GND** से कनेक्ट करें, ठीक वैसे ही जैसे आपने LED फायरफ्लाई बनाते समय किया था।
 
 ![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0feb0">maggi Aderin-Pocock</span> एक अंतरिक्ष वैज्ञानिक है, जिसने दूरबीन के सहायक उपकरणों, एक हाथ में रखे हुए बारूदी सुरंग के संसूचक, और उपकरणों सहित बहुत सारे इलेक्ट्रॉनिक गेजेट पर काम किया है जिन्हें जलवायु परिवर्तन को समझने में मदद के लिए अंतरिक्ष में भेजा गया है। एक किशोरी के रूप में, मैगी एक अच्छी दूरबीन का खर्च नहीं उठा सकी इसलिए वह एक क्लास में गई जहां वह अपने स्वयं के दूरबीन इलेक्ट्रॉनिक्स, कोड और कांच की पिसाई का उपयोग करके लेंस बना सकती है। क्या आप एक ऐसा गैजेट बनाना चाहते हैं?</p>
 
 --- task ---
 
-Add code so that you can program your LED:
+कोड जोड़ें ताकि आप अपने LED को प्रोग्राम कर सकें:
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ dial = Pot(0) led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer.
+अपने LED के `brightचमक` को नियंत्रित करने के लिए कोड जोड़ें। `pult()` पद्धति, LED को चमकदार और डिमर प्राप्त करके पल्स करने की अनुमति देती है।
 
 --- code ---
 ---
@@ -65,13 +65,13 @@ while True: bpm = heart_min + dial.value * heart_range print(bpm) beat = 60/bpm 
     led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
-If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
+यदि आपने `wait=True` को `pult` में नहीं जोड़ा है तो `while` लूप तुरंत दोहराया जाएगा और पल्स को फिर से शुरू करेगा।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate.
+**परीक्षण:** LED चमकदार और dimer देखने के लिए अपना प्रोजेक्ट चलाएँ। हृदय गति के अनुरूप LED पल्स कितनी तेजी से मेल खाते हैं, इसे नियंत्रित करने के लिए potiometer को घुमाएँ।
 
 ![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
 
@@ -79,24 +79,24 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 --- task ---
 
-**Debug:**
+**डीबग:**
 
-You have a syntax error:
-+ Check that your code matches the example above
+आपके पास एक सिंटैक्स त्रुटि है:
++ जांचें कि आपका कोड ऊपर दिए गए उदाहरण से मेल खाता है
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+potentometer ने काम करना बंद कर दिया:
++ जांचें कि आपके जम्पर के तार अभी भी सुरक्षित रूप से जुड़े हुए हैं
 
-The LED is not lighting:
-+ Check that it is connected correctly
-+ Check to see if the LED has blown by swapping it with a spare
+LED प्रकाश नहीं कर रही है:
++ जांचें कि यह सही ढंग से कनेक्ट है
++ यह देखने के लिए जांचें कि क्या LED एक स्पेयर के साथ स्वैप करके उड़ गई है
 
 --- /task ---
 
 
 --- task ---
 
-Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+अब, अपने पेपरक्राफ्ट हार्ट को लें और इसे अपने लाल LED के ऊपर रखें ताकि दिल की धड़कन का प्रभाव हो।
 
 ![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
 
