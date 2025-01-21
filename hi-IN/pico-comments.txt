@@ -1,19 +1,19 @@
-Pot is short for Potentiometer
+pot potentiometer के लिए छोटा है
 
-Connected to pin A0 (GP26)
+pin A0 (GP26) से कनेक्ट किया गया
 
-Slow down the output
+आउटपुट को धीमा करें
 
-Calculate the difference
+अंतर की गणना करें
 
-Convert dial value to BPM
+डायल मान को BPM में रूपांतरित करें
 
-Add LED
+LED जोड़ें
 
-Make sure this is the correct pin
+सुनिश्चित करें कि यह सही पिन है
 
-Spend half a beat getting brighter
+आधा बीट को चमकदार होने में खर्च करें
 
-Spend half a beat getting dimmer
+आधा बीट को डिमर होने पर खर्च करें
 
-Pulse 1 time, waiting until finished
+पल्स 1 बार, समाप्त होने तक प्रतीक्षा कर रहा है
