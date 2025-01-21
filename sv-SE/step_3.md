@@ -1,23 +1,23 @@
-## Calculate beats per minute (BPM)
+## Beräkna slag per minut (BPM)
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-The potentiometer values go from 0 to 1. To use the potentiometer to control the heart rate, you need to turn these values into a corresponding number from 40 (very fit athlete) to 180 beats per minute. 
+Potentiometervärdena går från 0 till 1. För att använda potentiometern för att kontrollera hjärtfrekvensen måste du omvandla dessa värden till ett motsvarande antal från 40 (mycket vältränad idrottare) till 180 slag per minut. 
 </div>
 <div>
-![An animation of the plotter showing BPM values from 40 to 180.](images/plotter-bpm.gif){:width="300px"}
+![En animering av plottern som visar BPM-värden från 40 till 180.](images/plotter-bpm.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-BPM stands for **beats per minute**. You can use BPM to measure your heart rate (as well as the tempo of music). The higher the number, the faster the heart rate. BPM is used in health and fitness to measure how intense an exercise is. You can work out your maximum heart rate by taking away your age from 220. For example, a 12-year-old's maximum heart rate is 208. When exercising, it is advised that your heart rate doesn't exceed 85% of your maximum heart rate. In the case of a 12-year-old, this would be 176 BPM. That's about the same tempo as a Drum 'n' Bass track.
+BPM står för **slag per minut**. Du kan använda BPM för att mäta din puls (liksom musikens tempo). Ju högre siffra, desto snabbare puls. BPM används inom hälsa och fitness för att mäta hur intensiv en träning är. Du kan räkna ut din maxpuls genom att ta bort din ålder från 220. Till exempel är en 12-årings maxpuls 208. När du tränar rekommenderas det att din puls inte överstiger 85 % av din maxpuls. I fallet med en 12-åring skulle detta vara 176 BPM. Det är ungefär samma tempo som ett Drum 'n' Bass-spår.
 </p>
 
-You are now going to use the potentiometer to adjust the heartbeat of your project. You will turn the dial to increase or decrease the heartbeat.
+Du ska nu använda potentiometern för att justera ditt projekts hjärtslag. Du vrider på ratten för att öka eller minska hjärtslag.
 
 --- task ---
 
-Update your code so that the value that is printed and plotted corresponds to a heart rate between 40 and 180 beats per minute.
+Uppdatera din kod så att värdet som skrivs ut och plottas motsvarar en puls mellan 40 och 180 slag per minut.
 
 --- code ---
 ---
@@ -34,27 +34,27 @@ while True: bpm = heart_min + dial.value * heart_range # Convert dial value to B
 
 --- /code ---
 
-Notice that the `heart_range` variable is calculated **once** at the beginning of your script, but the `bpm` variable depends on the value of the potentiometer so it gets calculated inside the `while` loop.
+Lägg märke till att `heart_range` variabeln beräknas **en gång** i början av ditt skript, men `bpm` variabeln beror på potentiometerns värde så att det beräknas inuti `while`-loopen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and turn the potentiometer to see how the number in the shell and the labels in the Thonny plotter change. You should now see numbers between 40 and 180.
+**Test:** Kör din kod och vrid potentiometern för att se hur siffran i skalet och etiketterna i Thonny-plottern ändras. Du bör nu se siffror mellan 40 och 180.
 
-![A screenshot of values plotted with a range from 0 to 180.](images/plotter-bpm.png)
+![En skärmdump av värden plottade med ett intervall från 0 till 180.](images/plotter-bpm.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Debug (Felsökning):**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Du har ett syntaxfel:
++ Kontrollera att din kod matchar exemplet ovan
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+Potentiometern slutade fungera:
++ Kontrollera att dina bygelkablar fortfarande är ordentligt fastsatta
 
 --- /task ---
 
