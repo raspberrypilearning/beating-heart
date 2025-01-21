@@ -4,12 +4,12 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 When you have answered each question, click on **Check my answer**.
 
-Have fun!
+お楽しみください!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
 In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
@@ -22,7 +22,7 @@ In this project you used a potentiometer. What is the main benefit of using a po
 
   --- feedback ---
 
-Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+そのとおり! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
 
   --- /feedback ---
 
