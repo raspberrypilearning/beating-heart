@@ -1,61 +1,61 @@
-## Read values from a dial
+## डायल से मान पढ़ें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A potentiometer (dial) allows you to provide a range of values. The Thonny plotter allows you to display those values so you can see the effect of turning the dial.
+एक potentiometer (डायल) आपको मानों की एक श्रेणी प्रदान करने की अनुमति देता है। Thonny plotter आपको उन मूल्यों को प्रदर्शित करने की अनुमति देता है ताकि आप डायल को मोड़ने का प्रभाव देख सकें।
 </div>
 <div>
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![Thoneny में चलने वाले plotter का एक एनीमेशन।](images/thony-plotter.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The Raspberry Pi Pico has three <span style="color: #0faeb0">analogue input pins</span> that can be used to read values from analogue input components such as a potentiometer. These pins are labelled as A0, A1, and A2. The Raspberry Pi Pico can read voltages from 0 to 3.3V using these pins.</p>
+Raspberry Pi Pico में तीन <span style="color: #0feb0">एनालॉग इनपुट पिन</span> हैं जिनका उपयोग एनालॉग इनपुट घटकों जैसे एक potentometer से मानों को पढ़ने के लिए किया जा सकता है। इन पिन को A0, A1, और A2 के रूप में लेबल किया गया है। Raspberry Pi Pico इन पिन का उपयोग करके वोल्टएज को 0 से 3.3V तक पढ़ सकता है।</p>
 
 --- task ---
 
-Look at your potentiometer. Notice the dial on the top that allows you to turn it clockwise and anti-clockwise.
+अपने potentiometer को देखें। ऊपर दिए गए डायल पर ध्यान दें जो आपको इसे घड़ी की दिशा में और घड़ी की उल्टी दिशा में करने की अनुमति देता है।
 
-You will also notice that your potentiometer has **three** pins.
+आप यह भी ध्यान देंगे कि आपके potiometer में **तीन** पिन हैं।
 
-Hold your potentiometer the same way around as in this diagram:
+इस आरेख के समान ही अपने potentometer को पकड़ें:
 
-![An illustration of a potentiometer showing the dial being turned clockwise and the three legs: GND, A, and 3V3.](images/potentiometer-illustration.png){:width="300px"}
+![डायल को घड़ी की दिशा में घुमाया जा रहा है और तीन लेग्स: GND, A, और 3V3 दिखाता हुआ एक पोटेंशियल का चित्रण।](images/potentiometer-illustration.png){:width="300px"}
 
-When the potentiometer is turned all the way to the left, the arrow points to the GND pin; when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+जब potiometer को बाईं ओर मोड़ दिया जाता है, तो तीर GND पिन को इंगित करता है; जब इसे दाईं ओर मोड़ दिया जाता है, तो तीर 3V3 पिन को इंगित करता है। मध्य पिन वह पिन है जिससे Raspberry Pi Pico एक मूल्य पढ़ता है।
 
 --- /task ---
 
-Make sure your Raspberry Pi Pico is **unplugged** from your computer.
+सुनिश्चित करें कि आपका Raspberry Pi Pico आपके कंप्यूटर से **unpixed** है।
 
 --- task ---
 
-Use three socket–socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
+तीन सॉकेट-सॉकेट जम्पर तारों का उपयोग करें और एक को संभाव्यमापी के प्रत्येक पैर से जोड़ें। आप पैरों को कुछ विद्युत टेप से सुरक्षित करना चाह सकते हैं यदि वे ढीली महसूस करते हैं।
 
-**Connect** the other end of each jumper wire to the Raspberry Pi Pico:
-+ Connect the pin labelled with a small '1' to the **GND** pin between **GP21** and **GP22**
-+ Connect the middle pin to the **GP26_A0** pin
-+ Connect the pin labelled with a small '3' to the **3V3** pin
+**Connect** प्रत्येक jumper तार का दूसरा सिरा Raspberry Pi Pico:
++ **GP21** और **GP22** के बीच छोटे '1' लेबल वाली पिन को **GND** से कनेक्ट करें
++ बीच की पिन को **GP26_A0** पिन से कनेक्ट करें
++ छोटे '3' के साथ लेबल किए गए पिन को **3V3** पिन से कनेक्ट करें
 
-![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0, and 3V3 pin.](images/pot-diagram.png)
+![एक aspberry Pi Pico से जुड़े एक potentometer का एक आरेख जो जीडबल्यूडी, जीपी26_A0, और 3V3 पिन का उपयोग करता है।](images/pot-diagram.png)
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: How does a potentiometer work?
+title: एक potentiometer कैसे काम करता है?
 ---
 
-A **potentiometer** is an analogue input component that changes its resistance depending on the position of the dial. A potentiometer has three pins that need to be connected to 3V3, an analogue pin, and GND. The 3V3 pin provides power to the potentiometer and the voltage reading from the analogue pin will change depending on the resistance of the potentiometer.
+एक **potentiometer** एक एनालॉग इनपुट घटक है जो डायल की स्थिति के आधार पर अपने प्रतिरोध को बदल देता है। एक pinotiometer में तीन पिन होते हैं जिन्हें 3V3, एक एनालॉग पिन, और GND से कनेक्ट करने की आवश्यकता होती है। 3V3 पिन (3V3 pin) potentiometer को शक्ति प्रदान करता है और एनालॉग पिन से वोल्टेज रीडिंग potentiometer के प्रतिरोध के आधार पर बदल जाएगी।
 
 --- /collapse ---
 
 --- task ---
 
-Plug your Raspberry Pi Pico into your computer.
+अपने Raspberry Pi Pico को अपने कंप्यूटर में प्लग करें।
 
-In Thonny, create a new file and add the following code to `print` the value from the potentiometer.
+Thonny में, एक नई फ़ाइल बनाएं और potentometer से मान `print` में निम्नलिखित कोड जोड़ें।
 
 --- code ---
 ---
@@ -70,52 +70,52 @@ while True: print(dial.value) sleep(0.1) # Slow down the output
 
 --- /code ---
 
-The `sleep(0.1)` line slows down the reading and printing of values from the potentiometer so that Thonny can keep up with the output.
+`स्लीप(0.1)` लाइन, potentiometer से मूल्यों के पठन और मुद्रण को धीमा कर देती है ताकि Thonny आउटपुट के साथ बने रह सके।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your script and Thonny should start printing values to the shell. Turn the potentiometer to see the value change.
+**परीक्षण:** अपनी स्क्रिप्ट चलाएँ और Thonny को शैल के लिए मानों को प्रिंट करना शुरू कर देना चाहिए। मान परिवर्तन देखने के लिए potentometer घुमाएँ।
 
-![A screenshot of numbers between 0 and 1 in the Thonny Shell.](images/potentiometer-shell.png)
-
---- /task ---
-
-It's quite hard to see what's happening when the values are printing so quickly. Thonny has a plotter that you can use to visualise the values from the potentiometer instead.
-
---- task ---
-
-In Thonny, choose **View**->**Plotter** and the plotter will appear next to the shell.
+![Thony Shell में 0 और 1 के बीच संख्याओं का स्क्रीनशॉट।](images/potentiometer-shell.png)
 
 --- /task ---
 
+जब मान इतनी तेज़ी से मुद्रित हो रहे हों, तो क्या हो रहा है यह देखना बहुत कठिन है। Thoneny में एक plotter है जिसका उपयोग आप इसके बजाय potentometer से मानों को देखने के लिए कर सकते हैं।
+
 --- task ---
 
-**Test:** Run your script and turn the potentiometer. Watch the value change in the plotter.
+Thoneny में, **view**-&#062 चुनें;**Pltter** और plotter खोल के आगे दिखाई देंगे।
+
+--- /task ---
+
+--- task ---
+
+**test:** अपनी स्क्रिप्ट चलाएं और potiometer को घुमाएं। plotter में मूल्य परिवर्तन देखें।
 
 --- print-only ---
 
-![A screenshot of values plotted on a scale from 0 to 1.](images/thonny-plotter.png)
+![0 से 1 तक के पैमाने पर प्लॉट किए गए मानों का स्क्रीनशॉट।](images/thonny-plotter.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![Thoneny में चलने वाले plotter का एक एनीमेशन।](images/thonny-plotter.gif){:width="300px"}
 
 --- /no-print ---
 
-The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
+मान 0 होना चाहिए (या 0 के करीब) जब potentometer बाएं और 1 (या 1 के करीब) की तरफ मोड़ दिया जाता है जब यह दाएं के सभी रास्ते में बदल जाता है।
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**डीबग:**
 
-The values are the wrong way around.
-+ Swap the jumper wires connected to **GND** and **3V3**.
+मान गलत तरीके हैं।
++ **GND** और **3V3** से जुड़े जम्पर तारों को स्वैप करें।
 
 --- /task ---
 
