@@ -48,7 +48,7 @@ Notice that the `heart_range` variable is calculated **once** at the beginning o
 
 --- task ---
 
-**Debug:**
+**Εντοπισμός σφαλμάτων:**
 
 You have a syntax error:
 + Check that your code matches the example above
