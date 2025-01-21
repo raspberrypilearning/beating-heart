@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+किंवदंती: ३ का प्रश्न २
 ---
 
-In this project, you used `pulse`. What does `pulse` do?
+इस प्रोजेक्ट में, आपने `pulse` का उपयोग किया। `pulse` क्या करता है?
 
 --- choices ---
 
-- ( ) It turns on for 1 second and turns off for 1 second
+- () यह 1 सेकंड के लिए चालू होता है और 1 सेकंड के लिए बंद हो जाता है
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+लगभग यह एक ब्लिंक प्रभाव बनाएगा, न कि एक पल्स प्रभाव।
 
   --- /feedback ---
 
-- ( ) It displays the heart rate on the plotter
+- () यह plottter पर हृदय गति प्रदर्शित करता है
 
   --- feedback ---
 
-Try again, the plotter displays numbers that have been printed to the Shell.
+फिर से प्रयास करें, plotter उन संख्याओं को प्रदर्शित करता है जो शेल को प्रिंट किए गए हैं।
 
   --- /feedback ---
 
-- (x) It gradually increases and then decreases the brightness of an LED
+- (x) यह धीरे-धीरे बढ़ता है और फिर एक LED की चमक कम करता है
 
   --- feedback ---
 
-  Yes, `pulse` gradually increases and then decreases the brightness of an LED to create a pulsing effect.
+  हाँ, `pulse` धीरे-धीरे बढ़ता है और फिर एक pulsing प्रभाव बनाने के लिए LED की चमक कम करता है।
 
   --- /feedback ---
 
