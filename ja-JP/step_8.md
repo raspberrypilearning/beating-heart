@@ -1,4 +1,4 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -13,7 +13,7 @@ You can use your portable beating heart as a room decoration. Set it to a slow s
 
 --- task ---
 
-You could:
+以下のことができます：
 + Create a better papercraft heart.
 + Add a blue LED to represent de-oxygenated blood entering and leaving the heart.
 + Add a heartbeat sound using a passive buzzer.
@@ -23,9 +23,9 @@ You could:
 --- collapse ---
 
 ---
-title: Completed project
+title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
+[完成したプロジェクトはこちら](https://rpf.io/p/en/beating-heart-get){:target="_blank"}で確認できます。
 
 --- /collapse ---
