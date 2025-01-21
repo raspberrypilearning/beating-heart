@@ -1,11 +1,11 @@
 ---
-title: Beating heart
+title: Cœur battant
 hero_image: images/banner.png
 description:
-  - Make a papercraft beating heart with a potentiometer to control an LED
+  - Fabriquer un cœur battant en papier avec un potentiomètre pour contrôler une LED
   - cela clignote comme un battement de coeur
-meta_title: Raspberry Pi Pico projects | Beating heart
-meta_description: A Raspberry Pi Pico project to make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+meta_title: Projets Raspberry Pi Pico | Cœur battant
+meta_description: Un projet Raspberry Pi Pico pour fabriquer un cœur battant en papier avec une LED pulsante et un cadran pour régler la fréquence cardiaque.
 version: 4
 listed: true
 copyedit: true
