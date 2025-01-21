@@ -1,11 +1,11 @@
-## LED heart beat
+## Lysdiod-hjärtslag
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat.
+Väck ditt hjärta till liv med ett inbyggt lysdiod-hjärtslag.
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![En bild som visar ett rött origamihjärta med en pulserande röd lysdiod inuti vecken.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -13,9 +13,9 @@ Bring your heart to life with an embedded LED heartbeat.
 
 --- task ---
 
-Use a **red** LED connected to a resistor and jumper wires.
+Använd en **röd** lysdiod ansluten till ett motstånd och kopplingskablar.
 
-You can make your own if you need to.
+Du kan göra din egen om du behöver.
 
 [[[led-resistor-electrical-tape]]]
 
@@ -25,18 +25,18 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
+Anslut den röda lysdioden till **stift 13** och **GND**, precis som du gjorde när du gjorde en lysdiod-eldfluga.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
+![En potentiometer och en röd lysdiod kopplade till en Raspberry Pi Pico. Ett motstånd är placerat i linje med det långa benet på lysdioden och GPIO-stift 13. Potentiometerns mittstift är anslutet till GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0faeb0">Maggie Aderin-Pocock</span> är en rymdforskare som har arbetat med massor av elektroniska prylar inklusive teleskoptillbehör, en handhållen landmindetektor och instrument som har skickats till rymden för att samla in data för att förstå klimatetförändringar. Som tonåring hade Maggie inte råd med ett bra teleskop så hon gick till en klass där hon kunde göra sitt eget teleskop med hjälp av elektronik, kod och glasslipning för att göra linser. Finns det en pryl du skulle vilja göra?</p>
 
 --- task ---
 
-Add code so that you can program your LED:
+Lägg till kod så att du kan programmera din lysdiod:
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ dial = Pot(0) led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer.
+Lägg till kod för att styra `ljusstyrkan` på din lysdiod. Metoden `pulse()` låter lysdioden pulsera genom att bli ljusare och svagare.
 
 --- code ---
 ---
@@ -65,40 +65,40 @@ while True: bpm = heart_min + dial.value * heart_range print(bpm) beat = 60/bpm 
     led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
-If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
+Om du inte lade till `wait=True` till `puls` så skulle `while`-slingan upprepas omedelbart och starta om pulsen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate.
+**Test:** Kör ditt projekt för att se lysdiod-pulsen ljusare och svagare. Vrid potentiometern för att kontrollera hur snabbt lysdioden pulserar för att motsvara hjärtfrekvensen.
 
-![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
+![Animation som visar någon som vrider på potentiometern för att få lysdioden att pulsera på och av genom att vrida potentiometern för att ändra ljusstyrkan](images/pulse-test.gif)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Debug (Felsökning):**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Du har ett syntaxfel:
++ Kontrollera att din kod matchar exemplet ovan
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+Potentiometern slutade fungera:
++ Kontrollera att dina bygelkablar fortfarande är ordentligt fastsatta
 
-The LED is not lighting:
-+ Check that it is connected correctly
-+ Check to see if the LED has blown by swapping it with a spare
+Lysdioden lyser inte:
++ Kontrollera att den är korrekt ansluten
++ Kontrollera om lysdioden har gått sönder genom att byta ut den mot en annan
 
 --- /task ---
 
 
 --- task ---
 
-Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+Ta nu ditt pappers-hjärta och placera det över din röda lysdiod för att skapa en hjärtslagseffekt.
 
-![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Animation som visar lysdioden som pulserar genom pappers-hjärtat.](images/heartbeat.gif)
 
 --- /task ---
 
