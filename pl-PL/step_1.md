@@ -16,7 +16,7 @@ Make a papercraft beating heart with a pulsing LED and a dial to adjust the hear
 
 [[[flashing-light-warning]]]
 
-You will:
+Co zrobisz:
 + Use a potentiometer (dial) to change the heart rate
 + Create a pulsing effect with an LED
 + Power your Raspberry Pi Pico away from your computer
@@ -27,7 +27,7 @@ An <span style="color: #0faeb0">analogue input</span> gives a range of values, r
 
 To complete this project you will need:
 
-**Hardware**
+**Sprzęt**
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
@@ -42,7 +42,7 @@ You can purchase all the required hardware for this project and the other projec
 
 [[[pin-socket-jumper-wires]]]
 
-**Software**
+**Oprogramowanie**
 
 + Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
 
