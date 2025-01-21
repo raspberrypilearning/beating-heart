@@ -1,19 +1,19 @@
-Pot is short for Potentiometer
+Pot är en förkortning för Potentiometer
 
-Connected to pin A0 (GP26)
+Ansluten till stift A0 (GP26)
 
-Slow down the output
+Sakta ner utgången
 
-Calculate the difference
+Beräkna skillnaden
 
-Convert dial value to BPM
+Konvertera värdet till BPM
 
-Add LED
+Lägg till lysdiod
 
-Make sure this is the correct pin
+Se till att detta är rätt stift
 
-Spend half a beat getting brighter
+Låt det ta ett halvt slag att bli ljusare
 
-Spend half a beat getting dimmer
+Låt det ta ett halvt slag att bli mörkare
 
-Pulse 1 time, waiting until finished
+Pulsera 1 gång, väntar tills det är klart
