@@ -1,36 +1,36 @@
-## Quick quiz
+## Snabbt quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Svara på de tre frågorna. Det finns ledtrådar för att hjälpa dig på vägen till svaret.
 
-When you have answered each question, click on **Check my answer**.
+När du har svarat på varje fråga, klicka på **Kontrollera mitt svar**.
 
-Have fun!
+Lycka till!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Fråga 1 av 3
 ---
 
-In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
+I det här projektet använde du en potentiometer. Vad är den största fördelen med att använda en potentiometer istället för en switch?
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
+![En blå potentiometer med en liten ratt på toppen och tre stift på botten.](images/potentiometer.png)
 
 --- choices ---
 
-- (x) You can get a range of input values between 0 and 1
+- (x) Du kan få ett intervall av ingångsvärden mellan 0 och 1
 
   --- feedback ---
 
-Yes! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+Ja! Värdet på en potentiometer beror på pilens position på ratten. Detta är användbart när du behöver ett intervall av ingångsvärden istället för bara 1 eller 0.
 
   --- /feedback ---
 
-- ( ) You can only get two input values, 1 or 0
+- ( ) Du kan bara få två ingångsvärden, 1 eller 0
 
   --- feedback ---
 
-Try again, a potentiometer allows for more than two input values.
+Försök igen, en potentiometer tillåter mer än två ingångsvärden.
 
   --- /feedback ---
 
