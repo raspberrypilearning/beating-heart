@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Pytanie 2 z 3
 ---
 
 In this project, you used `pulse`. What does `pulse` do?
