@@ -1,50 +1,50 @@
-## You will make
+## Du kommer göra
 
-Make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+Ett Raspberry Pi Pico-projekt för att göra ett hjärta i papper som slår, med en pulserande lysdiod och en ratt för att justera pulsen.
 
 --- no-print ---
 
-![An animated image showing a red origami heart with a pulsing red LED inside the folds.](images/heartbeat.gif){:width="400px"}
+![En animerad bild som visar ett rött origamihjärta med en pulserande röd lysdiod inuti.](images/heartbeat.gif){:width="400px"}
 
 --- /no-print ---
 
 --- print-only ---
 
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png)
+![En bild som visar ett rött origamihjärta med en pulserande röd lysdiod inuti.](images/heart-static.png)
 
 --- /print-only ---
 
 [[[flashing-light-warning]]]
 
-You will:
-+ Use a potentiometer (dial) to change the heart rate
-+ Create a pulsing effect with an LED
-+ Power your Raspberry Pi Pico away from your computer
+Du kommer att:
++ Använd en potentiometer (ratt) för att ändra hjärtfrekvensen
++ Skapa en pulserande effekt med en lysdiod
++ Driva din Raspberry Pi Pico utan dator
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
+En <span style="color: #0faeb0">analog ingång</span> ger ett intervall av värden, snarare än bara en 0 eller 1 (på eller av). En <span style="color: #0faeb0">potentiometer</span> är en analog ingångskomponent som har en ratt som du vrider på för att öka eller minska värden. Raspberry Pi Pico har analoga ingångsstift som låter dig läsa analoga värden och använda dem i din kod. 
 </p>
 
-To complete this project you will need:
+För att slutföra detta projekt behöver du:
 
-**Hardware**
+**Hårdvara**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Du kan köpa all nödvändig hårdvara för det här projektet och de andra projekten på den här vägen från t.ex. [Pimoroni webbutik.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} och [Kitronik webbutik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ One red LED with a resistor attached to jumper wires with socket connectors
-+ One potentiometer (dial)
-+ 3 x socket-socket jumper wires
-+ One sheet of paper, red if you have it
-+ Sticky tape or duct tape
-+ Optionally, a blue LED, resistor and more jumper wires
++ En Raspberry Pi Pico med pålödda stift
++ En data USB A till mikro USB-kabel
++ En röd lysdiod med ett motstånd anslutet till bygelkablar med uttagskontakter
++ En potentiometer (ratt)
++ 3 x uttag-uttag byglingskablar
++ Ett pappersark, rött om du har det
++ Tejp
++ Som tillval, en blå lysdiod, motstånd och fler bygelkablar
 
 [[[pin-socket-jumper-wires]]]
 
-**Software**
+**Programvara**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny – detta projekt kan slutföras med Thonny Python-redigeraren, som kan installeras på en Linux-, Windows- eller Mac-dator
 
 [[[thonny-install]]]
 
@@ -54,11 +54,11 @@ You can purchase all the required hardware for this project and the other projec
 
 --- task ---
 
-Look at the video of the heartbeat being controlled by a potentiometer. What happens as the dial is turned left and right?
+Titta på videon av hjärtslag som styrs av en potentiometer. Vad händer när ratten vrids åt vänster och höger?
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Din webbläsare stöder inte WebM-video, prova FireFox eller Chrome
 </video>
 
 --- /task ---
