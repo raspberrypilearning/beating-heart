@@ -1,33 +1,33 @@
-## Make a papercraft heart
+## Gör ett pappershjärta
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the papercraft heart to contain your pulsing LED and diffuse the light. 
+Skapa ett pappershjärta som innehåller din pulserande lysdiod och sprider ljuset. 
 </div>
 <div>
-![Image showing a folded papercraft heart.](images/heart.jpeg){:width="300px"}
+![Bild som visar ett vikt pappershantverkshjärta.](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
+<span style="color: #0faeb0">Papperskonst</span> är konsten att göra 2D- eller 3D-skapelser av papper eller kort. Konstverket kan ha formen av en skulptur, origami, bärbar eller papier-maché-modell och använda en eller flera bitar av klippt eller vikt papper.</p>
 
 --- task ---
 
-**Choose:** Make a cut-out or a folded origami heart to put your pulsing LED inside.
+**Välj:** Gör ett urklipp eller ett vikt origamihjärta för att sätta in din pulserande lysdiod.
 
 --- collapse ---
 ---
-title: Paper cut-out heart
+titel: Pappersutskuret hjärta
 ---
 
-You can make a simple heart, cut out of paper:
+Du kan göra ett enkelt hjärta, genom att klippa till papper:
 
-![Image showing heart shape cut out of a sheet of red paper.](images/heart-cutout.png)
+![Bild som visar hjärtform klippt ur ett ark rött papper.](images/heart-cutout.png)
 
-Or cut two, and tape them together: ![Image showing two identical red paper hearts cut out of paper.](images/heart-cutout2.png)
+Eller klipp två och tejpa ihop dem: ![Bild som visar två identiska röda pappershjärtan klippt ur papper.](images/heart-cutout2.png)
 
-![Image showing two identical red paper hearts taped at the edges.](images/heart-cutout3.png)
+![Bild som visar två identiska röda pappershjärtan tejpade i kanterna.](images/heart-cutout3.png)
 
 
 --- /collapse ---
@@ -35,39 +35,39 @@ Or cut two, and tape them together: ![Image showing two identical red paper hear
 
 --- collapse ---
 ---
-title: Folded origami heart
+titel: Vikt origami-hjärta
 ---
 
-![Image showing a red heart made of folded paper in the origami style.](images/heart.png)
+![Bild som visar ett rött hjärta gjort av vikt papper i origamistil.](images/heart.png)
 
-Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) ![Image showing a red square of paper.](images/heart1.png)
-
-
-Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart2.png)
-
-![Image showing the square of paper with a crease from corner to corner.](images/heart3.png)
+Steg 1: Börja med ett fyrkantigt papper. (Allt papper duger, men tunnare papper gör att din lysdiod lyser starkare.) ![Bild som visar en röd fyrkant av papper.](images/heart1.png)
 
 
-Step 3: Fold the left corner to the right corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart4.png)
+Steg 2: Vik papperet på mitten genom att vika det övre hörnet till det nedre hörnet och vik sedan ut det. ![Bild som visar kvadraten av papper vikt hörn till hörn i en triangel.](images/heart2.png)
 
-![Image showing the square of paper with a crease from corner to corner.](images/heart5.png)
-
-
-Step 4: Fold the top corner to the center of the square, to make a 'shield' shape. ![Image showing the square of paper with top corner folded to the centre to create a pentagon.](images/heart6.png)
+![Bild som visar kvadraten av papper med ett veck från hörn till hörn.](images/heart3.png)
 
 
-Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold. ![Image showing the square of paper with the bottom corner folded so it touches the top edge.](images/heart7.png)
+Steg 3: Vik det vänstra hörnet till det högra hörnet och vik sedan ut det. ![Bild som visar kvadraten av papper vikt hörn till hörn i en triangel.](images/heart4.png)
 
-Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the centre crease. ![Image showing the paper square folded into a chevron shape from the back.](images/heart8.png)
-
-![Image showing the paper square folded into a chevron shape from the front.](images/heart9.png)
+![Bild som visar kvadraten av papper med ett veck från hörn till hörn.](images/heart5.png)
 
 
-Step 7: Fold the top and side corners back. ![Image showing the paper square folded into a heart shape from the back, with both top and side corners folded up.](images/heart10.png)
+Steg 4: Vik det övre hörnet till mitten av fyrkanten för att skapa en "sköld"-form. ![Bild som visar kvadraten av papper med det övre hörnet vikt mot mitten för att skapa en femhörning.](images/heart6.png)
 
-Step 8: Tape the back side of the heart across the widest part, from edge to edge. ![Image showing the paper square folded into a heart shape from the back, with tape holding it together.](images/heart11.png)
 
-Turn it over to look at the front, and you're ready to embed your LED! ![Image showing the finished origami heart.](images/heart.png)
+Steg 5: Vik upp det nedre hörnet för att möta den övre kanten och överlappa föregående veck. ![Bild som visar kvadraten av papper med det nedre hörnet vikt så att det nuddar den övre kanten.](images/heart7.png)
+
+Steg 6: Vik de nedre vänstra och högra ändarna i 90 graders vinkel, så att deras nedre kanter löper längs mittvecket. ![Bild som visar papperskvadret vikt till en chevronform bakifrån.](images/heart8.png)
+
+![Bild som visar papperskvadret vikt till en chevronform framifrån.](images/heart9.png)
+
+
+Steg 7: Vik de övre och sidohörnen bakåt. ![Bild som visar papperskvadret vikt till en hjärtform bakifrån, med både övre och sidohörn uppvikta.](images/heart10.png)
+
+Steg 8: Tejpa baksidan av hjärtat över den bredaste delen, från kant till kant. ![Bild som visar papperskvadrat vikt till en hjärtform från baksidan, med tejp som håller ihop den.](images/heart11.png)
+
+Vänd på den för att titta på framsidan och du är redo att montera in din lysdiod! ![Bild som visar det färdiga origamihjärtat.](images/heart.png)
 
 
 --- /collapse ---
