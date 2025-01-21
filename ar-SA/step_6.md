@@ -55,7 +55,7 @@ A battery pack with a USB to micro USB cable can also power a Raspberry Pi Pico.
 
 --- task ---
 
-Disconnect your Raspberry Pi Pico from your computer.
+افصل Raspberry Pi Pico الخاص بك من جهاز الكمبيوتر الخاص بك.
 
 --- /task ---
 
@@ -82,7 +82,7 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 ---
