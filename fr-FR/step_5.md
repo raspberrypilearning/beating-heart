@@ -27,7 +27,7 @@ Tu peux créer le tien si tu en as besoin.
 
 Branche la LED rouge à la **broche 13** et **GND**, comme tu l'as fait lorsque tu as fabriqué une luciole LED.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
+![Un potentiomètre et une LED rouge attachés à un Raspberry Pi Pico. Une résistance est placée en ligne avec la branche longue de la LED et la broche GPIO 13. La broche centrale du potentiomètre est connectée au GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
@@ -73,7 +73,7 @@ Si tu n'as pas ajouté `wait=True` à `pulse` , la boucle `while` se répéterai
 
 **Test :** Exécute ton projet pour voir l'impulsion LED plus lumineuse et plus faible. Tourne le potentiomètre pour contrôler la vitesse à laquelle les impulsions LED correspondent à la fréquence cardiaque.
 
-![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
+![Gif animé montrant la LED qui s'allume et s'éteint en changeant la luminosité.](images/pulse-test.gif)
 
 --- /task ---
 
@@ -98,7 +98,7 @@ La LED ne s'allume pas :
 
 Maintenant, prend ton cœur en papier et place-le sur ta LED rouge pour créer un effet de battement de cœur.
 
-![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Gif animé montrant la LED clignotant à travers le cœur papier.](images/heartbeat.gif)
 
 --- /task ---
 
