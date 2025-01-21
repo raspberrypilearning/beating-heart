@@ -2,19 +2,19 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+किंवदंती: ३ का प्रश्न ३
 ---
 
-Which Python program will run when you power your Raspberry Pi Pico from a USB power supply or battery?
+जब आप अपने Raspberry Pi Pico को USB पावर सप्लाई या बैटरी से पावर करेंगे तो कौन सा Python प्रोग्राम चलेगा?
 
 --- choices ---
 
-- ( ) The file you saved most recently
+- () आपके द्वारा सबसे हाल ही में सहेजी गई फ़ाइल
 
 
   --- feedback ---
 
-Not always, your file must have a specific name.
+हमेशा नहीं, आपकी फ़ाइल का एक विशिष्ट नाम होना चाहिए।
 
   --- /feedback ---
 
@@ -24,7 +24,7 @@ Not always, your file must have a specific name.
 
   --- feedback ---
 
-Yes! When you power your Raspberry Pi Pico away from the computer, it will run `main.py`.
+हाँ! जब आप अपने Raspberry Pi Pico को कंप्यूटर से दूर पॉवर करते हैं, तो यह `main.py` चलेगा।
 
   --- /feedback ---
 
