@@ -10,7 +10,7 @@ bpm
 
 led
 
-beat
+ಬೀಟ್
 
 brighter_time
 
