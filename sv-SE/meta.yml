@@ -1,34 +1,34 @@
 ---
-title: Beating heart
+title: Bultande hjärta
 hero_image: images/banner.png
 description:
-  - Make a papercraft beating heart with a potentiometer to control an LED
-  - that blinks like a heartbeat
-meta_title: Raspberry Pi Pico projects | Beating heart
-meta_description: A Raspberry Pi Pico project to make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+  - Gör ett hjärta i papper som slår, med en potentiometer för att styra en lysdiod
+  - som blinkar som ett hjärtslag
+meta_title: Raspberry Pi Pico-projekt | Bultande hjärta
+meta_description: Ett Raspberry Pi Pico-projekt för att göra ett hjärta i papper som slår, med en pulserande LED och en ratt för att justera pulsen.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Du kommer att göra
   - 
-    title: Read values from a dial
+    title: Läs värden från en ratt
   - 
-    title: Calculate beats per minute (BPM)
+    title: Beräkna slag per minut (BPM)
     completion:
       - engaged
   - 
-    title: Make a papercraft heart
+    title: Gör ett pappershjärta
   - 
-    title: LED heartbeat
+    title: Lysdiod-hjärtslag
   - 
-    title: Make it portable
+    title: Gör den portabel
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Snabbt quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Uppgradera ditt projekt
   - 
-    title: What next?
+    title: Vad härnäst?
