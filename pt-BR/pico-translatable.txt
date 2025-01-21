@@ -10,7 +10,7 @@ bpm
 
 led
 
-beat
+batimento
 
 brighter_time
 
