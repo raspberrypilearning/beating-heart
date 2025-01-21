@@ -1,0 +1,19 @@
+Pot är en förkortning för Potentiometer
+
+Ansluten till stift A0 (GP26)
+
+Sakta ner utgången
+
+Beräkna skillnaden
+
+Konvertera värdet till BPM
+
+Lägg till lysdiod
+
+Se till att detta är rätt stift
+
+Låt det ta ett halvt slag att bli ljusare
+
+Låt det ta ett halvt slag att bli mörkare
+
+Pulsera 1 gång, väntar tills det är klart
