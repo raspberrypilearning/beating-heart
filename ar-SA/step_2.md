@@ -112,7 +112,7 @@ The value should be 0 (or close to 0) when the potentiometer is turned all the w
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 The values are the wrong way around.
 + Swap the jumper wires connected to **GND** and **3V3**.
