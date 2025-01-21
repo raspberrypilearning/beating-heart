@@ -1,31 +1,31 @@
-## Upgrade your project
+## प्रोजेक्ट को अपग्रेड करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your beating heart project. 
+यदि आपके पास समय है, तो आप अपने बीटिंग हार्ट प्रोजेक्ट को अपग्रेड कर सकते हैं। 
 
-You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
+आप कमरे की सजावट के रूप में अपने पोर्टेबल धड़कन दिल का उपयोग कर सकते हैं। आराम करने में मदद के लिए इसे धीमी गति पर सेट करें। या, आप जिस संगीत को सुन रहे हैं, उससे मेल खाने के लिए बीट को एडजस्ट करें। 
 </div>
 <div>
-![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}
+![एनिमेटेड gif जो एक हल्का-फुल्का दिल दिखाता है जिसमें एक लाल और नीले रंग का LED धड़कन समय पर लग सकता है।](images/two-bots.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-You could:
-+ Create a better papercraft heart.
-+ Add a blue LED to represent de-oxygenated blood entering and leaving the heart.
-+ Add a heartbeat sound using a passive buzzer.
-+ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
+आप ऐसा कर सकते हैं:
++ एक बेहतर पेपरक्राफ्ट हार्ट बनाएं।
++ डी-ऑक्सीजनयुक्त रक्त को हृदय में प्रवेश करने और छोड़ने का प्रतिनिधित्व करने के लिए एक नीले LED जोड़ें।
++ एक निष्क्रिय बज़र का उपयोग करके एक दिल की धड़कन की आवाज़ जोड़ें।
++ अधिक LEDs और Papeccraft दिल जोड़ें और उन्हें एक ही समय में दाल बनाएँ। अपनी पसंद के किसी भी रंग को चुनें।
 + --- /task ---
 
 --- collapse ---
 
 ---
-title: Completed project
+शीर्षक: पूर्ण परियोजना
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
+आप [completed project here](https://rpf.io/p/en/beating-heart-get){: target = "_ blank"} से देख कर सकते हैं
 
 --- /collapse ---
