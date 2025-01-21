@@ -16,7 +16,7 @@ Make a papercraft beating heart with a pulsing LED and a dial to adjust the hear
 
 [[[flashing-light-warning]]]
 
-You will:
+سوف تفعلها:
 + Use a potentiometer (dial) to change the heart rate
 + Create a pulsing effect with an LED
 + Power your Raspberry Pi Pico away from your computer
@@ -25,13 +25,13 @@ You will:
 An <span style="color: #0faeb0">analogue input</span> gives a range of values, rather than just a 0 or 1 (on or off). A <span style="color: #0faeb0">potentiometer</span> is an analogue input component that has a dial that you turn to increase or decrease values. The Raspberry Pi Pico has analogue input pins that allow you to read analogue values and use them in your code. 
 </p>
 
-To complete this project you will need:
+لإكمال هذا المشروع: ستحتاج إلى:
 
-**Hardware**
+**الأجهزة**
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
++ Raspberry Pi Pico مع رؤوس توصيل ملحومة عليه
 + A data USB A to micro USB cable
 + One red LED with a resistor attached to jumper wires with socket connectors
 + One potentiometer (dial)
@@ -42,9 +42,9 @@ You can purchase all the required hardware for this project and the other projec
 
 [[[pin-socket-jumper-wires]]]
 
-**Software**
+**البرمجيات**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python ، والذي يمكن تثبيته على أنظمة Linux, Windows أو Mac
 
 [[[thonny-install]]]
 
