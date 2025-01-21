@@ -82,7 +82,7 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 --- task ---
 
-**Debug:**
+**ಡೀಬಗ್:**
 
 --- collapse ---
 ---
