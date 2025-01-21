@@ -1,5 +1,5 @@
 ---
-title: Beating heart
+title: धड़कता हुआ दिल
 hero_image: images/banner.png
 description:
   - Make a papercraft beating heart with a potentiometer to control an LED
@@ -14,17 +14,17 @@ steps:
   - 
     title: You will make
   - 
-    title: Read values from a dial
+    title: डायल से मान पढ़ें
   - 
-    title: Calculate beats per minute (BPM)
+    title: धड़कन की गणना प्रति मिनट (BPM)
     completion:
       - engaged
   - 
-    title: Make a papercraft heart
+    title: एक हल्का-फुल्का दिल बनाएं
   - 
-    title: LED heartbeat
+    title: LED धड़कन
   - 
-    title: Make it portable
+    title: इसे पोर्टेबल बनाएँ
     completion:
       - internal
   - 
@@ -37,6 +37,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: अपने प्रोजेक्ट को अपग्रेड करें
   - 
-    title: What next?
+    title: आगे क्या?
