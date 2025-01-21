@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+ವಿಷಯಸೂಚಿ: 3 ರಲ್ಲಿ ಪ್ರಶ್ನೆ 2
 ---
 
 In this project, you used `pulse`. What does `pulse` do?
@@ -13,7 +13,7 @@ In this project, you used `pulse`. What does `pulse` do?
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+ಹಾಗೆನಿಲ್ಲ. This would create a blink effect, not a pulse effect.
 
   --- /feedback ---
 
