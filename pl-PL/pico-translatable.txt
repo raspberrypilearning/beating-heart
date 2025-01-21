@@ -10,7 +10,7 @@ bpm
 
 led
 
-beat
+uderzenie
 
 brighter_time
 
