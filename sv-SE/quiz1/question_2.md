@@ -2,34 +2,34 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Fråga 2 av 3
 ---
 
-In this project, you used `pulse`. What does `pulse` do?
+I det här projektet använde du `puls`. Vad gör `puls` ?
 
 --- choices ---
 
-- ( ) It turns on for 1 second and turns off for 1 second
+- ( ) Den slås på i 1 sekund och stängs av i 1 sekund
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+Inte helt riktigt. Detta skulle skapa en blinkeffekt, inte en pulseffekt.
 
   --- /feedback ---
 
-- ( ) It displays the heart rate on the plotter
+- ( ) Den visar hjärtfrekvensen på plottern
 
   --- feedback ---
 
-Try again, the plotter displays numbers that have been printed to the Shell.
+Försök igen, plottern visar nummer som har skrivits ut till skalet.
 
   --- /feedback ---
 
-- (x) It gradually increases and then decreases the brightness of an LED
+- (x) Den ökar gradvis och minskar sedan ljusstyrkan för en lysdiod
 
   --- feedback ---
 
-  Yes, `pulse` gradually increases and then decreases the brightness of an LED to create a pulsing effect.
+  Ja, `puls` ökar gradvis och minskar sedan ljusstyrkan på en LED för att skapa en pulserande effekt.
 
   --- /feedback ---
 
