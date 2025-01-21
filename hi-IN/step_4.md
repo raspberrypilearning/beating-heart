@@ -1,33 +1,33 @@
-## Make a papercraft heart
+## एक हल्का-फुल्का दिल बनाएं
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the papercraft heart to contain your pulsing LED and diffuse the light. 
+अपने pulsing LED को शामिल करने और प्रकाश को अलग करने के लिए Papeccraft heart बनाएँ। 
 </div>
 <div>
-![Image showing a folded papercraft heart.](images/heart.jpeg){:width="300px"}
+![चित्र एक मुड़ा हुआ पेपरक्राफ्ट हार्ट दिखाता है।](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
+<span style="color: #0feb0">Papercraft</span>, 2D या 3D creations को कागज या कार्ड से बाहर बनाने की कला है। Artwork एक मूर्तिकला, उत्पत्ति, पहनने योग्य, या papier-mâché मॉडल का रूप ले सकता है और एक या अधिक टुकड़े के कटे या फ़ोल्डर पेपर का उपयोग कर सकता है।</p>
 
 --- task ---
 
-**Choose:** Make a cut-out or a folded origami heart to put your pulsing LED inside.
+**choose:** अपने pulsing LED को अंदर रखने के लिए एक कट-आउट या एक मोड़े हुए ओरिजिमी हार्ट बनाएं।
 
 --- collapse ---
 ---
-title: Paper cut-out heart
+title: पेपर कट-आउट हार्ट
 ---
 
-You can make a simple heart, cut out of paper:
+आप एक सरल दिल बना सकते हैं, पेपर से कट आउट कर सकते हैं:
 
-![Image showing heart shape cut out of a sheet of red paper.](images/heart-cutout.png)
+![लाल पेपर की शीट से कटा हुआ दिल का आकार दिखाता हुआ चित्र।](images/heart-cutout.png)
 
-Or cut two, and tape them together: ![Image showing two identical red paper hearts cut out of paper.](images/heart-cutout2.png)
+या दो को काटें, और उन्हें एक साथ टेप करें: ![चित्र दो समान लाल कागज के दिल कागज से कटे हुए दिखाता है।](images/heart-cutout2.png)
 
-![Image showing two identical red paper hearts taped at the edges.](images/heart-cutout3.png)
+![दो समान लाल कागज के हृदय को किनारों पर टेप करता हुआ चित्र।](images/heart-cutout3.png)
 
 
 --- /collapse ---
@@ -35,39 +35,39 @@ Or cut two, and tape them together: ![Image showing two identical red paper hear
 
 --- collapse ---
 ---
-title: Folded origami heart
+title: lined origami heart
 ---
 
-![Image showing a red heart made of folded paper in the origami style.](images/heart.png)
+![चित्र एक लाल दिल को मोड़ता हुआ कागज को ओरिजीमी शैली में दिखाता है।](images/heart.png)
 
-Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) ![Image showing a red square of paper.](images/heart1.png)
-
-
-Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart2.png)
-
-![Image showing the square of paper with a crease from corner to corner.](images/heart3.png)
+चरण 1: पेपर के एक चौकोर टुकड़े के साथ शुरू करें। (कोई भी पेपर करेगा, लेकिन पतला पेपर आपके LED को उज्जवल बनाएगा।) ![चित्र एक लाल वर्ग का पेपर दिखा रहा है।](images/heart1.png)
 
 
-Step 3: Fold the left corner to the right corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart4.png)
+चरण 2: ऊपरी कोने को नीचे के कोने में जोड़कर पेपर को आधा मोड़ें, फिर खोलें। ![चित्र त्रिभुज में कोने से कागज़ के चौकोर कोने को दिखाता है।](images/heart2.png)
 
-![Image showing the square of paper with a crease from corner to corner.](images/heart5.png)
-
-
-Step 4: Fold the top corner to the center of the square, to make a 'shield' shape. ![Image showing the square of paper with top corner folded to the centre to create a pentagon.](images/heart6.png)
+![चित्र कोने से कोने तक एक क्रीज के साथ कागज के चौकोर को दिखा रहा है।](images/heart3.png)
 
 
-Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold. ![Image showing the square of paper with the bottom corner folded so it touches the top edge.](images/heart7.png)
+चरण 3: बाएँ कोने को दाएँ कोने में फ़ोल्ड करें, फिर खोलें। ![चित्र त्रिभुज में कोने से कागज़ के चौकोर कोने को दिखाता है।](images/heart4.png)
 
-Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the centre crease. ![Image showing the paper square folded into a chevron shape from the back.](images/heart8.png)
-
-![Image showing the paper square folded into a chevron shape from the front.](images/heart9.png)
+![चित्र कोने से कोने तक एक क्रीज के साथ कागज के चौकोर को दिखा रहा है।](images/heart5.png)
 
 
-Step 7: Fold the top and side corners back. ![Image showing the paper square folded into a heart shape from the back, with both top and side corners folded up.](images/heart10.png)
+चरण 4: वर्ग के केंद्र में शीर्ष कोने को फ़ोल्ड करें, एक 'साइल्ड' आकार बनाने के लिए। ![चित्र एक पंचभुज बनाने के लिए केंद्र से जुड़े ऊपरी कोने के साथ कागज के चौकोर को दिखा रहा है।](images/heart6.png)
 
-Step 8: Tape the back side of the heart across the widest part, from edge to edge. ![Image showing the paper square folded into a heart shape from the back, with tape holding it together.](images/heart11.png)
 
-Turn it over to look at the front, and you're ready to embed your LED! ![Image showing the finished origami heart.](images/heart.png)
+चरण 5: शीर्ष किनारे को पूरा करने के लिए निचला कोना ऊपर फ़ोल्ड करें, पिछले फ़ोल्ड को ओवरलैपिंग करें। ![नीचे के कोने को मोड़ कर कागज़ के चौकोर को दिखाने वाली छवि ताकि यह ऊपरी किनारे को छू सके।](images/heart7.png)
+
+चरण 6: नीचे बाएँ और दाएँ छोर को 90 डिग्री कोण पर मोड़ें, ताकि उनके निचले किनारे सेंटर क्रीज के साथ चलें। ![चित्र पीछे से एक शेवरॉन आकृति में मुड़ा हुआ पेपर चौकोर दिखा रहा है।](images/heart8.png)
+
+![चित्र सामने से एक शेवरॉन आकृति में मुड़ा हुआ पेपर चौकोर दिखा रहा है।](images/heart9.png)
+
+
+चरण 7: शीर्ष और किनारे के कोनों को पीछे फ़ोल्ड करें। ![चित्र जो पीछे से एक दिल की आकृति में मुड़ा हुआ है, ऊपर और किनारे दोनों कोनों को जोड़े हुए है।](images/heart10.png)
+
+चरण 8: सबसे चौड़े भाग के बीच के हिस्से को किनारे से किनारे तक टेप करें। ![चित्र जो पीछे से एक दिल के आकार में जुड़ा हुआ है, उसे टेप के साथ दिखाता है।](images/heart11.png)
+
+सामने देखने के लिए इसे घुमाएँ, और आप अपनी LED को एम्बेड करने के लिए तैयार हैं! ![चित्र पूर्ण उद्भव दिल को दिखा रहा है।](images/heart.png)
 
 
 --- /collapse ---
