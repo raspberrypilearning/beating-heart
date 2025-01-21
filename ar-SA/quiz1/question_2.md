@@ -2,7 +2,7 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
 In this project, you used `pulse`. What does `pulse` do?
@@ -13,7 +13,7 @@ In this project, you used `pulse`. What does `pulse` do?
 
   --- feedback ---
 
-Not quite. This would create a blink effect, not a pulse effect.
+ليس تماما. This would create a blink effect, not a pulse effect.
 
   --- /feedback ---
 
