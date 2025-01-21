@@ -16,7 +16,7 @@ Make a papercraft beating heart with a pulsing LED and a dial to adjust the hear
 
 [[[flashing-light-warning]]]
 
-You will:
+Você deve:
 + Use a potentiometer (dial) to change the heart rate
 + Create a pulsing effect with an LED
 + Power your Raspberry Pi Pico away from your computer
