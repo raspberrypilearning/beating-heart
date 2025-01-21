@@ -18,13 +18,13 @@ Du kan:
 + Lägg till en blå lysdiod för att representera syrefattigt blod som kommer in i och lämnar hjärtat.
 + Lägg till ett hjärtslagsljud med en passiv summer.
 + Lägg till fler lysdioder och papercraft-hjärtan och få dem att pulsera samtidigt. Välj vilken färg på lysdiod du vill.
-+
+
 --- /task ---
 
 --- collapse ---
 
 ---
-titel: Avslutat projekt
+title: Avslutat projekt
 ---
 
 Du kan se det [avslutade projektet här](https://rpf.io/p/sv-SE/beating-heart-get){:target="_blank"}.

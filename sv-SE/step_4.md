@@ -5,7 +5,7 @@
 Skapa ett pappershjärta som innehåller din pulserande lysdiod och sprider ljuset. 
 </div>
 <div>
-![Bild som visar ett vikt pappershantverkshjärta.](images/heart.jpeg){:width="300px"}
+![Bild som visar ett vikt pappershantverkshjärta.](images/heart.png){:width="300px"}
 </div>
 </div>
 
