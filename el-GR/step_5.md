@@ -79,7 +79,7 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 --- task ---
 
-**Debug:**
+**Εντοπισμός σφαλμάτων:**
 
 You have a syntax error:
 + Check that your code matches the example above
