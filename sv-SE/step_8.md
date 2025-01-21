@@ -1,31 +1,31 @@
-## Upgrade your project
+## Uppgradera ditt projekt
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your beating heart project. 
+Om du har tid kan du uppgradera ditt projekt. 
 
-You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
+Du kan använda ditt bärbara bultande hjärta som rumsdekoration. Ställ in den på en låg hastighet för att hjälpa dig slappna av. Eller justera takten så att den matchar musiken du lyssnar på. 
 </div>
 <div>
-![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}
+![Animerad gif som visar ett pappershjärta med en röd och en blå lysdiod som pulserar i takt med hjärtslag.](images/two-beats.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-You could:
-+ Create a better papercraft heart.
-+ Add a blue LED to represent de-oxygenated blood entering and leaving the heart.
-+ Add a heartbeat sound using a passive buzzer.
-+ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
+Du kan:
++ Skapa ett bättre pappershjärta.
++ Lägg till en blå lysdiod för att representera syrefattigt blod som kommer in i och lämnar hjärtat.
++ Lägg till ett hjärtslagsljud med en passiv summer.
++ Lägg till fler lysdioder och papercraft-hjärtan och få dem att pulsera samtidigt. Välj vilken färg på lysdiod du vill.
 + --- /task ---
 
 --- collapse ---
 
 ---
-title: Completed project
+titel: Avslutat projekt
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
+Du kan se det [avslutade projektet här](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
 
 --- /collapse ---
