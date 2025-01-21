@@ -1,17 +1,17 @@
-dial
+डायल करें
 
-heart_min
+heart_MIN
 
 heart_max
 
 heart_range
 
-bpm
+BPM
 
-led
+नेतृत्व किया
 
 beat
 
-brighter_time
+rightness_time
 
 dimmer_time
