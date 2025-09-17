@@ -5,7 +5,7 @@
 Skapa ett pappershjärta som innehåller din pulserande lysdiod och sprider ljuset. 
 </div>
 <div>
-![Bild som visar ett vikt pappershantverkshjärta.](images/heart.jpeg){:width="300px"}
+![Bild som visar ett vikt pappershantverkshjärta.](images/heart.png){:width="300px"}
 </div>
 </div>
 
@@ -18,7 +18,7 @@ Skapa ett pappershjärta som innehåller din pulserande lysdiod och sprider ljus
 
 --- collapse ---
 ---
-titel: Pappersutskuret hjärta
+title: Pappersutskuret hjärta
 ---
 
 Du kan göra ett enkelt hjärta, genom att klippa till papper:
@@ -35,7 +35,7 @@ Eller klipp två och tejpa ihop dem: ![Bild som visar två identiska röda pappe
 
 --- collapse ---
 ---
-titel: Vikt origami-hjärta
+title: Vikt origami-hjärta
 ---
 
 ![Bild som visar ett rött hjärta gjort av vikt papper i origamistil.](images/heart.png)
