@@ -1,19 +1,19 @@
-Pot is short for Potentiometer
+Το Pot είναι η συντομογραφία του Potentiometer.
 
-Connected to pin A0 (GP26)
+Συνδεδεμένο στον pin A0 (GP26)
 
-Slow down the output
+Επιβράδυνση της εξόδου
 
-Calculate the difference
+Υπολόγισε τη διαφορά
 
-Convert dial value to BPM
+Μετατροπή τιμής κλήσης σε BPM
 
-Add LED
+Προσθήκη LED
 
-Make sure this is the correct pin
+Βεβαιώσου ότι αυτό είναι το σωστό pin
 
-Spend half a beat getting brighter
+Ξόδεψε μισό χτύπημα για να γίνεις πιο φωτεινός
 
-Spend half a beat getting dimmer
+Ξόδεψε μισό χτύπημα για να γίνεις πιο σκοτεινός
 
-Pulse 1 time, waiting until finished
+Παλμός 1 φορά, αναμονή μέχρι να ολοκληρωθεί
