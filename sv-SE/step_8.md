@@ -23,7 +23,7 @@ Du kan:
 --- collapse ---
 
 ---
-titel: Avslutat projekt
+title: Avslutat projekt
 ---
 
 Du kan se det [avslutade projektet här](https://rpf.io/p/en/beating-heart-get){:target="_blank"}.
