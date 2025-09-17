@@ -1,34 +1,34 @@
 ---
-title: Beating heart
+title: Καρδιά που χτυπά
 hero_image: images/banner.png
 description:
-  - Make a papercraft beating heart with a potentiometer to control an LED
-  - that blinks like a heartbeat
-meta_title: Raspberry Pi Pico projects | Beating heart
-meta_description: A Raspberry Pi Pico project to make a papercraft beating heart with a pulsing LED and a dial to adjust the heart rate.
+  - Φτιάξε μια χάρτινη καρδιά που χτυπά με ένα ποτενσιόμετρο για να ελέγχεις ένα LED
+  - που αναβοσβήνει σαν καρδιοχτύπι
+meta_title: Έργα Raspberry Pi Pico | Καρδιά που χτυπά
+meta_description: Ένα έργο Raspberry Pi Pico για την κατασκευή μιας χάρτινης καρδιάς που χτυπά με ένα παλλόμενο LED και έναν επιλογέα για τη ρύθμιση του καρδιακού ρυθμού.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Τι θα φτιάξεις
   - 
-    title: Read values from a dial
+    title: Ανάγνωση τιμών από έναν επιλογέα
   - 
-    title: Calculate beats per minute (BPM)
+    title: Υπολογισμός παλμών ανά λεπτό (BPM)
     completion:
       - engaged
   - 
-    title: Make a papercraft heart
+    title: Φτιάξτε μια καρδιά από χαρτί
   - 
-    title: LED heartbeat
+    title: Χτύπος καρδιάς LED
   - 
-    title: Make it portable
+    title: Κάνε το φορητό
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -38,5 +38,3 @@ steps:
       - external
   - 
     title: Αναβάθμιση του έργου σου
-  - 
-    title: Και μετά;
