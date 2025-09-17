@@ -2,22 +2,22 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your beating heart project. 
+Εάν έχεις χρόνο, μπορείς να αναβαθμίσεις το έργο σου 'Καρδιά που χτυπά' . 
 
-You can use your portable beating heart as a room decoration. Set it to a slow speed to help you relax. Or, adjust the beat to match the music you are listening to. 
+Μπορείς να χρησιμοποιήσεις την φορητή σου καρδιά που χτυπάει ως διακόσμηση δωματίου. Ρύθμισε το σε χαμηλή ταχύτητα για να χαλαρώσεις. Ή, προσάρμοσε τον ρυθμό ώστε να ταιριάζει με τη μουσική που ακούτε. 
 </div>
 <div>
-![Animated gif showing a papercraft heart with a red and a blue LED pulsing in time to the heartbeat.](images/two-beats.gif){:width="300px"}
+![Κινούμενο gif που δείχνει μια καρδιά από χαρτί με ένα κόκκινο και ένα μπλε LED που πάλλονται ταυτόχρονα με τον καρδιακό παλμό.](images/two-beats.gif){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
 Θα μπορούσες να:
-+ Create a better papercraft heart.
-+ Add a blue LED to represent de-oxygenated blood entering and leaving the heart.
-+ Add a heartbeat sound using a passive buzzer.
-+ Add more LEDs and papercraft hearts and make them pulse at the same time. Choose any colour LED you like.
++ Δημιούργησε μια καλύτερη καρδιά από χαρτί.
++ Πρόσθεσε ένα μπλε LED που να αντιπροσωπεύει το αποξυγονωμένο αίμα που εισέρχεται και εξέρχεται από την καρδιά.
++ Πρόσθεσε έναν ήχο καρδιακού παλμού χρησιμοποιώντας ένα παθητικό βομβητή.
++ Πρόσθεσε περισσότερα LED και καρδιές από χαρτί κάνοντάς τα να πάλλονται ταυτόχρονα. Επίλεξε οποιοδήποτε χρώμα LED θέλεις.
 + --- /task ---
 
 --- collapse ---
