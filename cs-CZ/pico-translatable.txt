@@ -1,0 +1,17 @@
+dial
+
+heart_min
+
+heart_max
+
+heart_range
+
+bpm
+
+led
+
+beat
+
+brighter_time
+
+dimmer_time
