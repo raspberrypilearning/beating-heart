@@ -5,31 +5,31 @@
 legend: Ερώτηση 2 από 3
 ---
 
-In this project, you used `pulse`. What does `pulse` do?
+Σε αυτό το έργο, χρησιμοποίησες `παλμό`. Τι κάνει ο παλμός `` ;
 
 --- choices ---
 
-- ( ) It turns on for 1 second and turns off for 1 second
+- ( ) Ανάβει για 1 δευτερόλεπτο και απενεργοποιείται για 1 δευτερόλεπτο
 
   --- feedback ---
 
-Περίπου. This would create a blink effect, not a pulse effect.
+Περίπου. Αυτό θα δημιουργούσε ένα εφέ ανοιγοκλείσματος, όχι ένα εφέ παλμού.
 
   --- /feedback ---
 
-- ( ) It displays the heart rate on the plotter
+- ( ) Εμφανίζει τον καρδιακό ρυθμό στο plotter
 
   --- feedback ---
 
-Try again, the plotter displays numbers that have been printed to the Shell.
+Δοκίμασε ξανά, ο σχεδιαστής εμφανίζει αριθμούς που έχουν εκτυπωθεί στο κέλυφος.
 
   --- /feedback ---
 
-- (x) It gradually increases and then decreases the brightness of an LED
+- (x) Αυξάνει σταδιακά και στη συνέχεια μειώνει τη φωτεινότητα ενός LED
 
   --- feedback ---
 
-  Yes, `pulse` gradually increases and then decreases the brightness of an LED to create a pulsing effect.
+  Ναι, ο παλμός `` αυξάνεται σταδιακά και στη συνέχεια μειώνει τη φωτεινότητα ενός LED για να δημιουργήσει ένα εφέ παλμού.
 
   --- /feedback ---
 
