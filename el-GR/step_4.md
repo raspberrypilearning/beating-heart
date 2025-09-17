@@ -1,33 +1,33 @@
-## Make a papercraft heart
+## Φτιάξε μια καρδιά από χαρτί
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create the papercraft heart to contain your pulsing LED and diffuse the light. 
+Δημιούργησε την καρδιά από χαρτί για να συγκρατήσεις το παλλόμενο LED σου και να διαχέετε το φως. 
 </div>
 <div>
-![Image showing a folded papercraft heart.](images/heart.jpeg){:width="300px"}
+![Εικόνα που δείχνει μια διπλωμένη καρδιά από χαρτί.](images/heart.jpeg){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Papercraft</span> is the art of making 2D or 3D creations out of paper or card. The artwork might take the form of a sculpture, origami, wearable, or papier-mâché model and use one or more piece of cut or folder paper.</p>
+<span style="color: #0faeb0">Η χαρτοτεχνία</span> είναι η τέχνη της δημιουργίας δισδιάστατων ή τρισδιάστατων δημιουργιών από χαρτί ή χαρτόνι. Το έργο τέχνης μπορεί να έχει τη μορφή γλυπτού, origami, φορετού μοντέλου ή μοντέλου από παπιέ-μασέ και να χρησιμοποιεί ένα ή περισσότερα κομμάτια κομμένου χαρτιού ή χαρτιού για ντοσιέ.</p>
 
 --- task ---
 
-**Choose:** Make a cut-out or a folded origami heart to put your pulsing LED inside.
+**Επίλεξε:** Φτιάξε μια κομμένη ή διπλωμένη καρδιά οριγκάμι για να βάλεις μέσα το παλλόμενο LED σου.
 
 --- collapse ---
 ---
-title: Paper cut-out heart
+Τίτλος: Καρδιά κομμένη από χαρτί
 ---
 
-You can make a simple heart, cut out of paper:
+Μπορείς να φτιάξεις μια απλή καρδιά, κομμένη από χαρτί:
 
-![Image showing heart shape cut out of a sheet of red paper.](images/heart-cutout.png)
+![Εικόνα που δείχνει σχήμα καρδιάς κομμένο από ένα φύλλο κόκκινου χαρτιού.](images/heart-cutout.png)
 
-Or cut two, and tape them together: ![Image showing two identical red paper hearts cut out of paper.](images/heart-cutout2.png)
+Ή κόψε δύο και ένωσε τα με ταινία: ![Εικόνα που δείχνει δύο πανομοιότυπες κόκκινες χάρτινες καρδιές κομμένες από χαρτί.](images/heart-cutout2.png)
 
-![Image showing two identical red paper hearts taped at the edges.](images/heart-cutout3.png)
+![Εικόνα που δείχνει δύο πανομοιότυπες κόκκινες χάρτινες καρδιές κολλημένες στις άκρες.](images/heart-cutout3.png)
 
 
 --- /collapse ---
@@ -35,39 +35,39 @@ Or cut two, and tape them together: ![Image showing two identical red paper hear
 
 --- collapse ---
 ---
-title: Folded origami heart
+τίτλος: Διπλωμένη καρδιά origami
 ---
 
-![Image showing a red heart made of folded paper in the origami style.](images/heart.png)
+![Εικόνα που δείχνει μια κόκκινη καρδιά φτιαγμένη από διπλωμένο χαρτί σε στυλ οριγκάμι.](images/heart.png)
 
-Step 1: Start with a square piece of paper. (Any paper will do, but thinner paper will make your LED brighter.) ![Image showing a red square of paper.](images/heart1.png)
-
-
-Step 2: Fold the paper in half by folding the top corner to the bottom corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart2.png)
-
-![Image showing the square of paper with a crease from corner to corner.](images/heart3.png)
+Βήμα 1: Ξεκίνησε με ένα τετράγωνο κομμάτι χαρτί. (Οποιοδήποτε χαρτί είναι κατάλληλο, αλλά το πιο λεπτό χαρτί θα κάνει το LED σου πιο φωτεινό.) ![Εικόνα που δείχνει ένα κόκκινο τετράγωνο χαρτιού.](images/heart1.png)
 
 
-Step 3: Fold the left corner to the right corner, then unfold. ![Image showing the square of paper folded corner to corner in a triangle.](images/heart4.png)
+Βήμα 2: Δίπλωσε το χαρτί στη μέση διπλώνοντας την πάνω γωνία στην κάτω γωνία και στη συνέχεια ξεδίπλωσέ το. ![Εικόνα που δείχνει το τετράγωνο χαρτιού διπλωμένο από γωνία σε γωνία σε ένα τρίγωνο.](images/heart2.png)
 
-![Image showing the square of paper with a crease from corner to corner.](images/heart5.png)
-
-
-Step 4: Fold the top corner to the center of the square, to make a 'shield' shape. ![Image showing the square of paper with top corner folded to the centre to create a pentagon.](images/heart6.png)
+![Εικόνα που δείχνει το τετράγωνο του χαρτιού με μια τσάκιση από γωνία σε γωνία.](images/heart3.png)
 
 
-Step 5: Fold the bottom corner up to meet the top edge, overlapping the previous fold. ![Image showing the square of paper with the bottom corner folded so it touches the top edge.](images/heart7.png)
+Βήμα 3: Δίπλωσε την αριστερή γωνία προς τη δεξιά γωνία και, στη συνέχεια, ξεδίπλωσε. ![Εικόνα που δείχνει το τετράγωνο χαρτιού διπλωμένο από γωνία σε γωνία σε ένα τρίγωνο.](images/heart4.png)
 
-Step 6: Fold the bottom left and right ends up at a 90 degree angle, so that their lower edges run along the centre crease. ![Image showing the paper square folded into a chevron shape from the back.](images/heart8.png)
-
-![Image showing the paper square folded into a chevron shape from the front.](images/heart9.png)
+![Εικόνα που δείχνει το τετράγωνο του χαρτιού με μια τσάκιση από γωνία σε γωνία.](images/heart5.png)
 
 
-Step 7: Fold the top and side corners back. ![Image showing the paper square folded into a heart shape from the back, with both top and side corners folded up.](images/heart10.png)
+Βήμα 4: Δίπλωσε την πάνω γωνία προς το κέντρο του τετραγώνου, για να δημιουργήσεις ένα σχήμα «ασπίδας». ![Εικόνα που δείχνει το τετράγωνο χαρτιού με την πάνω γωνία διπλωμένη προς το κέντρο για να δημιουργήσει ένα πεντάγωνο.](images/heart6.png)
 
-Step 8: Tape the back side of the heart across the widest part, from edge to edge. ![Image showing the paper square folded into a heart shape from the back, with tape holding it together.](images/heart11.png)
 
-Turn it over to look at the front, and you're ready to embed your LED! ![Image showing the finished origami heart.](images/heart.png)
+Βήμα 5: Δίπλωσε την κάτω γωνία προς τα πάνω για να συναντήσει την πάνω άκρη, επικαλύπτοντας την προηγούμενη πτυχή. ![Εικόνα που δείχνει το τετράγωνο του χαρτιού με την κάτω γωνία διπλωμένη έτσι ώστε να αγγίζει την πάνω άκρη.](images/heart7.png)
+
+Βήμα 6: Δίπλωσε το κάτω αριστερό και το κάτω δεξί άκρο σε γωνία 90 μοιρών, έτσι ώστε οι κάτω άκρες τους να εκτείνονται κατά μήκος της κεντρικής πτυχής. ![Εικόνα που δείχνει το χάρτινο τετράγωνο διπλωμένο σε σχήμα σιρίτιου από το πίσω μέρος.](images/heart8.png)
+
+![Εικόνα που δείχνει το χάρτινο τετράγωνο διπλωμένο σε σχήμα σιρίτιου από μπροστά.](images/heart9.png)
+
+
+Βήμα 7: Δίπλωσε τις πάνω και τις πλευρικές γωνίες προς τα πίσω. ![Εικόνα που δείχνει το χάρτινο τετράγωνο διπλωμένο σε σχήμα καρδιάς από το πίσω μέρος, με τις πάνω και τις πλαϊνές γωνίες διπλωμένες προς τα πάνω.](images/heart10.png)
+
+Βήμα 8: Κόλλησε την πίσω πλευρά της καρδιάς με ταινία στο πιο φαρδύ μέρος, από άκρη σε άκρη. ![Εικόνα που δείχνει το χάρτινο τετράγωνο διπλωμένο σε σχήμα καρδιάς από το πίσω μέρος, με ταινία που το συγκρατεί.](images/heart11.png)
+
+Γύρισε το για να δεις το μπροστινό μέρος και είσαι έτοιμος/η να ενσωματώσεις το LED σου! ![Εικόνα που δείχνει την τελική καρδιά origami.](images/heart.png)
 
 
 --- /collapse ---
