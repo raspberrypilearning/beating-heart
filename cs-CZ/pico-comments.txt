@@ -1,0 +1,19 @@
+Pot is short for Potentiometer
+
+Connected to pin A0 (GP26)
+
+Slow down the output
+
+Calculate the difference
+
+Convert dial value to BPM
+
+Add LED
+
+Make sure this is the correct pin
+
+Spend half a beat getting brighter
+
+Spend half a beat getting dimmer
+
+Pulse 1 time, waiting until finished
