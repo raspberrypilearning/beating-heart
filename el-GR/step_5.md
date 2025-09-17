@@ -1,11 +1,11 @@
-## LED heart beat
+## Χτύπος καρδιάς LED
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat.
+Δώσε ζωή στην καρδιά σου με έναν ενσωματωμένο παλμό LED.
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![Μια εικόνα που δείχνει μια κόκκινη καρδιά οριγκάμι με ένα παλλόμενο κόκκινο LED μέσα στις πτυχώσεις.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
@@ -13,9 +13,9 @@ Bring your heart to life with an embedded LED heartbeat.
 
 --- task ---
 
-Use a **red** LED connected to a resistor and jumper wires.
+Χρησιμοποίησε μια κόκκινη λυχνία LED **** συνδεδεμένη σε μια αντίσταση και καλώδια βραχυκύκλωσης.
 
-You can make your own if you need to.
+Μπορείς να φτιάξεις το δικό σου αν χρειαστεί.
 
 [[[led-resistor-electrical-tape]]]
 
@@ -25,18 +25,18 @@ You can make your own if you need to.
 
 --- task ---
 
-Connect the red LED to **pin 13** and **GND**, just like you did when you made an LED firefly.
+Σύνδεσε το κόκκινο LED στον ακροδέκτη **13** και στον ακροδέκτη **GND**, όπως ακριβώς έκανες όταν έφτιαξες μια πυγολαμπίδα LED.
 
-![A potentiometer and a red LED attached to a Raspberry Pi Pico. A resistor is placed in line with the long leg of the LED and GPIO pin 13. The middle pin of the potentiometer is connected to GPIO 26](images/pot-led-circuit.png)
+![Ένα ποτενσιόμετρο και ένα κόκκινο LED συνδεδεμένα σε ένα Raspberry Pi Pico. Μια αντίσταση τοποθετείται σε ευθεία γραμμή με το μακρύ σκέλος του LED και τον ακροδέκτη GPIO 13. Η μεσαία ακίδα του ποτενσιόμετρου συνδέεται με το GPIO 26](images/pot-led-circuit.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">Maggie Aderin-Pocock</span> is a space scientist who has worked on lots of electronic gadgets including telescope accessories, a handheld landmine detector, and instruments that have been sent to space to gather data to help understand climate change. As a teenager, Maggie couldn't afford a good telescope so she went to a class where she could make her own telescope using electronics, code, and glass grinding to make lenses. Is there a gadget you would like to make?</p>
+<span style="color: #0faeb0">Η Maggie Aderin-Pocock</span> είναι μια διαστημική επιστήμονας που έχει εργαστεί σε πολλές ηλεκτρονικές συσκευές, όπως αξεσουάρ τηλεσκοπίων, έναν φορητό ανιχνευτή ναρκών και όργανα που έχουν σταλεί στο διάστημα για τη συλλογή δεδομένων που βοηθούν στην κατανόηση της κλιματικής αλλαγής. Ως έφηβη, η Μάγκι δεν είχε την οικονομική δυνατότητα να αγοράσει ένα καλό τηλεσκόπιο, οπότε παρακολούθησε ένα μάθημα όπου μπορούσε να κατασκευάσει το δικό της τηλεσκόπιο χρησιμοποιώντας ηλεκτρονικά, κώδικα και λείανση γυαλιού για την κατασκευή φακών. Υπάρχει κάποιο gadget που θα ήθελες να φτιάξεις;</p>
 
 --- task ---
 
-Add code so that you can program your LED:
+Πρόσθεσε κώδικα για να προγραμματίσεις το LED σου:
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ dial = Pot(0) led = LED(13) # Make sure this is the correct pin
 
 --- task ---
 
-Add code to control the `brightness` of your LED. The `pulse()` method allows the LED to pulse by getting brighter and dimmer.
+Πρόσθεσε κώδικα για να ελέγξεις τη φωτεινότητα `` του LED σου. Η μέθοδος `pulse()` επιτρέπει στο LED να παλμολογείται αυξάνοντας τη φωτεινότητά του και την ένταση του.
 
 --- code ---
 ---
@@ -65,15 +65,15 @@ while True: bpm = heart_min + dial.value * heart_range print(bpm) beat = 60/bpm 
     led.pulse(brighter_time, dimmer_time, n=1, wait=True)  # Pulse 1 time, waiting until finished
 --- /code ---
 
-If you didn't add `wait=True` to `pulse` then the `while` loop would repeat immediately and restart the pulse.
+Αν δεν πρόσθεσες το `wait=True` στον παλμό `` , τότε ο βρόχος `while` θα επαναλαμβανόταν αμέσως και ο παλμός θα επανεκκινούσε.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project to see the LED pulse brighter and dimmer. Turn the potentiometer to control how fast the LED pulses to correspond to the heart rate.
+**Δοκιμή:** Εκτέλεσε το έργο σου για να δεις τον παλμό της λυχνίας LED να γίνεται πιο φωτεινός και πιο αμυδρός. Γύρισε το ποτενσιόμετρο για να ελέγξεις την ταχύτητα με την οποία παλμούν οι λυχνίες LED ώστε να αντιστοιχούν στον καρδιακό ρυθμό.
 
-![Animation showing someone turning the potentiometer to make the LED pulse on and off by turning the potentiometer to change the brightness](images/pulse-test.gif)
+![Κινούμενη εικόνα που δείχνει κάποιον να γυρίζει το ποτενσιόμετρο για να κάνει το LED να παλμεί, γυρίζοντας το ποτενσιόμετρο για να αλλάξει τη φωτεινότητα.](images/pulse-test.gif)
 
 --- /task ---
 
@@ -81,24 +81,24 @@ If you didn't add `wait=True` to `pulse` then the `while` loop would repeat imme
 
 **Εντοπισμός σφαλμάτων:**
 
-You have a syntax error:
-+ Check that your code matches the example above
+Έχεις ένα συντακτικό σφάλμα:
++ Έλεγξε ότι ο κώδικάς σου ταιριάζει με τον κώδικα στα παραπάνω παραδείγματα
 
-The potentiometer stopped working:
-+ Check that your jumper wires are still securely attached
+Το ποτενσιόμετρο σταμάτησε να λειτουργεί:
++ Έλεγξε ότι τα καλώδια βραχυκυκλωτήρα σου είναι ακόμα σταθερά συνδεδεμένα
 
-The LED is not lighting:
-+ Check that it is connected correctly
-+ Check to see if the LED has blown by swapping it with a spare
+Η λυχνία LED δεν ανάβει:
++ Έλεγξε ότι είναι σωστά συνδεδεμένο
++ Έλεγξε αν η λυχνία LED έχει καεί αντικαθιστώντας την με μια εφεδρική.
 
 --- /task ---
 
 
 --- task ---
 
-Now, take your papercraft heart and place it over your red LED to make a heartbeat effect.
+Τώρα, πάρε την χάρτινη καρδιά σου και τοποθέτησέ την πάνω από το κόκκινο LED σου για να δημιουργήσεις το εφέ του καρδιακού παλμού.
 
-![Animation showing the LED pulsing through the papercraft heart.](images/heartbeat.gif)
+![Κινούμενη εικόνα που δείχνει το LED να πάλλεται μέσα από την καρδιά της χάρτινης χειροτεχνίας.](images/heartbeat.gif)
 
 --- /task ---
 
