@@ -1,8 +1,8 @@
-## Quick quiz
+## Γρήγορο Κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν στοιχεία που θα σε οδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, πάτησε στο ** Έλεγξε την απάντησή μου**.
 
 Καλή διασκέδαση!
 
@@ -12,25 +12,25 @@ When you have answered each question, click on **Check my answer**.
 legend: Ερώτηση 1 από 3
 ---
 
-In this project you used a potentiometer. What is the main benefit of using a potentiometer instead of a switch?
+Σε αυτό το έργο χρησιμοποίησες ένα ποτενσιόμετρο. Ποιο είναι το κύριο πλεονέκτημα της χρήσης ποτενσιόμετρου αντί για διακόπτη;
 
-![A blue potentiometer with a small dial on the top and three pins on the bottom.](images/potentiometer.png)
+![Ένα μπλε ποτενσιόμετρο με ένα μικρό καντράν στο πάνω μέρος και τρεις ακίδες στο κάτω μέρος.](images/potentiometer.png)
 
 --- choices ---
 
-- (x) You can get a range of input values between 0 and 1
+- (x) Μπορείτε να λάβετε ένα εύρος τιμών εισόδου μεταξύ 0 και 1
 
   --- feedback ---
 
-Ναι! The value of a potentiometer depends on the position of the arrow on the dial. This is useful when you need a range of input values instead of just 1 or 0.
+Ναι! Η τιμή ενός ποτενσιόμετρου εξαρτάται από τη θέση του βέλους στον επιλογέα. Αυτό είναι χρήσιμο όταν χρειάζεσαι ένα εύρος τιμών εισόδου αντί για μόνο 1 ή 0.
 
   --- /feedback ---
 
-- ( ) You can only get two input values, 1 or 0
+- ( ) Μπορείτε να λάβετε μόνο δύο τιμές εισόδου, 1 ή 0
 
   --- feedback ---
 
-Try again, a potentiometer allows for more than two input values.
+Δοκίμασε ξανά, ένα ποτενσιόμετρο επιτρέπει περισσότερες από δύο τιμές εισόδου.
 
   --- /feedback ---
 
