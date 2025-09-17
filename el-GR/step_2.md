@@ -1,61 +1,61 @@
-## Read values from a dial
+## Ανάγνωση τιμών από έναν επιλογέα
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A potentiometer (dial) allows you to provide a range of values. The Thonny plotter allows you to display those values so you can see the effect of turning the dial.
+Ένα ποτενσιόμετρο (επιλογέας) σου επιτρέπει να παρέχεις ένα εύρος τιμών. Το plotter Thonny σου επιτρέπει να εμφανίζεις αυτές τις τιμές, ώστε να μπορείς να δεις το αποτέλεσμα της περιστροφής του επιλογέα.
 </div>
 <div>
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![Μια κινούμενη εικόνα του plotter που εκτελείται στο Thonny.](images/thonny-plotter.gif){:width="300px"}
 </div>
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-The Raspberry Pi Pico has three <span style="color: #0faeb0">analogue input pins</span> that can be used to read values from analogue input components such as a potentiometer. These pins are labelled as A0, A1, and A2. The Raspberry Pi Pico can read voltages from 0 to 3.3V using these pins.</p>
+Το Raspberry Pi Pico έχει τρεις αναλογικούς ακροδέκτες εισόδου <span style="color: #0faeb0"></span> που μπορούν να χρησιμοποιηθούν για την ανάγνωση τιμών από αναλογικά εξαρτήματα εισόδου, όπως ένα ποτενσιόμετρο. Αυτές οι ακίδες φέρουν την ένδειξη A0, A1 και A2. Το Raspberry Pi Pico μπορεί να διαβάσει τάσεις από 0 έως 3,3V χρησιμοποιώντας αυτές τις ακίδες.</p>
 
 --- task ---
 
-Look at your potentiometer. Notice the dial on the top that allows you to turn it clockwise and anti-clockwise.
+Κοίτα το ποτενσιόμετρο σου. Παρατηρήστε τον επιλογέα στο πάνω μέρος που σου επιτρέπει να το περιστρέφετε δεξιόστροφα και αριστερόστροφα.
 
-You will also notice that your potentiometer has **three** pins.
+Θα παρατηρήσεις επίσης ότι το ποτενσιόμετρο σου έχει **τρεις** ακίδες.
 
-Hold your potentiometer the same way around as in this diagram:
+Κράτησέ το ποτενσιόμετρο σου με τον ίδιο τρόπο όπως φαίνεται σε αυτό το διάγραμμα:
 
-![An illustration of a potentiometer showing the dial being turned clockwise and the three legs: GND, A, and 3V3.](images/potentiometer-illustration.png){:width="300px"}
+![Μια απεικόνιση ενός ποτενσιόμετρου που δείχνει τον επιλογέα να περιστρέφεται δεξιόστροφα και τα τρία πόδια: GND, A και 3V3.](images/potentiometer-illustration.png){:width="300px"}
 
-When the potentiometer is turned all the way to the left, the arrow points to the GND pin; when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+Όταν το ποτενσιόμετρο περιστραφεί εντελώς αριστερά, το βέλος δείχνει τον ακροδέκτη GND. Όταν περιστραφεί εντελώς δεξιά, το βέλος δείχνει τον ακροδέκτη 3V3. Η μεσαία ακίδα είναι η ακίδα από την οποία το Raspberry Pi Pico διαβάζει μια τιμή.
 
 --- /task ---
 
-Make sure your Raspberry Pi Pico is **unplugged** from your computer.
+Βεβαιώσου ότι το Raspberry Pi Pico σου είναι **αποσυνδεδεμένο** από τον υπολογιστή σου.
 
 --- task ---
 
-Use three socket–socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
+Χρησιμοποίησε τρία καλώδια βραχυκύκλωσης υποδοχή-υποδοχή και σύνδεσε ένα σε κάθε πόδι του ποτενσιόμετρου. Μπορείς να ασφαλίσεις τα πόδια με λίγη μονωτική ταινία εάν είναι χαλαρά.
 
-**Connect** the other end of each jumper wire to the Raspberry Pi Pico:
-+ Connect the pin labelled with a small '1' to the **GND** pin between **GP21** and **GP22**
-+ Connect the middle pin to the **GP26_A0** pin
-+ Connect the pin labelled with a small '3' to the **3V3** pin
+**Σύνδεσε** το άλλο άκρο κάθε καλωδίου βραχυκύκλωσης στο Raspberry Pi Pico:
++ Σύνδεσε την ακίδα που φέρει την ένδειξη '1' στην ακίδα **GND** μεταξύ **GP21** και **GP22**
++ Σύνδεσε τον μεσαίο ακροδέκτη στον ακροδέκτη **GP26_A0**
++ Σύνδεσε την ακίδα που φέρει την ένδειξη '3' στην ακίδα **3V3**
 
-![A diagram of a potentiometer connected to a Raspberry Pi Pico using the GND, GP26_A0, and 3V3 pin.](images/pot-diagram.png)
+![Ένα διάγραμμα ενός ποτενσιόμετρου συνδεδεμένου σε ένα Raspberry Pi Pico χρησιμοποιώντας το GND, το GP26_A0 και τον ακροδέκτη 3V3.](images/pot-diagram.png)
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: How does a potentiometer work?
+Τίτλος: Πώς λειτουργεί ένα ποτενσιόμετρο;
 ---
 
-A **potentiometer** is an analogue input component that changes its resistance depending on the position of the dial. A potentiometer has three pins that need to be connected to 3V3, an analogue pin, and GND. The 3V3 pin provides power to the potentiometer and the voltage reading from the analogue pin will change depending on the resistance of the potentiometer.
+Ένα ποτενσιόμετρο **** είναι ένα αναλογικό στοιχείο εισόδου που αλλάζει την αντίστασή του ανάλογα με τη θέση του επιλογέα. Ένα ποτενσιόμετρο έχει τρεις ακίδες που πρέπει να συνδεθούν στο 3V3, σε μια αναλογική ακίδα και στη γείωση. Ο ακροδέκτης 3V3 παρέχει τροφοδοσία στο ποτενσιόμετρο και η ένδειξη τάσης από τον αναλογικό ακροδέκτη θα αλλάζει ανάλογα με την αντίσταση του ποτενσιόμετρου.
 
 --- /collapse ---
 
 --- task ---
 
-Plug your Raspberry Pi Pico into your computer.
+Σύνδεσε το Raspberry Pi Pico στον υπολογιστή σου.
 
-In Thonny, create a new file and add the following code to `print` the value from the potentiometer.
+Στο Thonny, δημιούργησε ένα νέο αρχείο και πρόσθεσε τον ακόλουθο κώδικα στο `για να εκτυπώσεις` την τιμή από το ποτενσιόμετρο.
 
 --- code ---
 ---
@@ -70,43 +70,43 @@ while True: print(dial.value) sleep(0.1) # Slow down the output
 
 --- /code ---
 
-The `sleep(0.1)` line slows down the reading and printing of values from the potentiometer so that Thonny can keep up with the output.
+Η γραμμή `sleep(0.1)` επιβραδύνει την ανάγνωση και την εκτύπωση των τιμών από το ποτενσιόμετρο, έτσι ώστε ο Thonny να μπορεί να παρακολουθεί την έξοδο.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your script and Thonny should start printing values to the shell. Turn the potentiometer to see the value change.
+**Δοκιμή:** Εκτέλεσε το σκριπτ σου και το Thonny θα πρέπει να ξεκινήσει την εκτύπωση τιμών στο κέλυφος. Γύρισε το ποτενσιόμετρο για να δεις την αλλαγή της τιμής.
 
-![A screenshot of numbers between 0 and 1 in the Thonny Shell.](images/potentiometer-shell.png)
-
---- /task ---
-
-It's quite hard to see what's happening when the values are printing so quickly. Thonny has a plotter that you can use to visualise the values from the potentiometer instead.
-
---- task ---
-
-In Thonny, choose **View**->**Plotter** and the plotter will appear next to the shell.
+![Ένα στιγμιότυπο οθόνης με αριθμούς μεταξύ 0 και 1 στο Ακανθώδες Κέλυφος.](images/potentiometer-shell.png)
 
 --- /task ---
 
+Είναι αρκετά δύσκολο να καταλάβει κανείς τι συμβαίνει όταν οι τιμές εκτυπώνονται τόσο γρήγορα. Το Thonny έχει ένα plotter που μπορείς να χρησιμοποιήσεις για να οπτικοποιήσεις τις τιμές από το ποτενσιόμετρο.
+
 --- task ---
 
-**Test:** Run your script and turn the potentiometer. Watch the value change in the plotter.
+Στο Thonny, επίλεξε **Προβολή**->**Σχεδιαστής** και ο σχεδιαστής θα εμφανιστεί δίπλα στο κέλυφος.
+
+--- /task ---
+
+--- task ---
+
+**Δοκιμή:** Εκτέλεσε το σενάριό σου και περίστρέψε το ποτενσιόμετρο. Παρακολούθησε την αλλαγή της τιμής στο σχεδιάγραμμα.
 
 --- print-only ---
 
-![A screenshot of values plotted on a scale from 0 to 1.](images/thonny-plotter.png)
+![Ένα στιγμιότυπο οθόνης με τιμές που απεικονίζονται σε κλίμακα από 0 έως 1.](images/thonny-plotter.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![An animation of the plotter running in Thonny.](images/thonny-plotter.gif){:width="300px"}
+![Μια κινούμενη εικόνα του plotter που εκτελείται στο Thonny.](images/thonny-plotter.gif){:width="300px"}
 
 --- /no-print ---
 
-The value should be 0 (or close to 0) when the potentiometer is turned all the way to the left and 1 (or close to 1) when it is turned all the way to the right.
+Η τιμή θα πρέπει να είναι 0 (ή κοντά στο 0) όταν το ποτενσιόμετρο περιστρέφεται εντελώς αριστερά και 1 (ή κοντά στο 1) όταν περιστρέφεται εντελώς δεξιά.
 
 --- /task ---
 
@@ -114,8 +114,8 @@ The value should be 0 (or close to 0) when the potentiometer is turned all the w
 
 **Εντοπισμός σφαλμάτων:**
 
-The values are the wrong way around.
-+ Swap the jumper wires connected to **GND** and **3V3**.
+Οι αξίες είναι σε λάθος δρόμο.
++ Άλλαξε τα καλώδια βραχυκύκλωσης που είναι συνδεδεμένα στις υποδοχές **GND** και **3V3**.
 
 --- /task ---
 
