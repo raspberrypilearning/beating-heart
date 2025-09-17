@@ -1,81 +1,81 @@
-## Make it portable
+## Κάνε το φορητό
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Bring your heart to life with an embedded LED heartbeat. You can power your Raspberry Pi Pico away from the computer with a USB power supply or battery pack. When you turn on the Pico it will run a file called `main.py`. 
+Δώσε ζωή στην καρδιά σου με έναν ενσωματωμένο παλμό LED. Μπορείς να τροφοδοτήσεις το Raspberry Pi Pico σου μακριά από τον υπολογιστή με τροφοδοτικό USB ή μπαταρία. Όταν ενεργοποιήσεις το Pico, θα εκτελεστεί ένα αρχείο με το όνομα `main.py`. 
 </div>
 <div>
-![An image showing a red origami heart with a pulsing red LED inside the folds.](images/heart-static.png){:width="300px"}
+![Μια εικόνα που δείχνει μια κόκκινη καρδιά οριγκάμι με ένα παλλόμενο κόκκινο LED μέσα στις πτυχώσεις.](images/heart-static.png){:width="300px"}
 </div>
 </div>
 
-### Automatically run your beating heart program using main.py
+### Εκτέλεσε αυτόματα το πρόγραμμα "καρδιά που χτυπά" χρησιμοποιώντας το main.py
 
 --- task ---
 
-Use the **File** menu to save your code to your Raspberry Pi Pico device, using the **Save as...** option.
+Χρησιμοποίησε το μενού **Αρχείο** για να αποθηκεύσεις τον κώδικά σου στη συσκευή Raspberry Pi Pico, χρησιμοποιώντας την επιλογή **Αποθήκευση ως...**.
 
-![The file menu in Thonny shown, with the Save As option highlighted.](images/file_menu.png)
+![Το μενού αρχείων στο Thonny που εμφανίζεται, με επισημασμένη την επιλογή Αποθήκευση ως.](images/file_menu.png)
 
 --- /task ---
 
 --- task ---
 
-Choose to save your code to your Raspberry Pi Pico.
+Επίλεξε να αποθηκεύσεις τον κώδικά σου στο Raspberry Pi Pico σου.
 
-![Option to choose to save on the computer or on the Pico shown.](images/save_to_pico.png)
-
---- /task ---
-
---- task ---
-
-Call your file `main.py` to have it automatically run when your Pico is powered from an external power supply, not connected to your computer.
-
-![The Save menu option, with main.py chosen as a filename.](images/main.png)
+![Δυνατότητα αποθήκευσης στον υπολογιστή ή στο Pico που εμφανίζεται.](images/save_to_pico.png)
 
 --- /task ---
 
 --- task ---
 
-If it is saved as `main.py` on the Raspberry Pi Pico, then the program will load when the device is powered from an external power supply, such as a battery.
+Κάλεσε το αρχείο σου`main.py` για να εκτελείς αυτόματα όταν το Pico σου τροφοδοτείται από εξωτερική τροφοδοσία ρεύματος, η οποία δεν είναι συνδεδεμένη στον υπολογιστή σου.
 
---- /task ---
-
-### Power your beating heart using a USB supply
-
-The Raspberry Pi Pico requires a power supply capable of delivering a minimum of 1.8V and a maximum of 5.5V.
-
-Most micro USB transformers can provide power to your Raspberry Pi Pico in this range. For instance, the official Raspberry Pi micro USB transformer provides up to 2.5A of current at 5.1V.
-
-![Official Raspberry Pi power supply shown from the pin side.](images/transformer.png)
-
-A battery pack with a USB to micro USB cable can also power a Raspberry Pi Pico. This battery pack provides up to 2.1A of current at 5V.
-
-![A generic battery pack showing the side and the technical specifications.](images/battery_pack.png)
-
---- task ---
-
-Disconnect your Raspberry Pi Pico from your computer.
+![Η επιλογή μενού Αποθήκευση, με επιλεγμένο το main.py ως όνομα αρχείου.](images/main.png)
 
 --- /task ---
 
 --- task ---
 
-Connect the Raspberry Pi Pico to your transformer or battery pack.
+Αν αποθηκευτεί ως `main.py` στο Raspberry Pi Pico, τότε το πρόγραμμα θα φορτώσει όταν η συσκευή τροφοδοτείται από εξωτερική τροφοδοσία ρεύματος, όπως μια μπαταρία.
 
-![A micro-USB being connected to the Raspberry Pi Pico.](images/connect-micro-usb.gif)
+--- /task ---
+
+### Τροφοδότησε την καρδιά σου που χτυπάει χρησιμοποιώντας μια τροφοδοσία USB
+
+Το Raspberry Pi Pico απαιτεί τροφοδοτικό ικανό να παρέχει τουλάχιστον 1,8V και μέγιστο 5,5V.
+
+Οι περισσότεροι μετασχηματιστές micro USB μπορούν να παρέχουν τροφοδοσία στο Raspberry Pi Pico σου σε αυτήν την περιοχή. Για παράδειγμα, ο επίσημος μετασχηματιστής micro USB του Raspberry Pi παρέχει έως και 2,5A ρεύματος στα 5,1V.
+
+![Το επίσημο τροφοδοτικό Raspberry Pi φαίνεται από την πλευρά της ακίδας.](images/transformer.png)
+
+Μια μπαταρία με καλώδιο USB σε micro USB μπορεί επίσης να τροφοδοτήσει ένα Raspberry Pi Pico. Αυτή η μπαταρία παρέχει έως και 2,1A ρεύματος στα 5V.
+
+![Μια γενική μπαταρία που δείχνει την πλευρά και τις τεχνικές προδιαγραφές.](images/battery_pack.png)
+
+--- task ---
+
+Αποσύνδεσε το Raspberry Pi Pico από τον υπολογιστή σου.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Turn on your USB power supply or battery.
+Σύνδεσε το Raspberry Pi Pico στον μετασχηματιστή ή την μπαταρία σου.
 
-You should be able to turn the potentiometer to adjust the speed of the heartbeat.
+![Μια θύρα micro-USB συνδέεται στο Raspberry Pi Pico.](images/connect-micro-usb.gif)
+
+--- /task ---
+
+--- task ---
+
+**Δοκιμή:** Ενεργοποίησε το τροφοδοτικό USB ή την μπαταρία.
+
+Θα πρέπει να μπορείς να περιστρέψεις το ποτενσιόμετρο για να ρυθμίσεις την ταχύτητα του καρδιακού παλμού.
 
 <video width="640" height="360" controls>
 <source src="images/beating-heart.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Το πρόγραμμα περιήγησής σου δεν υποστηρίζει βίντεο WebM, επομένως δοκίμασε το FireFox ή το Chrome
 </video>
 
 --- /task ---
@@ -86,12 +86,12 @@ Your browser does not support WebM video, try FireFox or Chrome
 
 --- collapse ---
 ---
-title: The LED does not light up
+Τίτλος: Η λυχνία LED δεν ανάβει
 ---
 
-+ Is your battery working? Is the battery turned on? You could test another USB-powered device to make sure.
++ Λειτουργεί η μπαταρία σου; Είναι ενεργοποιημένη η μπαταρία; Θα μπορούσες να δοκιμάσεις μια άλλη συσκευή που τροφοδοτείται από USB για να βεβαιωθείς.
 
-+ Did you save the file as `main.py`? Plug your Pico back into your computer and save the file again. Check the file name and the `.py` extension carefully.
++ Αποθήκευσες το αρχείο ως `main.py`; Σύνδεσε ξανά το Pico στον υπολογιστή σου και αποθήκευσε ξανά το αρχείο. Έλεγξε προσεκτικά το όνομα του αρχείου και την επέκταση `.py`.
 
 --- /collapse ---
 
